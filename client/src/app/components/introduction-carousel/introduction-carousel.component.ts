@@ -12,7 +12,7 @@ export interface Allergy {
 })
 export class IntroductionCarouselComponent implements OnInit {
 
-  public activePage: number = 3;
+  public activePage: number = 1;
   public numberOfPeople: number = 1;
   public allergiesArray: Allergy[] = [
     {value: 'peanuts', viewValue: 'Peanuts'},
