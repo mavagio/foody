@@ -21,7 +21,7 @@
       <div class="circle">
           <span>{{numberOfPeople}}</span>
           <div class="counter-controles">
-              <button color="secondary" mat-mini-fab (click)="numberOfPeople = numberOfPeople - 1 > 0 ? numberOfPeople - 1 : 0">
+              <button color="secondary" mat-mini-fab (click)="numberOfPeople = numberOfPeople - 1 > 1 ? numberOfPeople - 1 : 1">
                   <mat-icon aria-label="Example icon-button with a heart icon">remove</mat-icon>
               </button>
               <button color="secondary" mat-mini-fab (click)="numberOfPeople = numberOfPeople + 1">
