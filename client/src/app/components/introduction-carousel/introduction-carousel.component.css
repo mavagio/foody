@@ -206,3 +206,9 @@ mat-select {
   text-align: center;
   top: 30%;
 }
+
+@media screen and (max-height: 750px) {
+  .wrapepr {
+    grid-template-rows: 100px 325px 75px 25px;
+  }
+}
