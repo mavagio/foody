@@ -7,6 +7,7 @@ import {SignupComponent} from "./signup/signup.component";
 import {ProfileComponent} from "./profile/profile.component";
 import {TestComponentComponent} from "./test-component/test-component.component";
 import {AuthGuard} from "../auth/auth.guard";
+import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'signup', component: SignupComponent },
   { path: 'profile', component: ProfileComponent, canActivate: [AuthGuard] },
   { path: 'test', component: TestComponentComponent},
+  { path: 'coming-soon', component: ComingSoonComponent},
   { path: '**', component: PageNotFoundComponent },
 ];
 

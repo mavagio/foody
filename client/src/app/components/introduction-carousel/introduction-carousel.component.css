@@ -1,0 +1,208 @@
+.header {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  color: #234DE7;
+}
+
+.h2 {
+  font-style: italic;
+  font-weight: bold;
+  line-height: 37px;
+  font-size: 33px;
+}
+
+.content {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  color: #5075FF;
+}
+
+.h4 {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.footer {
+  justify-self: center;
+  align-self: center;
+}
+
+.nav-dotes {
+  justify-self: center;
+  align-self: center;
+}
+
+.wrapepr {
+  display: grid;
+  grid-template-rows: 150px 450px 100px 50px;
+  grid-template-columns: 300px;
+  justify-content: center;
+  align-content: center;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background: white;
+  border: 2px solid #234DE7;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.active {
+  background: #234DE7;
+}
+
+.dot~.dot {
+  margin-left: 5px;
+}
+
+button[primary] {
+  background-color: #234DE7 !important;
+  width: 115px;
+  border-radius: 8px;
+}
+
+button[primary],
+button[secondary] {
+  box-shadow: none !important;
+  border: 2px solid #234DE7;
+  font-style: italic;
+}
+
+button[mat-mini-fab] {
+  color: #234DE7;
+}
+
+button[secondary] {
+  background-color: white !important;
+  color: #234DE7;
+  width: 125px;
+  border-radius: 8px;
+}
+
+button~button {
+  margin-left: 10px;
+}
+
+.counter-controles {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -45px;
+}
+
+.circle {
+  height: 295px;
+  width: 295px;
+  border-radius: 147.5px;
+  background-color: #5075FF;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.circle>span {
+  color: #11F6C3;
+  font-size: 120px;
+  font-weight: bold;
+  justify-self: center;
+  align-self: center;
+  line-height: 2.3em;
+}
+
+.background-circle {
+  border: 2px solid #234DE7;
+  position: absolute;
+  border-radius: 150px;
+  z-index: -1;
+}
+
+.background-circle[large] {
+  height: 160px;
+  width: 160px;
+  left: 50%;
+  top: -40px;
+  margin-left: -80px;
+}
+
+.background-circle[medium] {
+  height: 46px;
+  width: 46px;
+  right: 10%;
+  top: -80px;
+}
+
+.background-circle[small] {
+  height: 17px;
+  width: 17px;
+  left: 60%;
+  top: -70px;
+}
+
+.content-background {
+  position: relative;
+  height: 100%;
+}
+
+.content-background > button {
+  width: 70px;
+  height: 42px;
+}
+
+mat-button-toggle {
+  box-shadow: none !important;
+  border: 2px solid #234DE7 !important;
+  font-style: italic;
+  background-color: white !important;
+  color: #234DE7;
+  width: 75px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+mat-button-toggle.mat-button-toggle-checked {
+  color: #11F6C3;
+  background: #234DE7 !important;
+}
+
+::ng-deep .mat-form-field-underline {
+  display: none;
+}
+
+mat-button-toggle ~ mat-button-toggle {
+  margin-left: 10px;
+}
+
+
+mat-button-toggle-group  {
+  border: 0;
+}
+
+mat-select {
+  border: 2px solid #234DE7;
+  height: 45px;
+  border-radius: 8px;
+  background: white;
+  color: #234DE7;
+  justify-content: center;
+  align-content: center;
+}
+
+::ng-deep .mat-select-value {
+  color: #234DE7;
+  font-weight: bold;
+  text-align: center;
+}
+
+::ng-deep .mat-select-trigger {
+  color: #234DE7;
+  font-weight: bold;
+  text-align: center;
+  top: 30%;
+}
