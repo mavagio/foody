@@ -35,9 +35,9 @@
   align-self: center;
 }
 
-.wrapepr {
+.wrapper {
   display: grid;
-  grid-template-rows: 150px 450px 100px 50px;
+  grid-template-rows: 150px 400px 100px 50px;
   grid-template-columns: 300px;
   justify-content: center;
   align-content: center;
@@ -179,7 +179,6 @@ mat-button-toggle ~ mat-button-toggle {
   margin-left: 10px;
 }
 
-
 mat-button-toggle-group  {
   border: 0;
 }
@@ -207,8 +206,9 @@ mat-select {
   top: 30%;
 }
 
-@media screen and (max-height: 750px) {
-  .wrapepr {
+@media screen and (max-height: 700px) {
+  .wrapper {
     grid-template-rows: 100px 325px 75px 25px;
   }
 }
+

@@ -32,6 +32,7 @@ import {
 } from '@angular/material';
 import { IntroductionCarouselComponent } from './introduction-carousel/introduction-carousel.component';
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
+import { RecipesComponent } from './recipes/recipes.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { ComingSoonComponent } from './coming-soon/coming-soon.component';
     PageNotFoundComponent,
     IntroductionCarouselComponent,
     ComingSoonComponent,
+    RecipesComponent,
   ],
   imports: [
     MatAutocompleteModule,

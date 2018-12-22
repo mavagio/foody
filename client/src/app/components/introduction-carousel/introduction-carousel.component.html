@@ -1,4 +1,4 @@
-<div class="wrapepr">
+<div class="wrapper">
   <!-- First Section -->
   <ng-container  *ngIf="activePage==1" class="flip-horizontal-bottom">
     <div class="header">
@@ -72,7 +72,7 @@
     </div>
     <div class="footer">
       <button mat-flat-button color="secondary" secondary (click)="activePage = activePage - 1">Back</button>
-      <button mat-flat-button color="primary" primary (click)="generateRecepies()" [routerLink]="['/coming-soon']">Show recipes</button>
+      <button mat-flat-button color="primary" primary (click)="generateRecepies()" [routerLink]="['/recipes']">Show recipes</button>
     </div>
   </ng-container>
 
