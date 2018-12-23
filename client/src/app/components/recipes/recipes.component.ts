@@ -13,9 +13,8 @@ export class RecipesComponent implements OnInit {
     paginationClickable: true,
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',
-    spaceBetween: 20,
-    slidesPerView: 5,
-    freeMode: true,
+    spaceBetween: 10,
+    slidesPerView: 1,
   };
 
   private currentSlidesPerView: number = 1;
