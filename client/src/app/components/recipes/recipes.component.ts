@@ -13,8 +13,8 @@ export class RecipesComponent implements OnInit {
     paginationClickable: true,
     nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',
-    spaceBetween: 10,
-    slidesPerView: 'auto',
+    spaceBetween: 20,
+    slidesPerView: 1.25,
   };
 
   private currentSlidesPerView: number = 1;
@@ -30,7 +30,7 @@ export class RecipesComponent implements OnInit {
   }
 
   setSlidesPerView() {
-    const tempSlidesPerview = Math.floor(this.screenWidth / 270);
+    const tempSlidesPerview = this.screenWidth / 290;
     if (this.currentSlidesPerView !== tempSlidesPerview) {
       this.config.slidesPerView = tempSlidesPerview;
       this.currentSlidesPerView = tempSlidesPerview;
