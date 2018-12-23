@@ -9,6 +9,7 @@ import {TestComponentComponent} from "./test-component/test-component.component"
 import {AuthGuard} from "../auth/auth.guard";
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 import {RecipesComponent} from './recipes/recipes.component';
+import {RecipeComponent} from './recipe/recipe.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'profile', component: ProfileComponent, canActivate: [AuthGuard] },
   { path: 'test', component: TestComponentComponent},
   { path: 'recipes', component: RecipesComponent},
+  { path: 'recipe', component: RecipeComponent},
   { path: 'coming-soon', component: ComingSoonComponent},
   { path: '**', component: PageNotFoundComponent },
 ];

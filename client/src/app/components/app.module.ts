@@ -33,6 +33,7 @@ import {
 import { IntroductionCarouselComponent } from './introduction-carousel/introduction-carousel.component';
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 import { RecipesComponent } from './recipes/recipes.component';
+import { RecipeComponent } from './recipe/recipe.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { RecipesComponent } from './recipes/recipes.component';
     IntroductionCarouselComponent,
     ComingSoonComponent,
     RecipesComponent,
+    RecipeComponent,
   ],
   imports: [
     MatAutocompleteModule,

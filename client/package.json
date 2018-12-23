@@ -27,6 +27,7 @@
     "bootstrap": "^4.1.3",
     "core-js": "^2.5.7",
     "jasmine": "^3.1.0",
+    "owl.carousel": "^2.3.4",
     "rxjs": "^6.2.0",
     "rxjs-compat": "^6.0.0-rc.0",
     "zone.js": "^0.8.14"
