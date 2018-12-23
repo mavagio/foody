@@ -10,7 +10,7 @@
 
 .wrapper-contaienr {
   margin: auto;
-  padding: 20px;
+  padding-left: 20px;
 }
 
 .wrapper {
@@ -20,8 +20,8 @@
 
 swiper {
   width: 100vw;
-  height: 300px;
-  padding: 20px 40px;
+  height: 325px;
+  padding: 20px 20px 0px 40px;
 }
 
 .content-carousel {
