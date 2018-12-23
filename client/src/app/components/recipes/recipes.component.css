@@ -10,44 +10,23 @@
 
 .wrapper-contaienr {
   margin: auto;
+  padding: 20px;
 }
 
 .wrapper {
   display: grid;
   grid-template-rows: 150px 400px 1fr;
-  width: 1000px;
 }
 
-@media screen and (min-width: 1000px) {
-  .wrapper {
-    width: 1000px;
-  }
-
-  .content-carousel {
-    width: 1000px !important;
-  }
+swiper {
+  width: 100vw;
+  padding: 20px;
 }
 
-@media screen and (max-width: 1000px) {
-  .wrapper {
-    width: 600px;
-  }
-
-  .content-carousel {
-    width: 600px !important;
-  }
+.content-carousel {
+  white-space: nowrap;
+  overflow: scroll;
 }
-
-@media screen and (max-width: 600px) {
-  .wrapper {
-    width: 400px;
-  }
-
-  .content-carousel {
-    width: 400px !important;
-  }
-}
-
 
 .wrapper * {
   justify-self: center;
@@ -184,12 +163,4 @@ header h4 {
 header h4 span {
   color: #11F6C3;
   font-style: italic;
-}
-
-.content-carousel {
-  width: 400px;
-  /* display: flex; */
-  /* flex-direction: row; */
-  white-space: nowrap;
-  overflow: scroll;
 }

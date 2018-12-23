@@ -35,6 +35,8 @@ import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeComponent } from './recipe/recipe.component';
 
+import { SwiperModule } from 'angular2-useful-swiper';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -113,6 +115,7 @@ import { RecipeComponent } from './recipe/recipe.component';
     HttpModule,
     HttpClientModule,
     routing,
+    SwiperModule,
   ],
   providers: [
     {provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true},
