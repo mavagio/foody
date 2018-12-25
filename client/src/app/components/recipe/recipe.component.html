@@ -2,21 +2,81 @@
   <div class="row">
     <div class="col-sm">
       <header>
-          <div class="img">
-            <div class="recipe-overlay">
-                <button color="secondary" mat-mini-fab [routerLink]="['/recipes']">
-                    <mat-icon aria-label="Example icon-button with a heart icon">close</mat-icon>
-                </button>
-                <div class="tag-container">
-                    <div class="tag"><span class="tag-text">20 Minutes</span></div>
-                    <div class="tag"><span class="tag-text">&euro;12</span></div>
-                </div>
-                <h4 class="h4 title">
-                    Ravioli with spinazie and gorgonzola
-                </h4>
+        <div class="img">
+          <div class="recipe-overlay">
+            <button color="secondary" mat-mini-fab [routerLink]="['/recipes']">
+              <mat-icon aria-label="Example icon-button with a heart icon">close</mat-icon>
+            </button>
+            <div class="tag-container">
+              <div class="tag"><span class="tag-text">20 Minutes</span></div>
+              <div class="tag"><span class="tag-text">&euro;12</span></div>
             </div>
+            <h4 class="h4 title">
+              Ravioli with spinazie and gorgonzola
+            </h4>
           </div>
+        </div>
       </header>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+      <h5 class="section-title">Ingiridients</h5>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm>">
+
+      <div class="content-carousel">
+        <swiper [config]="config">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="recipe-container">
+                <div class="ingridient-img">
+                  <div class="ingridient-overlay"></div>
+                  <span>2 Tablespoons of olive oil</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="recipe-container">
+                <div class="ingridient-img">
+                  <div class="ingridient-overlay"></div>
+                  <span>2 Tablespoons of olive oil</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+                    <div class="recipe-container">
+                      <div class="ingridient-img">
+                        <div class="ingridient-overlay"></div>
+                        <span>2 Tablespoons of olive oil</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                        <div class="recipe-container">
+                          <div class="ingridient-img">
+                            <div class="ingridient-overlay"></div>
+                            <span>2 Tablespoons of olive oil</span>
+                          </div>
+                        </div>
+                      </div>
+
+          </div>
+        </swiper>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm">
+      <h5 class="section-title">Preparation</h5>
     </div>
   </div>
 </div>

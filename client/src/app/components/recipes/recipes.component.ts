@@ -21,7 +21,6 @@ export class RecipesComponent implements OnInit {
   };
 
   private numberOfSliders: number = 5;
-
   private currentSlidesPerView: number = 1;
   private screenWidth: any;
   constructor() {

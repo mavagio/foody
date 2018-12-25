@@ -66,3 +66,67 @@ button[mat-mini-fab] {
   line-height: 44px;
   width: 250px;
 }
+
+
+swiper {
+  width: 100vw;
+  height: 190px;
+}
+
+.content-carousel {
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.ingridient-overlay {
+  position: relative;
+  z-index: 100;
+  height: 187px;
+  width: 120px;
+
+  border-radius: 8px;
+  background-color: rgba(80, 117, 255, 0.6);
+}
+
+.ingridient-img {
+  background-image: url("https://foodrevolution.org/wp-content/uploads/2018/04/blog-featured-diabetes-20180406-1330.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.recipe-container {
+  position: relative;
+  display: inline-block;
+  height: 187px;
+  width: 120px;
+}
+
+.ingridient-img>span {
+  position: absolute;
+  bottom: 5%;
+  z-index: 100;
+  text-align: center;
+  white-space: pre-wrap;
+  left: 50%;
+  margin-left: -50px;
+  width: 100px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.recipe-container~.recipe-container {
+  margin-left: 15px;
+}
+
+.section-title {
+  color: #101960;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
