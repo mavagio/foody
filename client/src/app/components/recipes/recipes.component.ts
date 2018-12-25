@@ -15,6 +15,8 @@ export class RecipesComponent implements OnInit {
     prevButton: '.swiper-button-prev',
     spaceBetween: 20,
     slidesPerView: 1.25,
+    bulletClass: 'dot',
+    bulletActiveClass: 'dot-active',
   };
 
   private currentSlidesPerView: number = 1;

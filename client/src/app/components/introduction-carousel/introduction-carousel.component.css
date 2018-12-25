@@ -14,9 +14,28 @@
 
 .content {
   justify-self: center;
+  text-align: center;
+  color: #5075FF;
+}
+
+.content-third-page {
+  justify-self: center;
   align-self: center;
   text-align: center;
   color: #5075FF;
+}
+
+.dark-page-title {
+  color: #101960;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 31px;
+  text-align: center;
+}
+
+.first-page-content {
+  width: 235px;
+  margin-top: 60px;
 }
 
 .h4 {
@@ -37,7 +56,7 @@
 
 .wrapper {
   display: grid;
-  grid-template-rows: 150px 400px 100px 50px;
+  grid-template-rows: 100px 350px 75px 25px;
   grid-template-columns: 300px;
   justify-content: center;
   align-content: center;
@@ -124,11 +143,11 @@ button~button {
 }
 
 .background-circle[large] {
-  height: 160px;
-  width: 160px;
+  height: 180px;
+  width: 180px;
   left: 50%;
   top: -40px;
-  margin-left: -80px;
+  margin-left: -90px;
 }
 
 .background-circle[medium] {
@@ -150,7 +169,7 @@ button~button {
   height: 100%;
 }
 
-.content-background > button {
+.content-background>button {
   width: 70px;
   height: 42px;
 }
@@ -175,12 +194,16 @@ mat-button-toggle.mat-button-toggle-checked {
   display: none;
 }
 
-mat-button-toggle ~ mat-button-toggle {
+mat-button-toggle~mat-button-toggle {
   margin-left: 10px;
 }
 
-mat-button-toggle-group  {
+mat-button-toggle-group {
   border: 0;
+}
+
+mat-form-field {
+  width: 245px;
 }
 
 mat-select {
@@ -211,4 +234,3 @@ mat-select {
     grid-template-rows: 100px 325px 75px 25px;
   }
 }
-
