@@ -68,9 +68,14 @@ button[mat-mini-fab] {
 }
 
 
-swiper {
+.swiper-ingridients {
   width: 100vw;
-  height: 190px;
+  height: 100%;
+}
+
+.swiper-preparetion {
+  width: 100vw;
+  height: 100%;
 }
 
 .content-carousel {
@@ -129,4 +134,59 @@ swiper {
   line-height: 20px;
   margin-top: 30px;
   margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.preparation-box {
+  height: 338px;
+  width: 220px;
+  border: 2px solid #234DE7;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  padding: 17px 20px;
+}
+
+.step-number {
+  color: #11F6C3;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 32px;
+  display: block;
+}
+
+.preparation-explanation {
+  display: block;
+  width: 100%;
+  white-space: pre-wrap;
+  color: #234DE7;
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 12px;
+}
+
+.first-carousel-item {
+  margin-left: 40px;
+}
+
+.last-carousel-item {
+  width: 40px !important;
+  height: 300px;
+}
+
+button[primary] {
+  background-color: #234DE7 !important;
+  width: 150px;
+  border-radius: 8px;
+}
+
+button[primary],
+button[secondary] {
+  box-shadow: none !important;
+  border: 2px solid #234DE7;
+  font-style: italic;
+}
+
+.footer-action-container {
+  padding: 40px;
 }

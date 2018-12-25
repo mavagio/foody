@@ -8,12 +8,13 @@ import { HostListener } from "@angular/core";
 })
 export class RecipeComponent implements OnInit {
 
-  public config: SwiperOptions = {
-    pagination: '.swiper-pagination',
-    nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev',
-    bulletClass: 'dot',
-    bulletActiveClass: 'dot-active',
+  public configIngridients: SwiperOptions = {
+    paginationClickable: true,
+    freeMode: true,
+    spaceBetween: 20,
+  };
+
+  public configPreparetion: SwiperOptions = {
     paginationClickable: true,
     freeMode: true,
     spaceBetween: 20,
@@ -31,7 +32,8 @@ export class RecipeComponent implements OnInit {
   }
 
   setSlidesPerView() {
-    this.config.slidesPerView = this.screenWidth / 130;
+    this.configIngridients.slidesPerView = this.screenWidth / 130;
+    this.configPreparetion.slidesPerView = this.screenWidth / 230;
   }
 
   ngOnInit() {
