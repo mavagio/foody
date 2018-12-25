@@ -30,6 +30,8 @@ header {
 button[mat-mini-fab] {
   color: #234DE7;
   font-weight: bold;
+  float: right;
+  margin-top: 15px;
 }
 
 .tag {
