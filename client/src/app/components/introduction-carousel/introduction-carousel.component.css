@@ -1,20 +1,26 @@
-.header {
-  justify-self: center;
-  align-self: center;
-  text-align: center;
-  color: #234DE7;
-}
-
 .h2 {
+  color: #234DE7;
   font-style: italic;
   font-weight: bold;
-  line-height: 37px;
-  font-size: 33px;
+  line-height: 35px;
+  font-size: 30px;
+}
+
+.h4 {
+  font-size: 22px;
+  line-height: 24px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+.first-page-content {
+  color: white;
+  font-weight: 300;
 }
 
 .content {
-  justify-self: center;
   text-align: center;
+  align-self: center;
   color: #5075FF;
 }
 
@@ -33,16 +39,7 @@
   text-align: center;
 }
 
-.first-page-content {
-  width: 235px;
-  margin-top: 60px;
-}
 
-.h4 {
-  font-size: 22px;
-  line-height: 24px;
-  font-weight: 400;
-}
 
 .footer {
   justify-self: center;
@@ -54,10 +51,31 @@
   align-self: center;
 }
 
+.steps-background-image {
+  background-color: rgba(0,4,23,0.8);
+  background-image: url("https://foodrevolution.org/wp-content/uploads/2018/04/blog-featured-diabetes-20180406-1330.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+.layer {
+  background-color: rgba(0,4,23,0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
 .wrapper {
   display: grid;
-  grid-template-rows: 100px 350px 75px 25px;
-  grid-template-columns: 300px;
+  grid-template-rows: 450px 75px 25px;
+  grid-template-columns: 310px;
   justify-content: center;
   align-content: center;
 }
@@ -115,10 +133,10 @@ button~button {
 }
 
 .circle {
-  height: 295px;
-  width: 295px;
+  height: 300px;
+  width: 300px;
+  border: 2px solid white;
   border-radius: 147.5px;
-  background-color: #5075FF;
   position: relative;
   text-align: center;
   justify-content: center;
@@ -130,6 +148,7 @@ button~button {
   color: #11F6C3;
   font-size: 120px;
   font-weight: bold;
+  font-style: italic;
   justify-self: center;
   align-self: center;
   line-height: 2.3em;

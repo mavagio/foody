@@ -12,6 +12,7 @@ export class RecipeComponent implements OnInit {
     paginationClickable: true,
     freeMode: true,
     spaceBetween: 20,
+    direction: 'vertical',
   };
 
   public configPreparetion: SwiperOptions = {
@@ -32,7 +33,7 @@ export class RecipeComponent implements OnInit {
   }
 
   setSlidesPerView() {
-    this.configIngridients.slidesPerView = this.screenWidth / 130;
+    this.configIngridients.slidesPerView = this.screenWidth / 70;
     this.configPreparetion.slidesPerView = this.screenWidth / 230;
   }
 
