@@ -6,7 +6,7 @@
 
   <div class="wrapper-container">
   <div class="wrapper">
-      <!-- First Section -->
+      <!-- Zero Section -->
       <ng-container  *ngIf="activePage==0" class="flip-horizontal-bottom">
         <div class="content">
           <h2 class="h2">Foody helps you <br/>find the right things to cook, faster.</h2>
@@ -16,7 +16,7 @@
           <button mat-flat-button color="primary" primary (click)="activePage = activePage + 1">Let's start</button>
         </div>
       </ng-container>
-      <!-- Second section -->
+      <!-- 1 section -->
       <ng-container  *ngIf="activePage==1" >
         <div class="content">
           <div class="circle">
@@ -36,7 +36,7 @@
           <button mat-flat-button color="primary" primary (click)="activePage = activePage + 1">Continue</button>
         </div>
       </ng-container>
-      <!-- Third section -->
+      <!-- 2 section -->
       <ng-container  *ngIf="activePage==2" >
         <div class="content">
           <div class="circle">
@@ -56,16 +56,40 @@
           <button mat-flat-button color="primary" primary (click)="activePage = activePage + 1">Continue</button>
         </div>
       </ng-container>
-      <!-- Fourth section -->
+      <!-- 3 section -->
       <ng-container  *ngIf="activePage==3">
         <div class="content allergies-step-content">
           <mat-selection-list >
-            <mat-list-option *ngFor="let shoe of typesOfShoes" #shoes checkboxPosition="before">
-              {{shoe}}
+            <mat-list-option *ngFor="let allergie of typeOfAllergies" #shoes checkboxPosition="before">
+              {{allergie.viewValue}}
               <mat-divider></mat-divider>
             </mat-list-option>
           </mat-selection-list>
           <h4 class="h4 first-page-content">And to finish it off, which <b>allergies</b> should we keep in mind?</h4>
+        </div>
+        <div class="footer">
+          <button mat-flat-button color="primary" primary (click)="activePage = activePage + 1">Continue</button>
+        </div>
+      </ng-container>
+
+      <!-- 4 section -->
+      <ng-container  *ngIf="activePage==4">
+        <div class="content">     
+          <div class="food-type-container">
+              <div class="food-type-box vegan-food-image" (click)="foodType=foodTypEnum.Vegan">
+                <div class="food-type-layer" [ngClass]="{'food-type-selected': foodType===foodTypEnum.Vegan}"></div>
+                <span class="food-type-text">
+                  Vegan
+                </span>
+              </div>   
+              <div class="food-type-box meat-food-image"  (click)="foodType=foodTypEnum.Everything">
+                <div class="food-type-layer" [ngClass]="{'food-type-selected': foodType===foodTypEnum.Everything}"></div>
+                <span class="food-type-text">
+                  Everything
+                </span>
+              </div>  
+          </div>  
+          <h4 class="h4 first-page-content">Do you guys prefer to eat vegan or everything?</h4>
         </div>
         <div class="footer">
           <button mat-flat-button color="primary" primary (click)="generateRecepies()" [routerLink]="['/recipes']">Done!</button>
@@ -74,16 +98,16 @@
 
       <!-- Navigation dotes -->
       <div class="nav-dotes" *ngIf="activePage!==0">
-        <div class="dot"  [ngClass]="{'active': activePage>=1}"></div>
-        <div class="dash" [ngClass]="{'active': activePage>=2}"></div>
+        <div class="nav-dot"  [ngClass]="{'active': activePage>=1}"></div>
+        <div class="nav-dash" [ngClass]="{'active': activePage>=2}"></div>
 
-        <div class="dot"  [ngClass]="{'active': activePage>=2}"></div>
-        <div class="dash" [ngClass]="{'active': activePage>=3}"></div>
+        <div class="nav-dot"  [ngClass]="{'active': activePage>=2}"></div>
+        <div class="nav-dash" [ngClass]="{'active': activePage>=3}"></div>
 
-        <div class="dot"  [ngClass]="{'active': activePage>=3}"></div>
-        <div class="dash" [ngClass]="{'active': activePage>=4}"></div>
+        <div class="nav-dot"  [ngClass]="{'active': activePage>=3}"></div>
+        <div class="nav-dash" [ngClass]="{'active': activePage>=4}"></div>
 
-        <div class="dot"  [ngClass]="{'active': activePage>=4}"></div> 
+        <div class="nav-dot"  [ngClass]="{'active': activePage>=4}"></div> 
       </div>
     </div>
   </div>

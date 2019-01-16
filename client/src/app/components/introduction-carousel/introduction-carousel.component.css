@@ -55,7 +55,6 @@ mat-selection-list {
 }
 
 .steps-background-image {
-  background-color: rgba(0,4,23,0.8);
   background-image: url("https://foodrevolution.org/wp-content/uploads/2018/04/blog-featured-diabetes-20180406-1330.jpg");
   background-position: right;
   background-repeat: no-repeat;
@@ -67,6 +66,7 @@ mat-selection-list {
 
 .parent-container {
   position: relative;
+  overflow: hidden;
 }
 
 .layer {
@@ -89,6 +89,7 @@ mat-selection-list {
 .blur-background {
   filter: blur(8px);
   -webkit-filter: blur(8px);
+  transform: scale(1.1); 
 }
 
 .wrapper {
@@ -109,7 +110,7 @@ mat-selection-list {
   grid-template-columns: 16px 1fr 16px 1fr 16px 1fr 16px;
 }
 
-.dot {
+.nav-dot {
   height: 16px;
   width: 16px;
   border: 2px solid white;
@@ -117,7 +118,7 @@ mat-selection-list {
   display: inline-block;
 }
 
-.dash {
+.nav-dash {
   border: 1px solid white;
   height: 0px;
   width: 100%;
@@ -125,14 +126,14 @@ mat-selection-list {
   align-self: center;
   display: inline-block;
 }
-.dash.active {
+
+.nav-dash.active {
   border: 1px solid #11F6C3;
 }
 
-.dot.active {
+.nav-dot.active {
   border: 2px solid #11F6C3;
 }
-
 
 button[primary] {
   background-color: #234DE7 !important;
@@ -290,4 +291,56 @@ mat-pseudo-checkbox {
   font-weight: bold;
   text-align: center;
   top: 30%;
+}
+
+.food-type-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.food-type-box {
+  width: 140px;
+  height: 250px;
+  background: grey;
+  border-radius: 8px;
+  position: relative;
+  background-color: rgba(0,4,23,0.8);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.vegan-food-image {
+  background-image: url('../../../assets/vegan.jpg');
+}
+
+.meat-food-image {
+  background-image: url('../../../assets/meat.jpeg');
+}
+
+.food-type-layer {
+  background: rgba(0,4,23,0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.food-type-selected {
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,4,23,0.5));
+}
+
+.food-type-text {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  font-size: 16px;	
+  font-weight: 600;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
 }
