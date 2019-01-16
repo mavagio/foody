@@ -1,21 +1,37 @@
-.header {
-  justify-self: center;
-  align-self: center;
-  text-align: center;
-  color: #234DE7;
-}
-
 .h2 {
+  color: #234DE7;
   font-style: italic;
   font-weight: bold;
-  line-height: 37px;
-  font-size: 33px;
+  line-height: 35px;
+  font-size: 30px;
+}
+
+.h4 {
+  font-size: 22px;
+  line-height: 24px;
+  line-height: 28px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.first-page-content {
+  color: white;
+  font-weight: 300;
 }
 
 .content {
-  justify-self: center;
   text-align: center;
+  align-self: center;
   color: #5075FF;
+}
+
+.allergies-step-content {
+}
+
+mat-selection-list {
+  background: white;
+  text-align: left;
+  border-radius: 8px;
 }
 
 .content-third-page {
@@ -33,50 +49,90 @@
   text-align: center;
 }
 
-.first-page-content {
-  width: 235px;
-  margin-top: 60px;
-}
-
-.h4 {
-  font-size: 22px;
-  line-height: 24px;
-  font-weight: 400;
-}
-
 .footer {
   justify-self: center;
   align-self: center;
 }
 
-.nav-dotes {
-  justify-self: center;
-  align-self: center;
+.steps-background-image {
+  background-image: url("https://foodrevolution.org/wp-content/uploads/2018/04/blog-featured-diabetes-20180406-1330.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  /* transform: scale(1.1);  */
+}
+
+.parent-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.layer {
+  background-color: rgba(0,4,23,0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper-container {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  height: 100vh;
+}
+
+.blur-background {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  transform: scale(1.1); 
 }
 
 .wrapper {
   display: grid;
-  grid-template-rows: 100px 350px 75px 25px;
-  grid-template-columns: 300px;
+  grid-template-rows: 450px 75px 50px;
+  grid-template-columns: 310px;
   justify-content: center;
   align-content: center;
+  z-index: 100;
+  position: relative;
 }
 
-.dot {
-  height: 10px;
-  width: 10px;
-  background: white;
-  border: 2px solid #234DE7;
+.nav-dotes {
+  justify-self: center;
+  align-self: center;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 16px 1fr 16px 1fr 16px 1fr 16px;
+}
+
+.nav-dot {
+  height: 16px;
+  width: 16px;
+  border: 2px solid white;
   border-radius: 8px;
   display: inline-block;
 }
 
-.active {
-  background: #234DE7;
+.nav-dash {
+  border: 1px solid white;
+  height: 0px;
+  width: 100%;
+  justify-self: center;
+  align-self: center;
+  display: inline-block;
 }
 
-.dot~.dot {
-  margin-left: 5px;
+.nav-dash.active {
+  border: 1px solid #11F6C3;
+}
+
+.nav-dot.active {
+  border: 2px solid #11F6C3;
 }
 
 button[primary] {
@@ -109,16 +165,25 @@ button~button {
 
 .counter-controles {
   position: absolute;
-  bottom: -20px;
+  bottom: 13px;
+  width: 230px;
   left: 50%;
-  margin-left: -45px;
+  margin-left: -115px;
+}
+
+.minus-button {
+  float: left;
+}
+
+.plus-button {
+  float: right;
 }
 
 .circle {
-  height: 295px;
-  width: 295px;
+  height: 300px;
+  width: 300px;
+  border: 2px solid white;
   border-radius: 147.5px;
-  background-color: #5075FF;
   position: relative;
   text-align: center;
   justify-content: center;
@@ -130,6 +195,7 @@ button~button {
   color: #11F6C3;
   font-size: 120px;
   font-weight: bold;
+  font-style: italic;
   justify-self: center;
   align-self: center;
   line-height: 2.3em;
@@ -206,14 +272,12 @@ mat-form-field {
   width: 245px;
 }
 
-mat-select {
-  border: 2px solid #234DE7;
-  height: 45px;
-  border-radius: 8px;
-  background: white;
-  color: #234DE7;
-  justify-content: center;
-  align-content: center;
+::ng-deep .mat-list-item-content {
+  color: #010D37;
+}
+
+mat-pseudo-checkbox {
+
 }
 
 ::ng-deep .mat-select-value {
@@ -227,4 +291,56 @@ mat-select {
   font-weight: bold;
   text-align: center;
   top: 30%;
+}
+
+.food-type-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.food-type-box {
+  width: 140px;
+  height: 250px;
+  background: grey;
+  border-radius: 8px;
+  position: relative;
+  background-color: rgba(0,4,23,0.8);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.vegan-food-image {
+  background-image: url('../../../assets/vegan.jpg');
+}
+
+.meat-food-image {
+  background-image: url('../../../assets/meat.jpeg');
+}
+
+.food-type-layer {
+  background: rgba(0,4,23,0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.food-type-selected {
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,4,23,0.5));
+}
+
+.food-type-text {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  font-size: 16px;	
+  font-weight: 600;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
 }

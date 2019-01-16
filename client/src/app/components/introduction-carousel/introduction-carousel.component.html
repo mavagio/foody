@@ -1,85 +1,114 @@
-<div class="wrapper">
-  <!-- First Section -->
-  <ng-container  *ngIf="activePage==1" class="flip-horizontal-bottom">
-    <div class="header">
-      <h2 class="h2">Got too many people to take into account for dinner every week?</h2>
+<div class="parent-container">
+  <div class="steps-background-image" [ngClass]="{'blur-background': activePage!=0}">
+    <div class="layer">
     </div>
-    <div class="content">
-      <h4 class="h4 first-page-content">Let us help you by selecting recipes for you!</h4>
-    </div>
-    <div class="footer">
-      <button mat-flat-button color="primary" primary (click)="activePage = activePage + 1">Yep!</button>
-    </div>
-  </ng-container>
+  </div>
 
-  <!-- Second section -->
-  <ng-container  *ngIf="activePage==2" >
-    <div class="header">
-      <h4 class="dark-page-title">How many people does your household consist of?</h4>
-    </div>
-    <div class="content">
-      <div class="circle">
-          <span>{{numberOfPeople}}</span>
-          <div class="counter-controles">
-              <button color="secondary" mat-mini-fab (click)="numberOfPeople = numberOfPeople - 1 > 1 ? numberOfPeople - 1 : 1">
-                  <mat-icon aria-label="Example icon-button with a heart icon">remove</mat-icon>
-              </button>
-              <button color="secondary" mat-mini-fab (click)="numberOfPeople = numberOfPeople + 1">
-                  <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
-              </button>
-            </div>
+  <div class="wrapper-container">
+  <div class="wrapper">
+      <!-- Zero Section -->
+      <ng-container  *ngIf="activePage==0" class="flip-horizontal-bottom">
+        <div class="content">
+          <h2 class="h2">Foody helps you <br/>find the right things to cook, faster.</h2>
+          <h4 class="h4 first-page-content">Let us help you by asking a <br/> few basic questions.</h4>
+        </div>
+        <div class="footer">
+          <button mat-flat-button color="primary" primary (click)="activePage = activePage + 1">Let's start</button>
+        </div>
+      </ng-container>
+      <!-- 1 section -->
+      <ng-container  *ngIf="activePage==1" >
+        <div class="content">
+          <div class="circle">
+              <span>{{numberOfPeople}}</span>
+              <div class="counter-controles">
+                  <button color="secondary" class="minus-button" mat-mini-fab (click)="numberOfPeople = numberOfPeople - 1 > 1 ? numberOfPeople - 1 : 1">
+                      <mat-icon aria-label="Example icon-button with a heart icon">remove</mat-icon>
+                  </button>
+                  <button color="secondary" class="plus-button" mat-mini-fab (click)="numberOfPeople = numberOfPeople + 1">
+                      <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
+                  </button>
+                </div>
+          </div>
+          <h4 class="h4 first-page-content">How many <b>people</b> do you have in your <b>household</b>?</h4>
+        </div>
+        <div class="footer">
+          <button mat-flat-button color="primary" primary (click)="activePage = activePage + 1">Continue</button>
+        </div>
+      </ng-container>
+      <!-- 2 section -->
+      <ng-container  *ngIf="activePage==2" >
+        <div class="content">
+          <div class="circle">
+              <span>&euro;{{amountPerPerson}}</span>
+              <div class="counter-controles">
+                  <button color="secondary" class="minus-button" mat-mini-fab (click)="amountPerPerson = amountPerPerson - 1 > 1 ? amountPerPerson - 1 : 1">
+                      <mat-icon aria-label="Example icon-button with a heart icon">remove</mat-icon>
+                  </button>
+                  <button color="secondary" class="plus-button" mat-mini-fab (click)="amountPerPerson = amountPerPerson + 1">
+                      <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
+                  </button>
+                </div>
+          </div>
+          <h4 class="h4 first-page-content">How much money do you guys want to spend <b>per day</b>?</h4>
+        </div>
+        <div class="footer">
+          <button mat-flat-button color="primary" primary (click)="activePage = activePage + 1">Continue</button>
+        </div>
+      </ng-container>
+      <!-- 3 section -->
+      <ng-container  *ngIf="activePage==3">
+        <div class="content allergies-step-content">
+          <mat-selection-list >
+            <mat-list-option *ngFor="let allergie of typeOfAllergies" #shoes checkboxPosition="before">
+              {{allergie.viewValue}}
+              <mat-divider></mat-divider>
+            </mat-list-option>
+          </mat-selection-list>
+          <h4 class="h4 first-page-content">And to finish it off, which <b>allergies</b> should we keep in mind?</h4>
+        </div>
+        <div class="footer">
+          <button mat-flat-button color="primary" primary (click)="activePage = activePage + 1">Continue</button>
+        </div>
+      </ng-container>
+
+      <!-- 4 section -->
+      <ng-container  *ngIf="activePage==4">
+        <div class="content">     
+          <div class="food-type-container">
+              <div class="food-type-box vegan-food-image" (click)="foodType=foodTypEnum.Vegan">
+                <div class="food-type-layer" [ngClass]="{'food-type-selected': foodType===foodTypEnum.Vegan}"></div>
+                <span class="food-type-text">
+                  Vegan
+                </span>
+              </div>   
+              <div class="food-type-box meat-food-image"  (click)="foodType=foodTypEnum.Everything">
+                <div class="food-type-layer" [ngClass]="{'food-type-selected': foodType===foodTypEnum.Everything}"></div>
+                <span class="food-type-text">
+                  Everything
+                </span>
+              </div>  
+          </div>  
+          <h4 class="h4 first-page-content">Do you guys prefer to eat vegan or everything?</h4>
+        </div>
+        <div class="footer">
+          <button mat-flat-button color="primary" primary (click)="generateRecepies()" [routerLink]="['/recipes']">Done!</button>
+        </div>
+      </ng-container>
+
+      <!-- Navigation dotes -->
+      <div class="nav-dotes" *ngIf="activePage!==0">
+        <div class="nav-dot"  [ngClass]="{'active': activePage>=1}"></div>
+        <div class="nav-dash" [ngClass]="{'active': activePage>=2}"></div>
+
+        <div class="nav-dot"  [ngClass]="{'active': activePage>=2}"></div>
+        <div class="nav-dash" [ngClass]="{'active': activePage>=3}"></div>
+
+        <div class="nav-dot"  [ngClass]="{'active': activePage>=3}"></div>
+        <div class="nav-dash" [ngClass]="{'active': activePage>=4}"></div>
+
+        <div class="nav-dot"  [ngClass]="{'active': activePage>=4}"></div> 
       </div>
     </div>
-    <div class="footer">
-      <button mat-flat-button color="secondary" secondary (click)="activePage = activePage - 1">Cancel</button>
-      <button mat-flat-button color="primary" primary (click)="activePage = activePage + 1">Next!</button>
-    </div>
-  </ng-container>
-
-  <!-- Third section -->
-  <ng-container  *ngIf="activePage==3">
-    <div class="header">
-      <h4 class="dark-page-title">Do you guys have any specific dietary wishes?</h4>
-    </div>
-    <div class="content-third-page">
-      <div class="content-background">
-        <mat-button-toggle-group value="mixed" #group="matButtonToggleGroup">
-            <mat-button-toggle value="vegan">
-              Vegan
-            </mat-button-toggle>
-            <mat-button-toggle value="meat">
-              Meat
-            </mat-button-toggle>
-            <mat-button-toggle value="mixed">
-              Mixed
-            </mat-button-toggle>
-        </mat-button-toggle-group>
-        <mat-form-field>
-          <mat-select multiple [(ngModel)]="selectedAlergies">
-            <mat-option value="no-allergies">
-              No allergies
-            </mat-option>
-            <mat-option *ngFor="let allergy of allergiesArray" [value]="allergy.value">
-              {{allergy.viewValue}}
-            </mat-option>
-          </mat-select>
-        </mat-form-field>
-
-        <div small class="background-circle"></div>
-        <div medium class="background-circle"></div>
-        <div large class="background-circle"></div>
-      </div>
-    </div>
-    <div class="footer">
-      <button mat-flat-button color="secondary" secondary (click)="activePage = activePage - 1">Back</button>
-      <button mat-flat-button color="primary" primary (click)="generateRecepies()" [routerLink]="['/recipes']">Show recipes</button>
-    </div>
-  </ng-container>
-
-  <!-- Navigation dotes -->
-  <div class="nav-dotes">
-    <div class="dot" [ngClass]="{'active': activePage==1}"></div>
-    <div class="dot" [ngClass]="{'active': activePage==2}"></div>
-    <div class="dot" [ngClass]="{'active': activePage==3}"></div>
   </div>
 </div>

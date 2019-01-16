@@ -1,194 +1,62 @@
-.main-container {
-  padding: 40px;
+.header-container {
+  /* padding: 10px 20px 0px 20px; */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  max-width: 500px;
+  height: 100%;
+  left: 50%;
+  margin-left: -50%;
+}
+
+.recipe-video {
+  width: 100%;
+  height: 30%;
+}
+
+.content-container {
+  margin-top: 300px;
+}
+
+.testing {
+  height: 200px;
+  margin-bottom: 5px;
+  width: 200px;
+  background: grey;
 }
 
 .row {
   margin: 0;
 }
 
-header {
-  margin: 0 auto;
-  width: 100%;
-}
-
-.recipe-overlay {
-  padding: 20px;
-  height: 475px;
-  border-radius: 8px;
-  background: linear-gradient(180deg, rgba(80, 117, 255, 0.7) 0.29%, rgba(80, 117, 255, 0.9) 97.81%);
-}
-
-.img {
-  background-image: url("https://foodrevolution.org/wp-content/uploads/2018/04/blog-featured-diabetes-20180406-1330.jpg");
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-  height: 475px;
-  border-radius: 8px;
-}
-
-button[mat-mini-fab] {
-  color: #234DE7;
-  font-weight: bold;
-  float: right;
-  margin-top: 15px;
-}
-
-.tag {
-  border-radius: 4px;
-  background-color: #FFFFFF;
-  box-shadow: 0 2px 13px 0 rgba(35, 77, 231, 0.7);
-  display: inline-block;
-  text-align: center;
-  padding: 8px 10px;
-}
-
-.tag~.tag {
-  margin-left: 10px;
-}
-
-.tag-text {
-  color: #5075FF;
-  white-space: pre-wrap;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 15px;
-  text-align: center;
-}
-
-.tag-container {
-  margin-top: 190px;
-}
-
-.title {
-  color: #11F6C3;
-  font-size: 38px;
-  font-style: italic;
-  font-weight: bold;
-  line-height: 44px;
-  width: 250px;
-}
-
-
-.swiper-ingridients {
-  width: 100vw;
-  height: 100%;
-}
-
-.swiper-preparetion {
-  width: 100vw;
-  height: 100%;
-}
-
-.content-carousel {
-  white-space: nowrap;
-  overflow: scroll;
-}
-
-.ingridient-overlay {
-  position: relative;
-  z-index: 100;
-  height: 187px;
-  width: 120px;
-
-  border-radius: 8px;
-  background-color: rgba(80, 117, 255, 0.6);
-}
-
-.ingridient-img {
-  background-image: url("https://foodrevolution.org/wp-content/uploads/2018/04/blog-featured-diabetes-20180406-1330.jpg");
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.recipe-container {
-  position: relative;
-  display: inline-block;
-  height: 187px;
-  width: 120px;
-}
-
-.ingridient-img>span {
-  position: absolute;
-  bottom: 5%;
-  z-index: 100;
-  text-align: center;
-  white-space: pre-wrap;
-  left: 50%;
-  margin-left: -50px;
-  width: 100px;
-  color: #FFFFFF;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 18px;
-}
-
-.recipe-container~.recipe-container {
-  margin-left: 15px;
-}
-
-.section-title {
-  color: #101960;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 20px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  margin-left: 40px;
-}
-
-.preparation-box {
-  height: 338px;
-  width: 220px;
-  border: 2px solid #234DE7;
-  border-radius: 8px;
-  background-color: #FFFFFF;
-  padding: 17px 20px;
-}
-
-.step-number {
-  color: #11F6C3;
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 600;
-  line-height: 32px;
-  display: block;
-}
-
-.preparation-explanation {
-  display: block;
-  width: 100%;
-  white-space: pre-wrap;
-  color: #234DE7;
-  font-size: 18px;
-  line-height: 23px;
-  margin-top: 12px;
-}
-
-.first-carousel-item {
-  margin-left: 40px;
-}
-
-.last-carousel-item {
-  width: 40px !important;
-  height: 300px;
-}
-
-button[primary] {
-  background-color: #234DE7 !important;
-  width: 150px;
-  border-radius: 8px;
-}
-
-button[primary],
-button[secondary] {
+mat-button-toggle {
   box-shadow: none !important;
-  border: 2px solid #234DE7;
-  font-style: italic;
+  background: rgba(244, 244, 244, 0.8) !important;
+  color: rgba(35, 77, 231, 0.8);
+  border: 0 !important;
+  width: 150px;
+  font-weight: bold;
 }
 
-.footer-action-container {
-  padding: 40px;
+mat-button-toggle.mat-button-toggle-checked {
+  color: #234DE7;
+  background: white !important;
+  border: 0 !important;
+}
+
+::ng-deep .mat-form-field-underline {
+  display: none;
+}
+
+mat-button-toggle-group {
+  border: 0;
+  box-shadow: 0 -5px 30px 0 rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.footer-container {
+  position: fixed;
+  left: 50%;
+  margin-left: -150px;
+  bottom: 10%;
 }

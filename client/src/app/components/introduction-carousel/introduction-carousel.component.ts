@@ -5,6 +5,11 @@ export interface Allergy {
   viewValue: string;
 }
 
+enum FoodType {
+  Vegan,
+  Everything
+}
+
 @Component({
   selector: 'app-introduction-carousel',
   templateUrl: './introduction-carousel.component.html',
@@ -12,15 +17,25 @@ export interface Allergy {
 })
 export class IntroductionCarouselComponent implements OnInit {
 
-  public activePage: number = 1;
-  public numberOfPeople: number = 1;
-  public allergiesArray: Allergy[] = [
-    {value: 'peanuts', viewValue: 'Peanuts'},
-    {value: 'lactose-intolerance', viewValue: 'Lactose intolerance'},
-    {value: 'gluten-intolerance', viewValue: 'Gluten intolerance'}
-  ];
+  public foodTypEnum = FoodType;
+  public activePage: number;
+  public numberOfPeople: number;
+  public amountPerPerson: number;
+  public typeOfAllergies: Allergy[];
+  public foodType: FoodType;
+
   public selectedAlergies: Array<string> = ['no-allergies'];
-  constructor() { }
+  constructor() {
+    this.activePage = 0;
+    this.numberOfPeople = 1;
+    this.amountPerPerson = 1;
+    this.typeOfAllergies = [{ value: 'avocado', viewValue: 'Avocado' },
+                            { value: 'peanuts', viewValue:  'Peanuts'},
+                            { value: 'gluten_intolerance', viewValue:  'Gluten intolerance'},
+                            { value: 'lactose_intolerance', viewValue:  'Lactose intolerance'},
+                            { value: 'shit', viewValue:  'Shit'},]
+    this.foodType = FoodType.Vegan;
+  }
 
   ngOnInit() {
   }
