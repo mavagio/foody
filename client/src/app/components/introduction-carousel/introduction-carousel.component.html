@@ -17,10 +17,10 @@
         </div>
       </ng-container>
       <!-- 1 section -->
-      <ng-container  *ngIf="activePage==1" >
+      <ng-container  *ngIf="activePage==1">
         <div class="content">
-          <div class="circle">
-              <span>{{numberOfPeople}}</span>
+          <div class="circle" [@scaleUp]>
+              <span [@slideInLeft]>{{numberOfPeople}}</span>
               <div class="counter-controles">
                   <button color="secondary" class="minus-button" mat-mini-fab (click)="numberOfPeople = numberOfPeople - 1 > 1 ? numberOfPeople - 1 : 1">
                       <mat-icon aria-label="Example icon-button with a heart icon">remove</mat-icon>
@@ -37,7 +37,7 @@
         </div>
       </ng-container>
       <!-- 2 section -->
-      <ng-container  *ngIf="activePage==2" >
+      <ng-container  *ngIf="activePage==2">
         <div class="content">
           <div class="circle">
               <span>&euro;{{amountPerPerson}}</span>
