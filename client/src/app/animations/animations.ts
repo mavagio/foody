@@ -20,7 +20,7 @@ export const numberChangeAnimation = trigger('numberChangeAnimation', [
     animate('200ms ease-in')
   ]),
   transition(':decrement', [
-    style({ opacity: 0.3, transform: 'translateY(-20%)'}),
+    style({ transform: 'translateY(-20%)'}),
     animate('200ms ease-in')
   ]),
 ]);
