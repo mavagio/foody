@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {style, state, animate, transition, trigger, query, stagger, group} from '@angular/animations';
-import {scaleUp,numberChangeAnimation} from '../../animations/animations';
+import {scaleUp, numberChangeAnimation, progressAnimation, activeStepCircle, brightDimSelection} from '../../animations/animations';
 
 export interface Allergy {
   value: string;
@@ -19,6 +19,9 @@ enum FoodType {
   animations: [
     scaleUp,
     numberChangeAnimation,
+    progressAnimation,
+    activeStepCircle,
+    brightDimSelection
   ],
 })
 export class IntroductionCarouselComponent implements OnInit {
@@ -34,7 +37,7 @@ export class IntroductionCarouselComponent implements OnInit {
 
   public selectedAlergies: Array<string> = ['no-allergies'];
   constructor() {
-    this.activePage = 0;
+    this.activePage = 4;
     this.numberOfPeople = 1;
     this.amountPerPerson = 1;
     this.typeOfAllergies = [{ value: 'avocado', viewValue: 'Avocado' },

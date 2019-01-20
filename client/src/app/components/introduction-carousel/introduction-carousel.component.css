@@ -121,20 +121,23 @@ mat-selection-list {
 }
 
 .nav-dash {
-  border: 1px solid white;
-  height: 0px;
+  border-left: 0;
+  border-right: 0;
+  height: 2px;
+  background: white;
   width: 100%;
   justify-self: center;
   align-self: center;
   display: inline-block;
+  position: relative;
 }
 
-.nav-dash.active {
-  border: 1px solid #11F6C3;
-}
-
-.nav-dot.active {
-  border: 2px solid #11F6C3;
+.nav-dash>div {
+  position: absolute;
+  background: #11F6C3;
+  height: 100%;
+  width: 100%;
+  top: 0;
 }
 
 button[primary] {
@@ -279,10 +282,6 @@ mat-form-field {
   color: #010D37;
 }
 
-mat-pseudo-checkbox {
-
-}
-
 ::ng-deep .mat-select-value {
   color: #234DE7;
   font-weight: bold;
@@ -333,10 +332,6 @@ mat-pseudo-checkbox {
   border-radius: 8px;
 }
 
-.food-type-selected {
-  background: linear-gradient(rgba(0,0,0,0), rgba(0,4,23,0.5));
-}
-
 .food-type-text {
   position: absolute;
   bottom: 20px;
@@ -345,5 +340,6 @@ mat-pseudo-checkbox {
   font-weight: 600;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%)
+  transform: translateX(-50%);
+  text-shadow: 0px 0px 50px rgba(0,0,0);
 }

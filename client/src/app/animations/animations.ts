@@ -16,11 +16,34 @@ export const scaleUp = trigger('scaleUp', [
 
 export const numberChangeAnimation = trigger('numberChangeAnimation', [
   transition(':increment', [
-    style({ transform: 'translateY(20%)'}),
+    style({opacity: 0, transform: 'translateY(-15%)'}),
     animate('200ms ease-in')
   ]),
   transition(':decrement', [
-    style({ transform: 'translateY(-20%)'}),
+    style({opacity: 0, transform: 'translateY(15%)'}),
     animate('200ms ease-in')
   ]),
+]);
+
+export const progressAnimation = trigger('progressAnimation', [
+  transition('void => *', [
+    style({
+      width: '0%',
+    }),
+    animate('300ms ease-in')
+  ])
+]);
+
+export const activeStepCircle = trigger('activeStepCircle', [
+  state('active', style({ border: '2px solid #11F6C3'})),
+  transition('* => active', [
+    animate('300ms 300ms ease-in')
+  ])
+]);
+
+export const brightDimSelection = trigger('brightDimSelection', [
+  state('active', style({ background: 'none'})),
+  transition('* => active', [
+    animate('300ms ease-in')
+  ])
 ]);

@@ -76,14 +76,14 @@
       <ng-container  *ngIf="activePage==4">
         <div class="content">     
           <div class="food-type-container">
-              <div class="food-type-box vegan-food-image" (click)="foodType=foodTypEnum.Vegan">
-                <div class="food-type-layer" [ngClass]="{'food-type-selected': foodType===foodTypEnum.Vegan}"></div>
+              <div matRipple [matRippleCentered] class="food-type-box vegan-food-image" (click)="foodType=foodTypEnum.Vegan">
+                <div class="food-type-layer" [@brightDimSelection]="foodType===foodTypEnum.Vegan? 'active': ''"></div>
                 <span class="food-type-text">
                   Vegan
                 </span>
               </div>   
-              <div class="food-type-box meat-food-image"  (click)="foodType=foodTypEnum.Everything">
-                <div class="food-type-layer" [ngClass]="{'food-type-selected': foodType===foodTypEnum.Everything}"></div>
+              <div matRipple [matRippleCentered] class="food-type-box meat-food-image"  (click)="foodType=foodTypEnum.Everything">
+                <div class="food-type-layer"  [@brightDimSelection]="foodType===foodTypEnum.Everything? 'active':''"></div>
                 <span class="food-type-text">
                   Everything
                 </span>
@@ -98,16 +98,23 @@
 
       <!-- Navigation dotes -->
       <div class="nav-dotes" *ngIf="activePage!==0">
-        <div class="nav-dot"  [ngClass]="{'active': activePage>=1}"></div>
-        <div class="nav-dash" [ngClass]="{'active': activePage>=2}"></div>
 
-        <div class="nav-dot"  [ngClass]="{'active': activePage>=2}"></div>
-        <div class="nav-dash" [ngClass]="{'active': activePage>=3}"></div>
+        <div class="nav-dot"  [@activeStepCircle]="activePage>=1 ? 'active': ''"></div>
+        <div class="nav-dash">
+          <div *ngIf="activePage>=2" [@progressAnimation]></div>
+        </div>
 
-        <div class="nav-dot"  [ngClass]="{'active': activePage>=3}"></div>
-        <div class="nav-dash" [ngClass]="{'active': activePage>=4}"></div>
+        <div class="nav-dot"  [@activeStepCircle]="activePage>=2 ? 'active': ''"></div>
+        <div class="nav-dash">
+          <div *ngIf="activePage>=3" [@progressAnimation]></div>
+        </div>
 
-        <div class="nav-dot"  [ngClass]="{'active': activePage>=4}"></div> 
+        <div class="nav-dot" [@activeStepCircle]="activePage>=3 ? 'active': ''"></div>
+        <div class="nav-dash">
+          <div *ngIf="activePage>=4" [@progressAnimation]></div>
+        </div>
+
+        <div class="nav-dot" [@activeStepCircle]="activePage>=4 ? 'active': ''"></div> 
       </div>
     </div>
   </div>
