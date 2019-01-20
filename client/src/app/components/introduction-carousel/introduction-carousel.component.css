@@ -199,6 +199,7 @@ button~button {
   justify-self: center;
   align-self: center;
   line-height: 2.3em;
+  display: inline-block;
 }
 
 .background-circle {

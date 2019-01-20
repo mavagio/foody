@@ -20,10 +20,10 @@
       <ng-container  *ngIf="activePage==1">
         <div class="content">
           <div class="circle" [@scaleUp]>
-              <span [@slideInLeft]>{{numberOfPeople}}</span>
+              <span [@numberChangeAnimation]="numberOfPeople">{{numberOfPeople}}</span>
               <div class="counter-controles">
                   <button color="secondary" class="minus-button" mat-mini-fab (click)="numberOfPeople = numberOfPeople - 1 > 1 ? numberOfPeople - 1 : 1">
-                      <mat-icon aria-label="Example icon-button with a heart icon">remove</mat-icon>
+                    <mat-icon aria-label="Example icon-button with a heart icon">remove</mat-icon>
                   </button>
                   <button color="secondary" class="plus-button" mat-mini-fab (click)="numberOfPeople = numberOfPeople + 1">
                       <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
