@@ -16,11 +16,11 @@ export const scaleUp = trigger('scaleUp', [
 
 export const numberChangeAnimation = trigger('numberChangeAnimation', [
   transition(':increment', [
-    style({opacity: 0, transform: 'translateY(-15%)'}),
+    style({opacity: 0, transform: 'translateY(15%)'}),
     animate('200ms ease-in')
   ]),
   transition(':decrement', [
-    style({opacity: 0, transform: 'translateY(15%)'}),
+    style({opacity: 0, transform: 'translateY(-15%)'}),
     animate('200ms ease-in')
   ]),
 ]);
