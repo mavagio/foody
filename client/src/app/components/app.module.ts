@@ -122,7 +122,7 @@ import { SwiperModule } from 'angular2-useful-swiper';
     RouterModule,
     ApiRequestsService,
     ConfigurationService,
-    AuthGuard
+    AuthGuard,
   ],
   bootstrap: [AppComponent]
 })

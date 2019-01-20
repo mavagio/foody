@@ -13,13 +13,13 @@ import {RecipeComponent} from './recipe/recipe.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
+  { path: 'home', component: HomeComponent,  data: {animation: 'HomePage'}},
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'profile', component: ProfileComponent, canActivate: [AuthGuard] },
   { path: 'test', component: TestComponentComponent},
-  { path: 'recipes', component: RecipesComponent},
-  { path: 'recipe', component: RecipeComponent},
+  { path: 'recipes', component: RecipesComponent, data: {animation: 'RecipesPage'}},
+  { path: 'recipe', component: RecipeComponent, data: {animation: 'RecipePage'}},
   { path: 'coming-soon', component: ComingSoonComponent},
   { path: '**', component: PageNotFoundComponent },
 ];

@@ -47,3 +47,31 @@ export const brightDimSelection = trigger('brightDimSelection', [
     animate('300ms ease-in')
   ])
 ]);
+
+export const slideInAnimation =
+  trigger('routeAnimations', [
+    transition('HomePage => RecipesPage', [
+      style({ position: 'relative' }),
+      query(':enter, :leave', [
+        style({
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%'
+        })
+      ]),
+      query(':enter', [
+        style({ top: '-100%'})
+      ]),
+      query(':leave', animateChild()),
+      group([
+        query(':leave', [
+          animate('300ms ease-out', style({transform: 'scale(1.3)', opacity: 0,}))
+        ]),
+        query(':enter', [
+          // animate('300ms ease-out', style({transform: 'translateX(100%)'}))
+        ])
+      ]),
+      query(':enter', animateChild()),
+    ]),
+  ]);

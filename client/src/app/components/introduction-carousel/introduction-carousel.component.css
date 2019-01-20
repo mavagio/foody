@@ -341,5 +341,5 @@ mat-form-field {
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  text-shadow: 0px 0px 50px rgba(0,0,0);
+  text-shadow: 0px 0px 10px black;
 }
