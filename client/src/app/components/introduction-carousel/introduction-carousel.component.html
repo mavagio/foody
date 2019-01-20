@@ -40,7 +40,7 @@
       <ng-container  *ngIf="activePage==2">
         <div class="content">
           <div class="circle">
-              <span>&euro;{{amountPerPerson}}</span>
+              <span>&euro;</span><span [@numberChangeAnimation]="amountPerPerson">{{amountPerPerson}}</span>
               <div class="counter-controles">
                   <button color="secondary" class="minus-button" mat-mini-fab (click)="amountPerPerson = amountPerPerson - 1 > 1 ? amountPerPerson - 1 : 1">
                       <mat-icon aria-label="Example icon-button with a heart icon">remove</mat-icon>
