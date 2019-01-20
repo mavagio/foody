@@ -55,9 +55,11 @@ mat-selection-list {
 }
 
 .steps-background-image {
-  background-image: url("https://foodrevolution.org/wp-content/uploads/2018/04/blog-featured-diabetes-20180406-1330.jpg");
-  background-position: right;
+  /* background-image: url("https://foodrevolution.org/wp-content/uploads/2018/04/blog-featured-diabetes-20180406-1330.jpg"); */
+  background-image: url("../../../assets/background1.jpg");
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -314,11 +316,11 @@ mat-pseudo-checkbox {
 }
 
 .vegan-food-image {
-  background-image: url('../../../assets/vegan.jpg');
+  background-image: url('../../../assets/vegan2.jpg');
 }
 
 .meat-food-image {
-  background-image: url('../../../assets/meat.jpeg');
+  background-image: url('../../../assets/meat2.jpg');
 }
 
 .food-type-layer {
