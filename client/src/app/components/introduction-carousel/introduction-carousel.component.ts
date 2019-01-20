@@ -37,7 +37,7 @@ export class IntroductionCarouselComponent implements OnInit {
 
   public selectedAlergies: Array<string> = ['no-allergies'];
   constructor() {
-    this.activePage = 4;
+    this.activePage = 0;
     this.numberOfPeople = 1;
     this.amountPerPerson = 1;
     this.typeOfAllergies = [{ value: 'avocado', viewValue: 'Avocado' },
