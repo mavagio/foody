@@ -72,5 +72,11 @@ mat-button-toggle-group {
   position: fixed;
   left: 50%;
   margin-left: -150px;
-  bottom: 8%;
+  bottom: 7%;
+}
+
+.weeks-container {
+  margin: 0 auto;
+  max-width: 500px;
+  padding-bottom: 10vh;
 }
