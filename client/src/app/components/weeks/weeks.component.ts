@@ -17,7 +17,7 @@ export class WeeksComponent implements OnInit {
       image_url: "url(../../../assets/recipe2.jpg)"
     },
     {
-      short_description: "Traditional cheicken with onions monstrosity",
+      short_description: "Traditional chicken with onions monstrosity",
       image_url: "url(../../../assets/recipe3.jpg)"
     },
     {
