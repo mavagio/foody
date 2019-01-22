@@ -32,10 +32,10 @@ import {
 } from '@angular/material';
 import { IntroductionCarouselComponent } from './introduction-carousel/introduction-carousel.component';
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
-import { RecipesComponent } from './recipes/recipes.component';
 import { RecipeComponent } from './recipe/recipe.component';
 
 import { SwiperModule } from 'angular2-useful-swiper';
+import { WeeksComponent } from './weeks/weeks.component';
 
 @NgModule({
   declarations: [
@@ -48,8 +48,8 @@ import { SwiperModule } from 'angular2-useful-swiper';
     PageNotFoundComponent,
     IntroductionCarouselComponent,
     ComingSoonComponent,
-    RecipesComponent,
     RecipeComponent,
+    WeeksComponent,
   ],
   imports: [
     MatAutocompleteModule,

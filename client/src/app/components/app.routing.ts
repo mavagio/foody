@@ -8,7 +8,7 @@ import {ProfileComponent} from "./profile/profile.component";
 import {TestComponentComponent} from "./test-component/test-component.component";
 import {AuthGuard} from "../auth/auth.guard";
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
-import {RecipesComponent} from './recipes/recipes.component';
+import {WeeksComponent} from './weeks/weeks.component';
 import {RecipeComponent} from './recipe/recipe.component';
 
 const routes: Routes = [
@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'signup', component: SignupComponent },
   { path: 'profile', component: ProfileComponent, canActivate: [AuthGuard] },
   { path: 'test', component: TestComponentComponent},
-  { path: 'recipes', component: RecipesComponent, data: {animation: 'RecipesPage'}},
+  { path: 'weeks', component: WeeksComponent, data: {animation: 'WeeksPage'}},
   { path: 'recipe', component: RecipeComponent, data: {animation: 'RecipePage'}},
   { path: 'coming-soon', component: ComingSoonComponent},
   { path: '**', component: PageNotFoundComponent },

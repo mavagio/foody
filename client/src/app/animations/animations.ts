@@ -16,11 +16,11 @@ export const scaleUp = trigger('scaleUp', [
 
 export const numberChangeAnimation = trigger('numberChangeAnimation', [
   transition(':increment', [
-    style({opacity: 0, transform: 'translateY(15%)'}),
+    style({opacity: 0, transform: 'translateY(10%)'}),
     animate('200ms ease-in')
   ]),
   transition(':decrement', [
-    style({opacity: 0, transform: 'translateY(-15%)'}),
+    style({opacity: 0, transform: 'translateY(-10%)'}),
     animate('200ms ease-in')
   ]),
 ]);
@@ -50,7 +50,7 @@ export const brightDimSelection = trigger('brightDimSelection', [
 
 export const slideInAnimation =
   trigger('routeAnimations', [
-    transition('HomePage => RecipesPage', [
+    transition('HomePage => WeeksPage', [
       style({ position: 'relative' }),
       query(':enter, :leave', [
         style({
