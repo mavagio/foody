@@ -344,6 +344,10 @@ mat-form-field {
   text-shadow: 0px 0px 10px black;
 }
 
+::ng-deep.mat-pseudo-checkbox::after {
+  display: none !important;
+}
+
 @media only screen and (max-height: 575px) {
   .wrapper {
     grid-template-rows: 250px 75px 50px;
