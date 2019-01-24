@@ -348,6 +348,10 @@ mat-form-field {
   display: none !important;
 }
 
+::ng-deep.mat-pseudo-checkbox-indeterminate {
+  border-color: #234DE7 !important;
+}
+
 @media only screen and (max-height: 575px) {
   .wrapper {
     grid-template-rows: 250px 75px 50px;
