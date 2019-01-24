@@ -1,34 +1,57 @@
-<mat-tab-group [selectedIndex]="1">
-  <mat-tab label="First"> Content 1 </mat-tab>
-  <mat-tab label="Second"> Content 2 </mat-tab>
-</mat-tab-group>
 
-<div class="weeks-container">
-  <div class="weeks-wrapper">
-    <h3 class="week-title">Week 1, 2019</h3>
-    <ul>
-      <ng-container *ngFor="let recipe of recipeList">
-        <li [routerLink]="['/recipe']" matRipple class="week-wrapper">
-          <div class="img" [style.background-image]="recipe.image_url"></div>
-          <div class="content">
-            <div class="recipe-text">{{recipe.short_description}}</div>
-          </div>
-        </li>
-      </ng-container>
-    </ul>
-    <h3 class="week-title">Week 2, 2019</h3>
-    <ul *ngFor="let recipe of recipeList">
-      <li [routerLink]="['/recipe']" matRipple class="week-wrapper">
-        <div class="img" [style.background-image]="recipe.image_url"></div>
-        <div class="content">
-          <div class="recipe-text">{{recipe.short_description}}</div>
+<mat-tab-group headerPosition="below" position="center" mat-stretch-tabs [selectedIndex]="1"> 
+  <mat-tab label="Recipes"> 
+      <div class="weeks-container">
+        <div class="weeks-wrapper">
+          <h3 class="week-title">Week 1, 2019</h3>
+          <ul>
+            <ng-container *ngFor="let recipe of recipeList">
+              <li [routerLink]="['/recipe']" matRipple class="week-wrapper">
+                <div class="img" [style.background-image]="recipe.image_url"></div>
+                <div class="content">
+                  <div class="recipe-text">{{recipe.short_description}}</div>
+                </div>
+              </li>
+            </ng-container>
+          </ul>
+          <h3 class="week-title">Week 2, 2019</h3>
+          <ul *ngFor="let recipe of recipeList">
+            <li [routerLink]="['/recipe']" matRipple class="week-wrapper">
+              <div class="img" [style.background-image]="recipe.image_url"></div>
+              <div class="content">
+                <div class="recipe-text">{{recipe.short_description}}</div>
+              </div>
+            </li>
+          </ul>
         </div>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div class="footer-container">
+      </div>
+  </mat-tab>
+  <mat-tab label="Grocery list"> 
+    <div class="weeks-container">
+      <div class="weeks-wrapper">
+        <h3 class="week-title">Week 1, 2019</h3>
+        <div class="ingridient-container">
+            <mat-selection-list>
+              <mat-list-option *ngFor="let ingridient of ingridientList" checkboxPosition="before">
+                <mat-divider></mat-divider>
+                {{ingridient.viewValue}}
+              </mat-list-option>
+            </mat-selection-list>
+        </div>
+        <h3 class="week-title">Week 2, 2019</h3>
+        <div class="ingridient-container">
+            <mat-selection-list>
+              <mat-list-option *ngFor="let ingridient of ingridientList" checkboxPosition="before">
+                <mat-divider></mat-divider>
+                {{ingridient.viewValue}}
+              </mat-list-option>
+            </mat-selection-list>
+        </div>
+      </div>
+    </div>
+  </mat-tab>
+</mat-tab-group>
+<!-- <div class="footer-container">
   <mat-button-toggle-group value="preparetion" #group="matButtonToggleGroup">
     <mat-button-toggle value="preparetion">
       Recipes
@@ -37,5 +60,5 @@
       Grocery list
     </mat-button-toggle>
   </mat-button-toggle-group>
-</div>
+</div> -->
   

@@ -29,7 +29,7 @@
   border-radius: 50px;
 }
 
-.weeks-wrapper .week-title {
+.week-title {
   color: #234DE7;	
   font-size: 22px;	
   font-weight: 700;	
@@ -82,5 +82,8 @@ mat-button-toggle-group {
 .weeks-container {
   margin: 0 auto;
   max-width: 500px;
-  padding-bottom: 10vh;
+}
+
+::ng-deep .mat-tab-body-wrapper {
+  height: 94vh;
 }

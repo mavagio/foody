@@ -1,5 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
+export interface Ingridient {
+  value: string;
+  viewValue: string;
+  price?: number,
+}
+
 @Component({
   selector: 'app-weeks',
   templateUrl: './weeks.component.html',
@@ -36,8 +42,23 @@ export class WeeksComponent implements OnInit {
       short_description: "Hand made pizza, oven napoli is jealous how crisp the crust is.",
       image_url: "url(assets/recipe7.jpg)"
     },
-  ]
-  constructor() { }
+  ];
+
+  public ingridientList: Ingridient[];
+
+  constructor() { 
+    this.ingridientList = 
+      [
+        { value: 'avocado', viewValue: 'Avocado' },
+        { value: 'peanuts', viewValue:  'Peanuts'},
+        { value: 'zuchini', viewValue:  'Zuchini'},
+        { value: 'salt', viewValue:  'Salt'},
+        { value: 'sugar', viewValue:  'Sugar'},
+        { value: 'zuchini', viewValue:  'Zuchini'},
+        { value: 'salt', viewValue:  'Salt'},
+        { value: 'sugar', viewValue:  'Sugar'},
+      ];
+  }
   
   ngOnInit() {
   }
