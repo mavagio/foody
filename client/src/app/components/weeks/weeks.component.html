@@ -6,13 +6,15 @@
 <div class="weeks-container">
   <div class="weeks-wrapper">
     <h3 class="week-title">Week 1, 2019</h3>
-    <ul *ngFor="let recipe of recipeList">
-      <li [routerLink]="['/recipe']" matRipple class="week-wrapper">
-        <div class="img" [style.background-image]="recipe.image_url"></div>
-        <div class="content">
-          <div class="recipe-text">{{recipe.short_description}}</div>
-        </div>
-      </li>
+    <ul>
+      <ng-container *ngFor="let recipe of recipeList">
+        <li [routerLink]="['/recipe']" matRipple class="week-wrapper">
+          <div class="img" [style.background-image]="recipe.image_url"></div>
+          <div class="content">
+            <div class="recipe-text">{{recipe.short_description}}</div>
+          </div>
+        </li>
+      </ng-container>
     </ul>
     <h3 class="week-title">Week 2, 2019</h3>
     <ul *ngFor="let recipe of recipeList">

@@ -18,7 +18,7 @@ export class WeeksComponent implements OnInit {
     },
     {
       short_description: "Traditional chicken with onions monstrosity",
-      image_url: "urlassets/recipe3.jpg)"
+      image_url: "url(assets/recipe3.jpg)"
     },
     {
       short_description: "Minimal calories for your food baby maker",
