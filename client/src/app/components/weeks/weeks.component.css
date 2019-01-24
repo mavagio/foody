@@ -84,6 +84,6 @@ mat-button-toggle-group {
   max-width: 500px;
 }
 
-::ng-deep .mat-tab-body-wrapper {
+/* ::ng-deep .mat-tab-body-wrapper {
   height: 94vh;
-}
+} */
