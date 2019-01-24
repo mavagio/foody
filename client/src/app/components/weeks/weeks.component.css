@@ -1,5 +1,6 @@
 .weeks-wrapper {
   padding: 36px;
+  height: 94vh;
 }
 
 .weeks-wrapper > ul {
@@ -83,7 +84,3 @@ mat-button-toggle-group {
   margin: 0 auto;
   max-width: 500px;
 }
-
-/* ::ng-deep .mat-tab-body-wrapper {
-  height: 94vh;
-} */
