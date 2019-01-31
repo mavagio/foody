@@ -1,28 +1,54 @@
+.recipe-wrapper {
+  padding: 36px;
+  padding-top: 0;
+  height: 94vh;
+  overflow: scroll;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
 .header-container {
-  /* padding: 10px 20px 0px 20px; */
-  width: 100%;
   position: fixed;
   top: 0;
-  max-width: 500px;
-  height: 100%;
   left: 50%;
   margin-left: -50%;
+  z-index: 100;
+  width: 100%;
 }
 
 .recipe-video {
+  height: 26vh;
   width: 100%;
-  height: 30%;
 }
 
 .content-container {
-  margin-top: 300px;
+  margin-top: 26vh;
+  overflow: scroll;
 }
 
-.testing {
-  height: 200px;
-  margin-bottom: 5px;
-  width: 200px;
-  background: grey;
+.step-container {
+  width: 100%;
+  max-width: 500px;
+  background: #F4F4F4;
+  border-radius: 8px;
+  color: #234DE7;
+  padding: 16px 16px 16px 60px;
+  font-size: 16px;
+  position: relative;
+}
+
+.step-container[last] {
+  background: #FFDE00;
+}
+
+.steps-number {
+  position: absolute;
+  left: 25px;
+  font-weight: bold;
+}
+
+.step-container~.step-container {
+  margin-top: 15px;
 }
 
 .row {
@@ -59,4 +85,64 @@ mat-button-toggle-group {
   left: 50%;
   margin-left: -150px;
   bottom: 10%;
+}
+
+.title-text {
+  color: #234DE7;	
+  font-size: 22px;	
+  font-weight: 700;	
+  line-height: 29px;
+  padding: 15px;
+  padding-left: 0;
+}
+
+.section-title-text {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #234DE7;
+}
+
+
+/* Footer styles */
+
+mat-button-toggle {
+  box-shadow: none !important;
+  background: rgba(244, 244, 244, 0.8) !important;
+  color: rgba(35, 77, 231, 0.8);
+  border: 0 !important;
+  width: 150px;
+  font-weight: bold;
+}
+
+mat-button-toggle.mat-button-toggle-checked {
+  color: #234DE7;
+  background: white !important;
+  border: 0 !important;
+}
+
+::ng-deep .mat-form-field-underline {
+  display: none;
+}
+
+::ng-deep.mat-pseudo-checkbox::after {
+  display: none !important;
+}
+
+mat-button-toggle-group {
+  border: 0;
+  box-shadow: 0 -5px 30px 0 rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.footer-container {
+  position: fixed;
+  left: 50%;
+  margin-left: -150px;
+  bottom: 7%;
+}
+
+.weeks-container {
+  margin: 0 auto;
+  max-width: 500px;
 }

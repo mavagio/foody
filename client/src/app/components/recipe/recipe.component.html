@@ -1,26 +1,45 @@
-<div class="header-container">
-  <iframe class="recipe-video" src="https://www.youtube.com/embed/rHXobaiGFZ4?&theme=dark&autohide=1&modestbranding=1&showinfo=0&rel=0&end=149&iv_load_policy=3&mute=1"
-    frameborder="0">
-  </iframe>
-</div>
 
-<div class="content-container">
-  <div class="testing"></div>
-  <div class="testing"></div>
-  <div class="testing"></div>
-  <div class="testing"></div>
-  <div class="testing"></div>
-  <div class="testing"></div>
-  <div class="testing"></div>
-</div>
+<mat-tab-group headerPosition="below" position="center" mat-stretch-tabs> 
 
-<div class="footer-container">
-  <mat-button-toggle-group value="preparetion" #group="matButtonToggleGroup">
-    <mat-button-toggle value="preparetion">
-      Preparetion
-    </mat-button-toggle>
-    <mat-button-toggle value="ingrideints">
-      Ingrideints
-    </mat-button-toggle>
-  </mat-button-toggle-group>
-</div>
+  <!-- Preparetion Tab -->
+
+  <mat-tab label="Preparetion">
+    <div class="recipe-wrapper">
+      <div class="header-container">
+        <iframe class="recipe-video" src="https://www.youtube.com/embed/rHXobaiGFZ4?&theme=dark&autohide=1&modestbranding=1&showinfo=0&rel=0&end=149&iv_load_policy=3&mute=1"
+          frameborder="0">
+        </iframe>
+      </div>
+      <div class="content-container">   
+        <h3 class="title-text">Mexican pulled pork ketogenic high energy taco's</h3>
+        <h3 class="section-title-text">Preparetion</h3>
+        <ng-container *ngFor="let preparetionStep of preperationSteps; let i = index">
+            <div class="step-container">
+              <span class="steps-number">{{i+1}}</span>
+              {{preparetionStep.text}}
+            </div>
+        </ng-container>
+        <div class="step-container" last>
+          <span class="steps-number">{{preperationSteps.length + 1}}</span>Enjoy!
+        </div>
+      </div>
+    </div>
+  </mat-tab>
+
+  <!-- Ingridients Tab -->
+
+  <mat-tab label="Ingrideints"> 
+      <div class="recipe-wrapper">
+        <h3 class="title-text">Mexican pulled pork ketogenic high energy taco's</h3>
+        <h4 class="section-title-text">Ingridients</h4>
+        <div class="ingridient-container">
+            <mat-selection-list>
+              <mat-list-option *ngFor="let ingridient of ingridientList" checkboxPosition="before">
+                <mat-divider></mat-divider>
+                {{ingridient.viewValue}}
+              </mat-list-option>
+            </mat-selection-list>
+      </div>
+    </div>
+  </mat-tab>
+</mat-tab-group>
