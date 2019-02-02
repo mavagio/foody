@@ -1,6 +1,6 @@
 .weeks-wrapper {
   padding: 36px;
-  height: 94vh;
+  margin-bottom: 50px;
 }
 
 .weeks-wrapper > ul {
@@ -48,6 +48,10 @@
   vertical-align: middle;
 }
 
+mat-tab-groups {
+  height:100%;
+}
+
 /* Footer styles */
 
 mat-button-toggle {
@@ -90,4 +94,14 @@ mat-button-toggle-group {
   margin: 0 auto;
   max-width: 500px;
 }
+
+::ng-deep.mat-tab-label-container {
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 20px;
+  z-index: 200 !important;
+}
+
 
