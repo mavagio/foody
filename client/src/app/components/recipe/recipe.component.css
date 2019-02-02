@@ -1,10 +1,10 @@
 .recipe-wrapper {
   padding: 36px;
   padding-top: 0;
-  height: 94vh;
   overflow: scroll;
   margin: 0 auto;
   max-width: 500px;
+  margin-bottom: 50px;
 }
 
 .header-container {
@@ -145,4 +145,79 @@ mat-button-toggle-group {
 .weeks-container {
   margin: 0 auto;
   max-width: 500px;
+}
+
+/* Footer styles */
+
+mat-button-toggle {
+  box-shadow: none !important;
+  background: rgba(244, 244, 244, 0.8) !important;
+  color: rgba(35, 77, 231, 0.8);
+  border: 0 !important;
+  width: 150px;
+  font-weight: bold;
+}
+
+mat-button-toggle.mat-button-toggle-checked {
+  color: #234DE7;
+  background: white !important;
+  border: 0 !important;
+}
+
+::ng-deep .mat-form-field-underline {
+  display: none;
+}
+
+::ng-deep.mat-pseudo-checkbox::after {
+  display: none !important;
+}
+
+mat-button-toggle-group {
+  border: 0;
+  box-shadow: 0 -5px 30px 0 rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.footer-container {
+  position: fixed;
+  left: 50%;
+  margin-left: -150px;
+  bottom: 7%;
+}
+
+.weeks-container {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+/* Tab styles */
+::ng-deep.mat-tab-label-container {
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 20px;
+  z-index: 200 !important;
+  border-radius: 8px;
+  background: rgba(245,245,245,0.6);
+  box-shadow: 0 -5px 30px 0 rgba(0,0,0,0.1);
+}
+
+::ng-deep.mat-tab-label-content {
+  color: #234DE7;
+  size: 16px;
+  font-weight: bold;
+}
+
+::ng-deep.mat-tab-label {
+  width: 150px;
+}
+
+::ng-deep.mat-tab-label-active {
+  opacity: 1 !important;
+  background: white;
+}
+
+::ng-deep.mat-ink-bar {
+  display: none;
 }

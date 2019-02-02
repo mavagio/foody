@@ -95,6 +95,7 @@ mat-button-toggle-group {
   max-width: 500px;
 }
 
+/* Tab styles */
 ::ng-deep.mat-tab-label-container {
   position: fixed;
   left: 50%;
@@ -102,6 +103,28 @@ mat-button-toggle-group {
   transform: translateX(-50%);
   bottom: 20px;
   z-index: 200 !important;
+  border-radius: 8px;
+  background: rgba(245,245,245,0.6);
+  box-shadow: 0 -5px 30px 0 rgba(0,0,0,0.1);
+}
+
+::ng-deep.mat-tab-label-content {
+  color: #234DE7;
+  size: 16px;
+  font-weight: bold;
+}
+
+::ng-deep.mat-tab-label {
+  width: 150px;
+}
+
+::ng-deep.mat-tab-label-active {
+  opacity: 1 !important;
+  background: white;
+}
+
+::ng-deep.mat-ink-bar {
+  display: none;
 }
 
 
