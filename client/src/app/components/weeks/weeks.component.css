@@ -127,4 +127,8 @@ mat-button-toggle-group {
   display: none;
 }
 
+::ng-deep mat-tab-header {
+  border-top: none !important;
+}
+
 

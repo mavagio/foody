@@ -221,3 +221,7 @@ mat-button-toggle-group {
 ::ng-deep.mat-ink-bar {
   display: none;
 }
+
+::ng-deep mat-tab-header {
+  border-top: none !important;
+}
