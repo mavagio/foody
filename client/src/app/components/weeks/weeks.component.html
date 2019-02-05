@@ -3,7 +3,10 @@
   <mat-tab label="Recipes"> 
       <div class="weeks-container">
         <div class="weeks-wrapper">
-          <h3 class="week-title">Week 1, 2019</h3>
+          <div class="week-header">
+            <h3 class="week-title">Week 1, 2019</h3>
+            <a class="edit-settings" [routerLink]="['/']">Edit household</a>
+          </div>
           <ul>
             <ng-container *ngFor="let recipe of recipeList">
               <li [routerLink]="['/recipe']" matRipple class="week-wrapper">
@@ -14,7 +17,9 @@
               </li>
             </ng-container>
           </ul>
-          <h3 class="week-title">Week 2, 2019</h3>
+          <div class="week-header">
+            <h3 class="week-title">Week 1, 2019</h3>
+          </div>
           <ul *ngFor="let recipe of recipeList">
             <li [routerLink]="['/recipe']" matRipple class="week-wrapper">
               <div class="img" [style.background-image]="recipe.image_url"></div>
@@ -29,7 +34,9 @@
   <mat-tab label="Grocery list"> 
     <div class="weeks-container">
       <div class="weeks-wrapper">
-        <h3 class="week-title">Week 1, 2019</h3>
+        <div class="week-header">
+          <h3 class="week-title">Week 1, 2019</h3>
+        </div>
         <div class="ingridient-container">
             <mat-selection-list>
               <mat-list-option *ngFor="let ingridient of ingridientList" checkboxPosition="before">
@@ -38,7 +45,9 @@
               </mat-list-option>
             </mat-selection-list>
         </div>
-        <h3 class="week-title">Week 2, 2019</h3>
+        <div class="week-header">
+          <h3 class="week-title">Week 1, 2019</h3>
+        </div>
         <div class="ingridient-container">
             <mat-selection-list>
               <mat-list-option *ngFor="let ingridient of ingridientList" checkboxPosition="before">

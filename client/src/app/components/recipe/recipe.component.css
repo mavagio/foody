@@ -199,7 +199,7 @@ mat-button-toggle-group {
   bottom: 20px;
   z-index: 200 !important;
   border-radius: 8px;
-  background: rgba(245,245,245,0.6);
+  background: rgba(245,245,245,0.8);
   box-shadow: 0 -5px 30px 0 rgba(0,0,0,0.1);
 }
 
