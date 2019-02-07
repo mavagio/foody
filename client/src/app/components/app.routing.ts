@@ -12,8 +12,9 @@ import {WeeksComponent} from './weeks/weeks.component';
 import {RecipeComponent} from './recipe/recipe.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent,  data: {animation: 'HomePage'}},
+  { path: '', redirectTo: '/start', pathMatch: 'full' },
+  { path: 'start', component: HomeComponent,  data: {animation: 'HomePage'}},
+  { path: 'start/:step', component: HomeComponent,  data: {animation: 'HomePage'}},
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'profile', component: ProfileComponent, canActivate: [AuthGuard] },

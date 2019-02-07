@@ -2,6 +2,8 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import {style, state, animate, transition, trigger, query, stagger, group} from '@angular/animations';
 import {scaleUp, numberChangeAnimation, progressAnimation, activeStepCircle, brightDimSelection} from '../../animations/animations';
 
+import {Router, ActivatedRoute, Params} from '@angular/router';
+
 export interface Allergy {
   value: string;
   viewValue: string;
@@ -36,7 +38,8 @@ export class IntroductionCarouselComponent implements OnInit {
   public isCounterChanged=false;
 
   public selectedAlergies: Array<string> = ['no-allergies'];
-  constructor() {
+  constructor(private activatedRoute: ActivatedRoute, 
+              private router: Router) {
     this.activePage = 0;
     this.numberOfPeople = 1;
     this.amountPerPerson = 1;
@@ -44,18 +47,23 @@ export class IntroductionCarouselComponent implements OnInit {
                             { value: 'peanuts', viewValue:  'Peanuts'},
                             { value: 'gluten_intolerance', viewValue:  'Gluten intolerance'},
                             { value: 'lactose_intolerance', viewValue:  'Lactose intolerance'},
-                            { value: 'shit', viewValue:  'Shit'},]
+                            { value: 'other', viewValue:  'Other'},]
     this.foodType = FoodType.Vegiterian;
   }
 
   ngOnInit() {
+    this.activatedRoute.params.subscribe( params =>{
+      const step = params['step'];
+      if(step) {
+        this.activePage = +step;
+      }
+    });
   }
 
-  public nextPage(): void {
-    this.activePage += 1;
+  public incrementIntroductionPage(): void {
+    this.router.navigate(['start', this.activePage + 1]);
   }
 
   public generateRecepies(): void {
-    console.log(this.selectedAlergies);
   }
 }
