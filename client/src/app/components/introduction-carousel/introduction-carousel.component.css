@@ -314,8 +314,8 @@ mat-form-field {
   cursor: pointer;
 }
 
-.vegiterian-food-image {
-  background-image: url('/assets/vegiterian.jpg');
+.vegetarian-food-image {
+  background-image: url('/assets/vegetarian.jpg');
 }
 
 .meat-food-image {

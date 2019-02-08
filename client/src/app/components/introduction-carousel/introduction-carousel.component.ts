@@ -10,7 +10,7 @@ export interface Allergy {
 }
 
 enum FoodType {
-  Vegiterian,
+  Vegetarian,
   Everything
 }
 
@@ -48,7 +48,7 @@ export class IntroductionCarouselComponent implements OnInit {
                             { value: 'gluten_intolerance', viewValue:  'Gluten intolerance'},
                             { value: 'lactose_intolerance', viewValue:  'Lactose intolerance'},
                             { value: 'other', viewValue:  'Other'},]
-    this.foodType = FoodType.Vegiterian;
+    this.foodType = FoodType.Vegetarian;
   }
 
   ngOnInit() {

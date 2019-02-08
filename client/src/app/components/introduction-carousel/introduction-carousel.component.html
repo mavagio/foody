@@ -76,10 +76,10 @@
       <ng-container  *ngIf="activePage==4">
         <div class="content">     
           <div class="food-type-container">
-              <div matRipple [matRippleCentered] class="food-type-box vegiterian-food-image" (click)="foodType=foodTypEnum.Vegiterian">
-                <div class="food-type-layer" [@brightDimSelection]="foodType===foodTypEnum.Vegiterian? 'active': ''"></div>
+              <div matRipple [matRippleCentered] class="food-type-box vegetarian-food-image" (click)="foodType=foodTypEnum.Vegetarian">
+                <div class="food-type-layer" [@brightDimSelection]="foodType===foodTypEnum.Vegetarian? 'active': ''"></div>
                 <span class="food-type-text">
-                  Vegiterian
+                  vegetarian
                 </span>
               </div>   
               <div matRipple [matRippleCentered] class="food-type-box meat-food-image"  (click)="foodType=foodTypEnum.Everything">
@@ -89,7 +89,7 @@
                 </span>
               </div>  
           </div>  
-          <h4 class="h4 first-page-content">Do you guys prefer to eat vegiterian or everything?</h4>
+          <h4 class="h4 first-page-content">Do you guys prefer to eat vegetarian or everything?</h4>
         </div>
         <div class="footer">
           <button mat-flat-button color="primary" primary (click)="generateRecepies()" [routerLink]="['/weeks']">Done!</button>
