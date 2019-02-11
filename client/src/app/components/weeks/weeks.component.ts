@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {ApiRequestsService} from '../../services/api-requests.service';
+import {IIngridient, IRecipe} from "../../../../../shared/models/recipeModel";
 
 export interface Ingridient {
   value: string;
@@ -12,6 +14,8 @@ export interface Ingridient {
   styleUrls: ['./weeks.component.css']
 })
 export class WeeksComponent implements OnInit {
+
+  public recipes: IRecipe[] = [];
 
   public recipeList:Object[] = [
     {
@@ -46,7 +50,7 @@ export class WeeksComponent implements OnInit {
 
   public ingridientList: Ingridient[];
 
-  constructor() { 
+  constructor(private apiRequestsService: ApiRequestsService) { 
     this.ingridientList = 
       [
         { value: 'avocado', viewValue: 'Avocado' },
@@ -58,9 +62,16 @@ export class WeeksComponent implements OnInit {
         { value: 'salt', viewValue:  'Salt'},
         { value: 'sugar', viewValue:  'Sugar'},
       ];
+    this.getAllRecipes();
+  }
+
+  public getAllRecipes(): void {
+    this.apiRequestsService.getAllRecipes().subscribe(response => {
+      this.recipes = response;
+      console.log(this.recipes);
+    });
   }
   
   ngOnInit() {
   }
-
 }

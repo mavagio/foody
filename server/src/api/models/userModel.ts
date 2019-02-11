@@ -2,7 +2,7 @@ import mongoose = require('mongoose');
 import {Schema, Document} from 'mongoose';
 import * as bcrypt from 'bcrypt-nodejs';
 
-export interface IUser {
+interface IUser {
     local: {
         email: string,
         password: string,
@@ -52,8 +52,7 @@ const UserSchema: Schema = new Schema({
     },
 });
 
-export interface IUserModel extends IUser, Document {
-}
+export interface IUserModel extends IUser, Document {};
 
 // generating a hash
 UserSchema.methods.generateHash = (password: any) => {

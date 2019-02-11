@@ -2,6 +2,19 @@
 module.exports = (app: any, passport: any) => {
     const apiController = require('../controllers/apiController')(passport);
 
+    /**
+     * Recipe routes
+     */
+    app.route('/api/recipes').get(apiController.recipes_get);
+    app.route('/api/recipe').get(apiController.recipe_get);
+
+    app.route('/api/recipe').post(apiController.recipe_post);
+    app.route('/api/recipes').post(apiController.recipes_post);
+
+
+    /**
+     * Login routes
+     */
     app.route('/').get(apiController.home_get);
     app.route('/api/login').post(apiController.jwt_login_post);
     app.route('/api/signup').post(apiController.signup_post);
@@ -10,7 +23,7 @@ module.exports = (app: any, passport: any) => {
 
     /**
      * Testing routes
-     * */
+     */
     app.route('/api/test/').get(apiController.isJWTValid, apiController.test_get);
     app.route('/api/test_no_auth/').get( apiController.test_get);
     app.route('/api/test/').post(apiController.test_post);

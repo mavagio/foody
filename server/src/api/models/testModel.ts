@@ -1,7 +1,7 @@
 import mongoose = require('mongoose');
 import {Schema, Document} from 'mongoose';
 
-export interface ITest {
+interface ITest {
     name: string;
     email: string;
     type: number;
@@ -13,8 +13,7 @@ const TestSchema: Schema = new Schema({
     type: Number,
 });
 
-export interface ITestModel extends ITest, Document {
-}
+export interface ITestModel extends ITest, Document {}
 
 const TestModel = mongoose.model<ITestModel>('Test', TestSchema);
 

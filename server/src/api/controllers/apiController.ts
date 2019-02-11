@@ -1,9 +1,15 @@
 import {Model} from 'mongoose';
-import * as testModel from '../models/testModel';
-import {UserModule, IUserModel} from '../models/userModel';
 
+import * as testModel from '../models/testModel';
 import TestController from './testController';
+
+import {UserModule, IUserModel} from '../models/userModel';
 import UserController from './userController';
+
+import {RecipeModel, IRecipeModel} from '../models/recipeModel';
+import RecipeController from './recipeController';
+
+
 
 import * as path from 'path';
 import * as jwt from 'jsonwebtoken';
@@ -11,11 +17,31 @@ import * as jwt from 'jsonwebtoken';
 module.exports = (passport: any) => {
     const testCtrl = new TestController<Model<testModel.ITestModel>>(testModel.default);
     const userCtrl = new UserController<Model<IUserModel>>(UserModule);
+    const recipeCtrl = new RecipeController<Model<IRecipeModel>>(RecipeModel);
 
     const publicModule: any = {};
 
     publicModule.home_get = (req: any, res: any, next: any) => {
         res.sendFile(path.resolve('public/index.html'));
+    };
+
+    /**
+     * Recipe methods
+     * */
+    publicModule.recipe_get = (req: any, res: any, next: any) => {
+        recipeCtrl.get(req, res);
+    }
+
+    publicModule.recipes_get = (req: any, res: any, next: any) => {
+        recipeCtrl.getAll(req, res);
+    }
+
+    publicModule.recipe_post = (req: any, res: any) => {
+        recipeCtrl.insert(req, res);
+    };
+
+    publicModule.recipes_post = (req: any, res: any) => {
+        recipeCtrl.insertAll(req, res);
     };
 
     /**
