@@ -6,7 +6,7 @@ module.exports = (app: any, passport: any) => {
      * Recipe routes
      */
     app.route('/api/recipes').get(apiController.recipes_get);
-    app.route('/api/recipe').get(apiController.recipe_get);
+    app.route('/api/recipe/:recipeId').get(apiController.recipe_get);
 
     app.route('/api/recipe').post(apiController.recipe_post);
     app.route('/api/recipes').post(apiController.recipes_post);

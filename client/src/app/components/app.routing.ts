@@ -20,7 +20,7 @@ const routes: Routes = [
   { path: 'profile', component: ProfileComponent, canActivate: [AuthGuard] },
   { path: 'test', component: TestComponentComponent},
   { path: 'weeks', component: WeeksComponent, data: {animation: 'WeeksPage'}},
-  { path: 'recipe', component: RecipeComponent, data: {animation: 'RecipePage'}},
+  { path: 'recipe/:recipeId', component: RecipeComponent, data: {animation: 'RecipePage'}},
   { path: 'coming-soon', component: ComingSoonComponent},
   { path: '**', component: PageNotFoundComponent },
 ];

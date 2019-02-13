@@ -23,6 +23,10 @@ export class ApiRequestsService {
     return this.http.get<any>(this.actionUrl + this.recipesEndpoint);
   }
 
+  getAllRecipeById(recipeId): Observable<any> {
+    return this.http.get<any>(this.actionUrl + this.recipeEndpoint + recipeId);
+  }
+
   getTests(): Observable<any> {
     return this.http.get<any>(this.actionUrl + this.testEndpoint);
   }

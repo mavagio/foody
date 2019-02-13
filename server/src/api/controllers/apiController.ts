@@ -29,6 +29,7 @@ module.exports = (passport: any) => {
      * Recipe methods
      * */
     publicModule.recipe_get = (req: any, res: any, next: any) => {
+        console.log("I have got here");
         recipeCtrl.get(req, res);
     }
 

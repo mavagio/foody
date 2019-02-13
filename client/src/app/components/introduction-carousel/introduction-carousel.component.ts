@@ -43,11 +43,17 @@ export class IntroductionCarouselComponent implements OnInit {
     this.activePage = 0;
     this.numberOfPeople = 1;
     this.amountPerPerson = 1;
-    this.typeOfAllergies = [{ value: 'avocado', viewValue: 'Avocado' },
-                            { value: 'peanuts', viewValue:  'Peanuts'},
-                            { value: 'gluten_intolerance', viewValue:  'Gluten intolerance'},
-                            { value: 'lactose_intolerance', viewValue:  'Lactose intolerance'},
-                            { value: 'other', viewValue:  'Other'},]
+    this.typeOfAllergies = [{ value: 'gluten', viewValue: 'Gluten' },
+                            { value: 'crustaceans', viewValue:  'Crustaceans'},
+                            { value: 'eggs', viewValue:  'Eggs'},
+                            { value: 'peanuts', viewValue:  'peanuts'},
+                            { value: 'soybeans', viewValue:  'Soybeans'},
+                            { value: 'dairy', viewValue:  'Dairy'},
+                            { value: 'tree_nuts', viewValue:  'Tree nuts'},
+                            { value: 'celery', viewValue:  'Celery'},
+                            { value: 'mustard', viewValue:  'Mustard'},
+                            { value: 'sesame_seeds ', viewValue:  'Sesame seeds'},
+                            { value: 'molluscs ', viewValue:  'Molluscs'},]
     this.foodType = FoodType.Vegetarian;
   }
 

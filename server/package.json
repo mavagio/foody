@@ -6,6 +6,7 @@
   "scripts": {
     "start": "tsc && set DEBUG=express:* && node src/server.js",
     "start:cloud": "tsc && NODE_ENV=production node src/server.js",
+    "dev:cloud": "nodemon --exec npm run start:cloud",
     "start:heroku": "npm run start:cloud",
     "dev": "nodemon --exec npm start",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",

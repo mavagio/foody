@@ -1,8 +1,8 @@
-export interface IIngridient {
+export interface IIngredient {
   name: string;
   amount: string;
   state: string;
-  required: boolean;
+  required?: boolean;
 }
 
 export interface IRecipe {
@@ -13,8 +13,9 @@ export interface IRecipe {
    nutritionCategory: string;
    allergenics?: [string];
    preparationSteps: [string];
-   ingridients: [IIngridient];
+   ingredients: [IIngredient];
    preparationTimeInMinuts: number,
    videoURL: string;
+   youtubeId: string;
    imageURL: string;
 }

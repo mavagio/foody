@@ -8,25 +8,14 @@
             <a class="edit-settings" [routerLink]="['/start', 1]">Edit household</a>
           </div>
           <ul>
-            <ng-container *ngFor="let recipe of recipeList">
-              <li [routerLink]="['/recipe']" matRipple class="week-wrapper">
-                <div class="img" [style.background-image]="recipe.image_url"></div>
+            <ng-container *ngFor="let recipe of recipes">
+              <li [routerLink]="['/recipe', recipe._id]" matRipple class="week-wrapper">
+                <div class="img" [style.background-image]="'url('+recipe.imageURL+')'"></div>
                 <div class="content">
-                  <div class="recipe-text">{{recipe.short_description}}</div>
+                  <div class="recipe-text">{{recipe.title}}</div>
                 </div>
               </li>
             </ng-container>
-          </ul>
-          <div class="week-header">
-            <h3 class="week-title">Week 1, 2019</h3>
-          </div>
-          <ul *ngFor="let recipe of recipeList">
-            <li [routerLink]="['/recipe']" matRipple class="week-wrapper">
-              <div class="img" [style.background-image]="recipe.image_url"></div>
-              <div class="content">
-                <div class="recipe-text">{{recipe.short_description}}</div>
-              </div>
-            </li>
           </ul>
         </div>
       </div>
@@ -39,20 +28,9 @@
         </div>
         <div class="ingridient-container">
             <mat-selection-list>
-              <mat-list-option *ngFor="let ingridient of ingridientList" checkboxPosition="before">
+              <mat-list-option *ngFor="let ingridient of ingredients" checkboxPosition="before">
                 <mat-divider></mat-divider>
-                {{ingridient.viewValue}}
-              </mat-list-option>
-            </mat-selection-list>
-        </div>
-        <div class="week-header">
-          <h3 class="week-title">Week 1, 2019</h3>
-        </div>
-        <div class="ingridient-container">
-            <mat-selection-list>
-              <mat-list-option *ngFor="let ingridient of ingridientList" checkboxPosition="before">
-                <mat-divider></mat-divider>
-                {{ingridient.viewValue}}
+                {{ingridient.name}}
               </mat-list-option>
             </mat-selection-list>
         </div>

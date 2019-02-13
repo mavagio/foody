@@ -26,6 +26,8 @@
 }
 
 .allergies-step-content {
+  max-height: 300px;
+  overflow: scroll;
 }
 
 mat-selection-list {

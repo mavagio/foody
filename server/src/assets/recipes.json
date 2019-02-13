@@ -7,8 +7,9 @@
     "nutritionCategory": "vegan",
     "preparationTimeInMinuts": 30,
     "videoURL": "https://youtu.be/Ny1hGQ5uvYc",
-    "imageURL": "https://img.youtube.com/vi/Ny1hGQ5uvYc/maxresdefault.jpg",
-    "ingridients": [{
+    "youtubeId": "Ny1hGQ5uvYc",
+    "imageURL": "https://img.youtube.com/vi/Ny1hGQ5uvYc/mqdefault.jpg",
+    "ingredients": [{
         "name": "Water",
         "amount": "2 cups, (480ml)"
       },
@@ -72,8 +73,9 @@
     "nutritionCategory": "vegetarian",
     "preparationTimeInMinuts": 20,
     "videoURL": "https://youtu.be/9dQvLt5LGes",
-    "imageURL": "https://img.youtube.com/vi/9dQvLt5LGes/maxresdefault.jpg",
-    "ingridients": [{
+    "youtubeId": "9dQvLt5LGes",
+    "imageURL": "https://img.youtube.com/vi/9dQvLt5LGes/mqdefault.jpg",
+    "ingredients": [{
         "name": "Small pita rounds",
         "amount": "2",
         "state": ""
@@ -181,8 +183,9 @@
     "nutritionCategory": "vegetarian",
     "preparationTimeInMinuts": 55,
     "videoURL": "https://youtu.be/GXZXq7cb8P0",
-    "imageURL": "https://img.youtube.com/vi/GXZXq7cb8P0/maxresdefault.jpg",
-    "ingridients": [{
+    "youtubeId": "GXZXq7cb8P0",
+    "imageURL": "https://img.youtube.com/vi/GXZXq7cb8P0/mqdefault.jpg",
+    "ingredients": [{
         "name": "Sweet potatoes",
         "amount": "2 large or 3 small",
         "state": "scrubbed"
@@ -286,8 +289,9 @@
     "nutritionCategory": "everything",
     "preparationTimeInMinuts": 55,
     "videoURL": "https://youtu.be/Ut6hZL0FbtA",
-    "imageURL": "https://img.youtube.com/vi/Ut6hZL0FbtA/maxresdefault.jpg",
-    "ingridients": [{
+    "youtubeId": "Ut6hZL0FbtA",
+    "imageURL": "https://img.youtube.com/vi/Ut6hZL0FbtA/mqdefault.jpg",
+    "ingredients": [{
         "name": "Coconut oil",
         "amount": "1 tbs",
         "state": ""

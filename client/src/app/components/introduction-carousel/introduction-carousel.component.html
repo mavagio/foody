@@ -58,8 +58,8 @@
       </ng-container>
       <!-- 3 section -->
       <ng-container  *ngIf="activePage==3">
-        <div class="content allergies-step-content">
-          <mat-selection-list >
+        <div class="content">
+          <mat-selection-list class="allergies-step-content">
             <mat-list-option *ngFor="let allergie of typeOfAllergies" #shoes checkboxPosition="before">
               {{allergie.viewValue}}
               <mat-divider></mat-divider>
