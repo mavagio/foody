@@ -36,6 +36,7 @@ import { RecipeComponent } from './recipe/recipe.component';
 
 import { SwiperModule } from 'angular2-useful-swiper';
 import { WeeksComponent } from './weeks/weeks.component';
+import { CookieLawModule } from 'angular2-cookie-law';
 
 @NgModule({
   declarations: [
@@ -116,6 +117,7 @@ import { WeeksComponent } from './weeks/weeks.component';
     HttpClientModule,
     routing,
     SwiperModule,
+    CookieLawModule
   ],
   providers: [
     {provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true},
