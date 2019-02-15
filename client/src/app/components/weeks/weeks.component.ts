@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {ApiRequestsService} from '../../services/api-requests.service';
 import {IIngredient, IRecipe} from "../../../../../shared/models/recipeModel";
+import { Cookie } from 'ng2-cookies';
 
 
 @Component({
@@ -19,6 +20,10 @@ export class WeeksComponent implements OnInit {
 
   ngOnInit() {
     this.getAllRecipes();
+    let saveCookie = { someObject: "some value", somemore: "morevalue" };
+    Cookie.set('userSettings', JSON.stringify(saveCookie));
+    let goodCookie = Cookie.get('userSettings');
+    console.log(JSON.parse(goodCookie));
   }
 
   public getAllRecipes(): void {

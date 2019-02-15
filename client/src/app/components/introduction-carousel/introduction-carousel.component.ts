@@ -1,17 +1,12 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import {style, state, animate, transition, trigger, query, stagger, group} from '@angular/animations';
 import {scaleUp, numberChangeAnimation, progressAnimation, activeStepCircle, brightDimSelection} from '../../animations/animations';
-
 import {Router, ActivatedRoute, Params} from '@angular/router';
-
+import { Cookie } from 'ng2-cookies';
+import { NutritionCategory } from '../../../../../shared/models/recipeModel'
 export interface Allergy {
   value: string;
   viewValue: string;
-}
-
-enum FoodType {
-  Vegetarian,
-  Everything
 }
 
 @Component({
@@ -28,12 +23,12 @@ enum FoodType {
 })
 export class IntroductionCarouselComponent implements OnInit {
 
-  public foodTypEnum = FoodType;
+  public nutritionCategoryEnum = NutritionCategory;
   public activePage: number;
   public numberOfPeople: number;
   public amountPerPerson: number;
   public typeOfAllergies: Allergy[];
-  public foodType: FoodType;
+  public nutritionCategory: NutritionCategory;
 
   public isCounterChanged=false;
 
@@ -54,7 +49,7 @@ export class IntroductionCarouselComponent implements OnInit {
                             { value: 'mustard', viewValue:  'Mustard'},
                             { value: 'sesame_seeds ', viewValue:  'Sesame seeds'},
                             { value: 'molluscs ', viewValue:  'Molluscs'},]
-    this.foodType = FoodType.Vegetarian;
+    this.nutritionCategory = NutritionCategory.vegetarian;
   }
 
   ngOnInit() {

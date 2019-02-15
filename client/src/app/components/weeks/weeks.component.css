@@ -152,4 +152,16 @@ mat-button-toggle-group {
   border-top: none !important;
 }
 
+.ingredient-quantity {
+  color: #010D37;
+  font-size: 16px !important;
+  line-height: 21px;
+  float: right;
+  font-weight: 300 !important;
+}
 
+.ingredient-name {
+  color: #010D37;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}

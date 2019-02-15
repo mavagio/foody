@@ -28,9 +28,12 @@
         </div>
         <div class="ingridient-container">
             <mat-selection-list>
-              <mat-list-option *ngFor="let ingridient of ingredients" checkboxPosition="before">
+              <mat-list-option *ngFor="let ingredient of ingredients" checkboxPosition="before">
                 <mat-divider></mat-divider>
-                {{ingridient.name}}
+                <span class="ingredient-name">
+                  {{ingredient.name}} 
+                  <span class="ingredient-quantity">{{ingredient.amount}}</span>
+                </span>
               </mat-list-option>
             </mat-selection-list>
         </div>

@@ -76,14 +76,14 @@
       <ng-container  *ngIf="activePage==4">
         <div class="content">     
           <div class="food-type-container">
-              <div matRipple [matRippleCentered] class="food-type-box vegetarian-food-image" (click)="foodType=foodTypEnum.Vegetarian">
-                <div class="food-type-layer" [@brightDimSelection]="foodType===foodTypEnum.Vegetarian? 'active': ''"></div>
+              <div matRipple [matRippleCentered] class="food-type-box vegetarian-food-image" (click)="nutritionCategory=nutritionCategoryEnum.Vegetarian">
+                <div class="food-type-layer" [@brightDimSelection]="nutritionCategory===nutritionCategoryEnum.vegetarian? 'active': ''"></div>
                 <span class="food-type-text">
                   Vegetarian
                 </span>
               </div>   
-              <div matRipple [matRippleCentered] class="food-type-box meat-food-image"  (click)="foodType=foodTypEnum.Everything">
-                <div class="food-type-layer"  [@brightDimSelection]="foodType===foodTypEnum.Everything? 'active':''"></div>
+              <div matRipple [matRippleCentered] class="food-type-box meat-food-image"  (click)="nutritionCategory=nutritionCategoryEnum.everything">
+                <div class="food-type-layer"  [@brightDimSelection]="nutritionCategory===nutritionCategoryEnum.Everything? 'active':''"></div>
                 <span class="food-type-text">
                   Everything
                 </span>

@@ -1,5 +1,4 @@
-[
-  {
+[{
     "title": "Avocado Quinoa Power Salad",
     "approvalRating": 94,
     "amountOfPeople": 6,
@@ -200,7 +199,7 @@
         "amount": "1 can, (425g)",
         "state": "rinsed and drained"
       },
-      
+
       {
         "name": "Olive oil",
         "amount": "120ml",
@@ -306,7 +305,7 @@
         "amount": "6",
         "state": ""
       },
-      
+
       {
         "name": "Basmati rice",
         "amount": "1 cup (200g)",
@@ -403,16 +402,124 @@
       }
     ],
     "preparationSteps": [
-        "Make the basmati rice: Melt the coconut oil in a small pot over medium heat. Add the cinnamon stick and cardamom pods and sauté for 2 minutes, until toasty and aromatic.",
-        "Add the soaked basmati rice, water, and salt. Cover and cook for 10 minutes, until the rice is fluffy. Remove from the heat, fluff the rice with a fork, and remove the cinnamon sticks and cardamom pods. Set aside.",
-        "In a large pan, melt the coconut oil over medium heat.",
-        "Add the onion and sauté, stirring occasionally for 10 minutes, until onion is light golden brown.",
-        "Add the ginger and garlic and sauté for 1 minute, until toasty and aromatic.",
-        "Add the tomato paste, turmeric, cumin, coriander, and cayenne and stir to combine.",
-        "Add the yogurt and chicken thighs and season with salt and pepper. Cook for 5 minutes, or until the chicken is no longer pink on the outside.",
-        "Add the water, cover, and cook for 10 minutes.",
-        "Remove the lid and continue to cook, tossing the chicken occasionally, for 5 minutes or until the curry sauce has thickened to your liking.",
-        "Serve the chicken and sauce over the rice with lime wedges and cilantro."
+      "Make the basmati rice: Melt the coconut oil in a small pot over medium heat. Add the cinnamon stick and cardamom pods and sauté for 2 minutes, until toasty and aromatic.",
+      "Add the soaked basmati rice, water, and salt. Cover and cook for 10 minutes, until the rice is fluffy. Remove from the heat, fluff the rice with a fork, and remove the cinnamon sticks and cardamom pods. Set aside.",
+      "In a large pan, melt the coconut oil over medium heat.",
+      "Add the onion and sauté, stirring occasionally for 10 minutes, until onion is light golden brown.",
+      "Add the ginger and garlic and sauté for 1 minute, until toasty and aromatic.",
+      "Add the tomato paste, turmeric, cumin, coriander, and cayenne and stir to combine.",
+      "Add the yogurt and chicken thighs and season with salt and pepper. Cook for 5 minutes, or until the chicken is no longer pink on the outside.",
+      "Add the water, cover, and cook for 10 minutes.",
+      "Remove the lid and continue to cook, tossing the chicken occasionally, for 5 minutes or until the curry sauce has thickened to your liking.",
+      "Serve the chicken and sauce over the rice with lime wedges and cilantro."
+    ],
+    "allergenics": []
+  },
+  {
+    "title": "Chicken Bibimbap",
+    "amountOfPeople": 2,
+    "priceOnAverage": 12,
+    "nutritionCategory": "everything",
+    "preparationTimeInMinuts": 60,
+    "videoURL": "https://youtu.be/kt8ydA48NiA",
+    "youtubeId": "kt8ydA48NiA",
+    "imageURL": "https://img.youtube.com/vi/kt8ydA48NiA/mqdefault.jpg",
+    "ingredients": [{
+        "name": "Garlic",
+        "amount": "3 cloves",
+        "state": "minced"
+      },
+      {
+        "name": "Fresh ginger",
+        "amount": "2 tsp",
+        "state": "minced"
+      },
+      {
+        "name": "Scallions",
+        "amount": "2",
+        "state": "thinly sliced"
+      },
+      {
+        "name": "Soy sauce",
+        "amount": "60 ml",
+        "state": ""
+      },
+      {
+        "name": "Mirin",
+        "amount": "1 tbsp",
+        "state": ""
+      },
+      {
+        "name": "Sesam oil",
+        "amount": "4 tbsp",
+        "state": ""
+      },
+      {
+        "name": "Light brown sugar",
+        "amount": "1 tbsp",
+        "state": ""
+      },
+      {
+        "name": "Skinless chicken thighs",
+        "amount": "455 grams",
+        "state": "sliced in 1.25 cm strips"
+      },
+      {
+        "name": "Fresh spinach",
+        "amount": "160 grams",
+        "state": ""
+      },
+      {
+        "name": "Kosher salt",
+        "amount": "To taste",
+        "state": ""
+      },
+      {
+        "name": "Large carrots",
+        "amount": "2",
+        "state": "sliced in strips"
+      },
+      {
+        "name": "Shittake mushrooms",
+        "amount": "150 grams",
+        "state": "removed stems"
+      },
+      {
+        "name": "Unsalted butter",
+        "amount": "1 tbsp",
+        "state": ""
+      },
+      {
+        "name": "Large eggs",
+        "amount": "2",
+        "state": ""
+      },
+      {
+        "name": "Sushi rice",
+        "amount": "1 cup",
+        "state": "",
+        "required": false
+      },
+      {
+        "name": "Kimchi",
+        "amount": "To taste",
+        "state": ""
+      },
+      {
+        "name": "Persian cucumber",
+        "amount": "To taste",
+        "state": ""
+      }
+    ],
+    "preparationSteps": [
+      "In a shallow dish, combine 2 cloves of garlic, the ginger, 2 thinly sliced scallions, the soy sauce, 2 tablespoons sesame oil, the mirin, and brown sugar, and whisk to combine.",
+      "Add the chicken and toss to coat. Cover with plastic wrap and let marinate in the refrigerator for 30 minutes.",
+      "Bring a large pot of water to boil over high heat and season generously with salt. Prepare an ice bath in a large bowl. Blanch the spinach in the boiling water for 30 seconds, then transfer to the ice bath to shock, then drain. Transfer to a small bowl and season with 1 teaspoon of sesame oil, salt, and pepper.",
+      "In a medium skillet, heat 1 teaspoon of sesame oil over medium heat. Add the carrots and cook until softened, 2-3 minutes. Remove from the pan and set aside. Season with salt.",
+      "In the same skillet, heat 1 tablespoon of sesame oil over medium-high heat. Add the remaining clove of garlic and cook for 30 seconds, until fragrant. Add the mushrooms and cook, stirring frequently, until softened, about 2 minutes. Season with salt, then remove from the pan and set aside.",
+      "In the same skillet, heat the remaining tablespoon of sesame oil over medium-high heat. Add the marinated chicken and sauté, stirring occasionally, until cooked through, about 5 minutes.",
+      "Heat a nonstick pan over medium-high heat. Melt the butter in the pan. Once the foaming subsides, crack the eggs into the pan and cook until the whites are firm and golden brown around the edges and the yolks are still runny, or to your desired doneness.",
+      "To assemble the bibimbap bowls, top the rice with the chicken, kimchi, sliced scallions, carrots, spinach, mushrooms, cucumbers, and fried eggs."
     ],
     "allergenics": []
   }

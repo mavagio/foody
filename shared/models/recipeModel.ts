@@ -5,6 +5,12 @@ export interface IIngredient {
   required?: boolean;
 }
 
+export enum NutritionCategory {
+  vegan,
+  vegetarian,
+  everything,
+}
+
 export interface IRecipe {
    title: string;
    approval: number
