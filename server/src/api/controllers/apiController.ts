@@ -29,7 +29,6 @@ module.exports = (passport: any) => {
      * Recipe methods
      * */
     publicModule.recipe_get = (req: any, res: any, next: any) => {
-        console.log("I have got here");
         recipeCtrl.get(req, res);
     }
 
@@ -79,7 +78,6 @@ module.exports = (passport: any) => {
             if (!user) {
                 return res.send({success: false, message: 'login failed'});
             }
-            console.log('Secret is: ', process.env.JWT_SECRET);
             // generate a signed son web token with the contents of user object and return it in the response
             const token = jwt.sign(user.toJSON(),
                 String(process.env.JWT_SECRET),

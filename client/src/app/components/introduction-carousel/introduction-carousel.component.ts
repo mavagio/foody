@@ -64,7 +64,6 @@ export class IntroductionCarouselComponent implements OnInit {
     this.nutritionCategory = this.userSettingsObject.nutritionCategory != null? this.userSettingsObject.nutritionCategory: NutritionCategory.vegetarian;
     this.budgetPerDay = this.userSettingsObject.budgetPerDay != null ? this.userSettingsObject.budgetPerDay : 5;
     if(this.userSettingsObject.allergenics != null) this.typeOfAllergenics.map(allergenic => {allergenic.selected = this.userSettingsObject.allergenics.includes(allergenic.value)});
-    console.log(this.typeOfAllergenics);
   }
 
   private setActivePageFromParams() {
@@ -108,6 +107,5 @@ export class IntroductionCarouselComponent implements OnInit {
         return allergenic.value; 
       });
     this.userSettingsCookieService.setUserSettingsCookie(this.numberOfPeople, this.budgetPerDay, selectedAllergenicsValues, this.nutritionCategory)
-    console.log(this.userSettingsCookieService.getUserSettingsObject());
   }
 }

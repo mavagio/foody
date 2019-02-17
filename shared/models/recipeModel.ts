@@ -3,6 +3,8 @@ export interface IIngredient {
   amount: string;
   state: string;
   required?: boolean;
+  selected?: boolean;
+  _id?: string;
 }
 
 export enum NutritionCategory {

@@ -20,7 +20,6 @@ export class UserSettingsCookieService {
 
   private updateCurrentUserSettingsCookieValue() {
     this.currentUserSettingsCookieValue = this.getUserSettingsObject();
-    console.log(this.currentUserSettingsCookieValue);
   }
 
   public setNumberOfPeople(numberOfPeople: number): void {

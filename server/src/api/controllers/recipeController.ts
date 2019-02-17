@@ -25,7 +25,6 @@ export default class RecipeClass<T extends any> extends Base<T> {
     }
 
     public get(req: any, res: any) {
-        console.log("$$$$$----the id is req.params.recipeId ", req.params.recipeId);
         this.model.findOne({_id: req.params.recipeId}, (err: any, obj: any) => {
             if (err) {
                 return console.error(err);

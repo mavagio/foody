@@ -34,10 +34,16 @@
         <h3 class="title-text">Mexican pulled pork ketogenic high energy taco's</h3>
         <h4 class="section-title-text">Ingredients</h4>
         <div class="ingridient-container">
-            <mat-selection-list>
-              <mat-list-option *ngFor="let ingridient of recipe?.ingredients" checkboxPosition="before">
+            <mat-selection-list #ingredientslist (selectionChange)="onIngredientsSelected($event, ingredientslist.selectedOptions.selected)">
+              <mat-list-option *ngFor="let ingredient of recipe?.ingredients" 
+                               checkboxPosition="before"
+                               [value]="ingredient"
+                               [selected]="ingredient?.selected">
                 <mat-divider></mat-divider>
-                {{ingridient?.name}}
+                <span class="ingredient-name">
+                  {{ingredient?.name}} 
+                  <span class="ingredient-quantity">{{ingredient?.amount}}</span>
+                </span>
               </mat-list-option>
             </mat-selection-list>
       </div>

@@ -27,8 +27,11 @@
           <h3 class="week-title">Week 1, 2019</h3>
         </div>
         <div class="ingridient-container">
-            <mat-selection-list>
-              <mat-list-option *ngFor="let ingredient of ingredients" checkboxPosition="before">
+            <mat-selection-list #ingredientslist (selectionChange)="onIngredientsSelected($event, ingredientslist.selectedOptions.selected)">
+              <mat-list-option *ngFor="let ingredient of ingredients" 
+                               checkboxPosition="before" 
+                               [value]="ingredient"
+                               [selected]="ingredient?.selected">
                 <mat-divider></mat-divider>
                 <span class="ingredient-name">
                   {{ingredient.name}} 
