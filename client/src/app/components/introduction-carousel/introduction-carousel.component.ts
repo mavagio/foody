@@ -7,9 +7,10 @@ import { IUserSettings } from '../../../../../shared/models/userSettingsModel';
 
 import { UserSettingsCookieService } from '../../services/user-settings-cookie.service';
 
-export interface Allergy {
+export interface Allergenic {
   value: string;
   viewValue: string;
+  selected: boolean;
 }
 
 @Component({
@@ -29,7 +30,7 @@ export class IntroductionCarouselComponent implements OnInit {
   public activePage: number;
   public numberOfPeople: number;
   public budgetPerDay: number;
-  public typeOfAllergies: Allergy[];
+  public typeOfAllergenics: Allergenic[];
   public nutritionCategory: NutritionCategory;
 
   public userSettingsObject: IUserSettings;
@@ -40,25 +41,30 @@ export class IntroductionCarouselComponent implements OnInit {
               private router: Router,
               private userSettingsCookieService: UserSettingsCookieService) {
     this.activePage = 0;
-    this.typeOfAllergies = [{ value: 'gluten', viewValue: 'Gluten' },
-                            { value: 'crustaceans', viewValue:  'Crustaceans'},
-                            { value: 'eggs', viewValue:  'Eggs'},
-                            { value: 'peanuts', viewValue:  'peanuts'},
-                            { value: 'soybeans', viewValue:  'Soybeans'},
-                            { value: 'dairy', viewValue:  'Dairy'},
-                            { value: 'tree_nuts', viewValue:  'Tree nuts'},
-                            { value: 'celery', viewValue:  'Celery'},
-                            { value: 'mustard', viewValue:  'Mustard'},
-                            { value: 'sesame_seeds ', viewValue:  'Sesame seeds'},
-                            { value: 'molluscs ', viewValue:  'Molluscs'},]
+    this.typeOfAllergenics = [{ value: 'gluten', viewValue: 'Gluten', selected: false },
+                            { value: 'crustaceans', viewValue:  'Crustaceans', selected: false},
+                            { value: 'eggs', viewValue:  'Eggs', selected: false},
+                            { value: 'peanuts', viewValue:  'peanuts', selected: false},
+                            { value: 'soybeans', viewValue:  'Soybeans', selected: false},
+                            { value: 'dairy', viewValue:  'Dairy', selected: false},
+                            { value: 'tree_nuts', viewValue:  'Tree nuts', selected: false},
+                            { value: 'celery', viewValue:  'Celery', selected: false},
+                            { value: 'mustard', viewValue:  'Mustard', selected: false},
+                            { value: 'sesame_seeds ', viewValue:  'Sesame seeds', selected: false},
+                            { value: 'molluscs ', viewValue:  'Molluscs', selected: false},]
   }
-
   ngOnInit() {
     this.setActivePageFromParams();
     this.userSettingsObject = this.userSettingsCookieService.getUserSettingsObject();
+    this.updateUserSettingsViewValues();
+  }
+
+  updateUserSettingsViewValues() {
     this.numberOfPeople = this.userSettingsObject.numberOfPeople != null ? this.userSettingsObject.numberOfPeople : 1;
     this.nutritionCategory = this.userSettingsObject.nutritionCategory != null? this.userSettingsObject.nutritionCategory: NutritionCategory.vegetarian;
-    this.budgetPerDay = this.userSettingsObject.budgetPerDay != null ? this.userSettingsObject.budgetPerDay : 1;
+    this.budgetPerDay = this.userSettingsObject.budgetPerDay != null ? this.userSettingsObject.budgetPerDay : 5;
+    if(this.userSettingsObject.allergenics != null) this.typeOfAllergenics.map(allergenic => {allergenic.selected = this.userSettingsObject.allergenics.includes(allergenic.value)});
+    console.log(this.typeOfAllergenics);
   }
 
   private setActivePageFromParams() {
@@ -70,8 +76,9 @@ export class IntroductionCarouselComponent implements OnInit {
     });
   }
 
-  public onAllergiesSelection(selectionArray: any): void {
-    const allergenicsNames: [string] = selectionArray.map(result => result.value.value)
+  public onAllergiesSelection(e, selectionArray: any): void {
+    e.option.value.selected = !e.option.value.selected;
+    const allergenicsNames: string[] = selectionArray.map(result => result.value.value)
     this.userSettingsCookieService.setAllergenicsCookie(allergenicsNames);
   }
 
@@ -92,11 +99,15 @@ export class IntroductionCarouselComponent implements OnInit {
   }
 
   public generateRecepies(): void {
+    this.setUserSettingsCookie();
   }
 
   private setUserSettingsCookie() {
-    console.log();
-
-    // this.userSettingsCookieService.setCookie(this.numberOfPeople, this.budgetPerDay, );
+    const selectedAllergenicsValues = this.typeOfAllergenics.map( allergenic => {
+      if(allergenic.selected) 
+        return allergenic.value; 
+      });
+    this.userSettingsCookieService.setUserSettingsCookie(this.numberOfPeople, this.budgetPerDay, selectedAllergenicsValues, this.nutritionCategory)
+    console.log(this.userSettingsCookieService.getUserSettingsObject());
   }
 }

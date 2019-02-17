@@ -59,12 +59,12 @@
       <!-- 3 section -->
       <ng-container  *ngIf="activePage==3">
         <div class="content">
-          <mat-selection-list #allergies (selectionChange)="onAllergiesSelection(allergies.selectedOptions.selected)" class="allergies-step-content">
-            <mat-list-option *ngFor="let allergie of typeOfAllergies" 
+          <mat-selection-list #allergies (selectionChange)="onAllergiesSelection($event, allergies.selectedOptions.selected)" class="allergies-step-content">
+            <mat-list-option *ngFor="let allergie of typeOfAllergenics" 
                              #shoes 
                              checkboxPosition="before" 
                              [value]="allergie"  
-                             [selected]="userSettingsObject?.allergenics?.includes(allergie.value)">
+                             [selected]="allergie.selected">
               {{allergie.viewValue}}
               <mat-divider></mat-divider>
             </mat-list-option>

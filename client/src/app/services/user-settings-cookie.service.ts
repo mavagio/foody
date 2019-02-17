@@ -31,7 +31,7 @@ export class UserSettingsCookieService {
     this.updateUsereSettingsCookie(null, budgetPerDay, null, null);
   }
 
-  public setAllergenicsCookie(allergenics: [string]): void {
+  public setAllergenicsCookie(allergenics: string[]): void {
     this.updateUsereSettingsCookie(null, null, allergenics, null);
   }
 
@@ -39,7 +39,7 @@ export class UserSettingsCookieService {
     this.updateUsereSettingsCookie(null, null, null, nutritionCategory);
   }
 
-  public updateUsereSettingsCookie(numberOfPeople: number, budgetPerDay: number, allergenics: [string], nutritionCategory: NutritionCategory) {   
+  public updateUsereSettingsCookie(numberOfPeople: number, budgetPerDay: number, allergenics: string[], nutritionCategory: NutritionCategory) {   
     this.setUserSettingsCookie(
       numberOfPeople != null ? numberOfPeople : this.currentUserSettingsCookieValue.numberOfPeople,
       budgetPerDay != null ? budgetPerDay : this.currentUserSettingsCookieValue.budgetPerDay,
@@ -47,7 +47,7 @@ export class UserSettingsCookieService {
       nutritionCategory != null ? nutritionCategory : this.currentUserSettingsCookieValue.nutritionCategory);
   }
 
-  public setUserSettingsCookie(numberOfPeople: number, budgetPerDay: number, allergenics: [string], nutritionCategory: NutritionCategory) {
+  public setUserSettingsCookie(numberOfPeople: number, budgetPerDay: number, allergenics: string[], nutritionCategory: NutritionCategory) {
     const userSettings: IUserSettings =
     {
       numberOfPeople: numberOfPeople,

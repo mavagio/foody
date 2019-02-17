@@ -17,9 +17,9 @@ export interface IRecipe {
    amountOfPeople: number;
    priceOnAverage: number,
    nutritionCategory: string;
-   allergenics?: [string];
-   preparationSteps: [string];
-   ingredients: [IIngredient];
+   allergenics?: string[];
+   preparationSteps: string[];
+   ingredients: IIngredient[];
    preparationTimeInMinuts: number,
    videoURL: string;
    youtubeId: string;
