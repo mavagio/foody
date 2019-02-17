@@ -9,7 +9,7 @@ export const scaleUp = trigger('scaleUp', [
     style({
       opacity: 0,
       transform: 'scale(0.5)',
-    }),
+    }), 
     animate('200ms ease-in')
   ])
 ]);
@@ -44,7 +44,7 @@ export const activeStepCircle = trigger('activeStepCircle', [
 export const brightDimSelection = trigger('brightDimSelection', [
   state('active', style({ background: 'none'})),
   transition('* => active', [
-    animate('300ms ease-in')
+    animate('200ms ease-in')
   ])
 ]);
 

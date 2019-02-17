@@ -33,19 +33,19 @@
           <h4 class="h4 first-page-content">How many <b>people</b> do you have in your <b>household</b>?</h4>
         </div>
         <div class="footer">
-          <button mat-flat-button color="primary" primary (click)="incrementIntroductionPage()">Continue</button>
+          <button mat-flat-button color="primary" primary (click)="incrementIntroductionPage(); onNumberOfPeopleSelection();">Continue</button>
         </div>
       </ng-container>
       <!-- 2 section -->
       <ng-container  *ngIf="activePage==2">
         <div class="content">
           <div class="circle">
-              <span>&euro;</span><span [@numberChangeAnimation]="amountPerPerson">{{amountPerPerson}}</span>
+              <span>&euro;</span><span [@numberChangeAnimation]="budgetPerDay">{{budgetPerDay}}</span>
               <div class="counter-controles">
-                  <button color="secondary" class="minus-button" mat-mini-fab (click)="amountPerPerson = amountPerPerson - 1 > 1 ? amountPerPerson - 1 : 1">
+                  <button color="secondary" class="minus-button" mat-mini-fab (click)="budgetPerDay = budgetPerDay - 1 > 1 ? budgetPerDay - 1 : 1">
                       <mat-icon aria-label="Example icon-button with a heart icon">remove</mat-icon>
                   </button>
-                  <button color="secondary" class="plus-button" mat-mini-fab (click)="amountPerPerson = amountPerPerson + 1">
+                  <button color="secondary" class="plus-button" mat-mini-fab (click)="budgetPerDay = budgetPerDay + 1">
                       <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
                   </button>
                 </div>
@@ -53,14 +53,18 @@
           <h4 class="h4 first-page-content">How much money do you guys want to spend <b>per day</b>?</h4>
         </div>
         <div class="footer">
-          <button mat-flat-button color="primary" primary (click)="incrementIntroductionPage()">Continue</button>
+          <button mat-flat-button color="primary" primary (click)="incrementIntroductionPage(); onBudgetPerDaySelection();">Continue</button>
         </div>
       </ng-container>
       <!-- 3 section -->
       <ng-container  *ngIf="activePage==3">
         <div class="content">
-          <mat-selection-list class="allergies-step-content">
-            <mat-list-option *ngFor="let allergie of typeOfAllergies" #shoes checkboxPosition="before">
+          <mat-selection-list #allergies (selectionChange)="onAllergiesSelection(allergies.selectedOptions.selected)" class="allergies-step-content">
+            <mat-list-option *ngFor="let allergie of typeOfAllergies" 
+                             #shoes 
+                             checkboxPosition="before" 
+                             [value]="allergie"  
+                             [selected]="userSettingsObject?.allergenics?.includes(allergie.value)">
               {{allergie.viewValue}}
               <mat-divider></mat-divider>
             </mat-list-option>
@@ -76,14 +80,14 @@
       <ng-container  *ngIf="activePage==4">
         <div class="content">     
           <div class="food-type-container">
-              <div matRipple [matRippleCentered] class="food-type-box vegetarian-food-image" (click)="nutritionCategory=nutritionCategoryEnum.Vegetarian">
+              <div matRipple [matRippleCentered] class="food-type-box vegetarian-food-image" (click)="nutritionCategory=nutritionCategoryEnum.vegetarian">
                 <div class="food-type-layer" [@brightDimSelection]="nutritionCategory===nutritionCategoryEnum.vegetarian? 'active': ''"></div>
                 <span class="food-type-text">
                   Vegetarian
                 </span>
               </div>   
               <div matRipple [matRippleCentered] class="food-type-box meat-food-image"  (click)="nutritionCategory=nutritionCategoryEnum.everything">
-                <div class="food-type-layer"  [@brightDimSelection]="nutritionCategory===nutritionCategoryEnum.Everything? 'active':''"></div>
+                <div class="food-type-layer"  [@brightDimSelection]="nutritionCategory===nutritionCategoryEnum.everything? 'active':''"></div>
                 <span class="food-type-text">
                   Everything
                 </span>
@@ -92,7 +96,7 @@
           <h4 class="h4 first-page-content">Do you guys prefer to eat vegetarian or everything?</h4>
         </div>
         <div class="footer">
-          <button mat-flat-button color="primary" primary (click)="generateRecepies()" [routerLink]="['/weeks']">Done!</button>
+          <button mat-flat-button color="primary" primary (click)="generateRecepies(); onNutritionCategorySelection();" [routerLink]="['/weeks']">Done!</button>
         </div>
       </ng-container>
 
