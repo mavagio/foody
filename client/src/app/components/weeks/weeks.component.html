@@ -33,10 +33,10 @@
                                [value]="ingredient"
                                [selected]="ingredient?.selected">
                 <mat-divider></mat-divider>
-                <span class="ingredient-name">
-                  {{ingredient.name}} 
-                  <span class="ingredient-quantity">{{ingredient.amount}}</span>
-                </span>
+                <div class="ingredient-grid">
+                  <span class="ingredient-name">{{ingredient?.name}} </span>
+                  <span class="ingredient-quantity">{{ingredient?.amount}}</span>
+                </div>
               </mat-list-option>
             </mat-selection-list>
         </div>
@@ -44,14 +44,4 @@
     </div>
   </mat-tab>
 </mat-tab-group>
-<!-- <div class="footer-container">
-  <mat-button-toggle-group value="preparetion" #group="matButtonToggleGroup">
-    <mat-button-toggle value="preparetion">
-      Recipes
-    </mat-button-toggle>
-    <mat-button-toggle value="ingrideints">
-      Grocery list
-    </mat-button-toggle>
-  </mat-button-toggle-group>
-</div> -->
   

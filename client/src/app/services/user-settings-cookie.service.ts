@@ -9,9 +9,11 @@ import { NutritionCategory } from '../../../../shared/models/recipeModel';
 export class UserSettingsCookieService {
   public cookieName: string;
   public currentUserSettingsCookieValue: IUserSettings;
+  public cookieExpirationDays: number;
 
   constructor() {
     this.cookieName = "user_settings";
+    this.cookieExpirationDays = 21;
     this.updateCurrentUserSettingsCookieValue();
     if(this.currentUserSettingsCookieValue == null) {
       this.setUserSettingsCookie(null,null,null,null);
@@ -54,7 +56,7 @@ export class UserSettingsCookieService {
       allergenics: allergenics,
       nutritionCategory: nutritionCategory,
     };
-    Cookie.set(this.cookieName, JSON.stringify(userSettings));
+    Cookie.set(this.cookieName, JSON.stringify(userSettings), this.cookieExpirationDays);
     this.updateCurrentUserSettingsCookieValue();
   }
 

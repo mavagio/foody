@@ -98,6 +98,10 @@ mat-button-toggle.mat-button-toggle-checked {
   display: none !important;
 }
 
+::ng-deep.mat-list-item-content {
+  padding: 0 !important;
+}
+
 mat-button-toggle-group {
   border: 0;
   box-shadow: 0 -5px 30px 0 rgba(0,0,0,0.1);
@@ -158,10 +162,17 @@ mat-button-toggle-group {
   line-height: 21px;
   float: right;
   font-weight: 300 !important;
+  justify-self: right;
 }
 
 .ingredient-name {
   color: #010D37;
   font-size: 16px !important;
   font-weight: 700 !important;
+}
+
+.ingredient-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }

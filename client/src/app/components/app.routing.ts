@@ -15,14 +15,14 @@ const routes: Routes = [
   { path: '', redirectTo: '/start', pathMatch: 'full' },
   { path: 'start', component: HomeComponent,  data: {animation: 'HomePage'}},
   { path: 'start/:step', component: HomeComponent,  data: {animation: 'HomePage'}},
-  { path: 'login', component: LoginComponent },
-  { path: 'signup', component: SignupComponent },
-  { path: 'profile', component: ProfileComponent, canActivate: [AuthGuard] },
-  { path: 'test', component: TestComponentComponent},
   { path: 'weeks', component: WeeksComponent, data: {animation: 'WeeksPage'}},
   { path: 'recipe/:recipeId', component: RecipeComponent, data: {animation: 'RecipePage'}},
   { path: 'coming-soon', component: ComingSoonComponent},
-  { path: '**', component: PageNotFoundComponent },
+  { path: '**', redirectTo: '/start'},
+  // { path: 'login', component: LoginComponent },
+  // { path: 'signup', component: SignupComponent },
+  // { path: 'profile', component: ProfileComponent, canActivate: [AuthGuard] },
+  // { path: 'test', component: TestComponentComponent},
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(routes);

@@ -234,10 +234,17 @@ mat-button-toggle-group {
   line-height: 21px;
   float: right;
   font-weight: 300 !important;
+  justify-self: right;
 }
 
 .ingredient-name {
   color: #010D37;
   font-size: 16px !important;
   font-weight: 700 !important;
+}
+
+.ingredient-grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
 }

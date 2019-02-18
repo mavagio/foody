@@ -10,7 +10,7 @@
     "imageURL": "https://img.youtube.com/vi/Ny1hGQ5uvYc/mqdefault.jpg",
     "ingredients": [{
         "name": "Water",
-        "amount": "2 cups, (480ml)"
+        "amount": "2 cups, 480ml"
       },
       {
         "name": "Salt",
@@ -22,12 +22,12 @@
       },
       {
         "name": "Quinoa",
-        "amount": "1 cup, (170g)",
+        "amount": "1 cup, 170g",
         "state": "rinsed"
       },
       {
-        "name": "Spinach",
-        "amount": "2 cups fresh spinach, (80g)",
+        "name": "Fresh Spinach",
+        "amount": "2 cups, 80g",
         "state": "raughly chopped"
       },
       {
@@ -81,7 +81,7 @@
       },
       {
         "name": "Olive oil",
-        "amount": "1/2 cup olive oil, 2 tbs",
+        "amount": "1/2 cup, 2 tbsp",
         "state": ""
       },
       {
@@ -94,7 +94,7 @@
       },
       {
         "name": "Romaine lettuce",
-        "amount": "2 medium hearts",
+        "amount": "2 medium",
         "state": ""
       },
       {
@@ -114,7 +114,7 @@
       },
       {
         "name": "Radish",
-        "amount": "1/2 cup, (60g)",
+        "amount": "1/2 cup, 60g",
         "state": "sliced"
       },
       {
@@ -139,24 +139,24 @@
       },
       {
         "name": "White wine vinegar",
-        "amount": "1 tbs"
+        "amount": "1 tbsp"
       },
       {
         "name": "Garlic",
-        "amount": "2 cloves",
+        "amount": "2",
         "state": "minced"
       },
       {
         "name": "White wine vinegar",
-        "amount": "1 tbs"
+        "amount": "1 tbsp"
       },
       {
         "name": "Ground sumac",
-        "amount": "2 teaspoon"
+        "amount": "2 tsp"
       },
       {
         "name": "Allspice",
-        "amount": "1/4 teaspoon"
+        "amount": "1/4 tsp"
       }
     ],
     "preparationSteps": [
@@ -186,7 +186,7 @@
     "imageURL": "https://img.youtube.com/vi/GXZXq7cb8P0/mqdefault.jpg",
     "ingredients": [{
         "name": "Sweet potatoes",
-        "amount": "2 large or 3 small",
+        "amount": "2 large",
         "state": "scrubbed"
       },
       {
@@ -196,7 +196,7 @@
       },
       {
         "name": "Chickpeas",
-        "amount": "1 can, (425g)",
+        "amount": "1 can, 425g",
         "state": "rinsed and drained"
       },
 
@@ -207,7 +207,7 @@
       },
       {
         "name": "Lemon juice",
-        "amount": "1/5 cup (60ml)",
+        "amount": "1/5 cup, 60ml",
         "state": ""
       },
       {
@@ -217,22 +217,22 @@
       },
       {
         "name": "Ground cumin",
-        "amount": "1 teaspoon",
+        "amount": "1 tsp",
         "state": ""
       },
       {
         "name": "Paprika",
-        "amount": "1 teaspoon",
+        "amount": "1 tsp",
         "state": ""
       },
       {
         "name": "Cinnamon",
-        "amount": "1/4 teaspoon",
+        "amount": "1/4 tsp",
         "state": ""
       },
       {
         "name": "Cayenne",
-        "amount": "1/4 teaspoon",
+        "amount": "1/4 tsp",
         "state": ""
       },
       {
@@ -247,7 +247,7 @@
       },
       {
         "name": "Fresh cilantro",
-        "amount": "1/4 tbs",
+        "amount": "1/4 tbsp",
         "state": "chopped"
       },
       {
@@ -292,7 +292,7 @@
     "imageURL": "https://img.youtube.com/vi/Ut6hZL0FbtA/mqdefault.jpg",
     "ingredients": [{
         "name": "Coconut oil",
-        "amount": "1 tbs",
+        "amount": "1 tbsp",
         "state": ""
       },
       {
@@ -308,7 +308,7 @@
 
       {
         "name": "Basmati rice",
-        "amount": "1 cup (200g)",
+        "amount": "1 cup, 200g",
         "state": "soaked for 10 minutes"
       },
       {
@@ -318,7 +318,7 @@
       },
       {
         "name": "Coconut oil",
-        "amount": "1 teaspoon",
+        "amount": "1 tsp",
         "state": ""
       },
       {
@@ -333,7 +333,7 @@
       },
       {
         "name": "Fresh ginger",
-        "amount": "1 tbs",
+        "amount": "1 tbsp",
         "state": "peeled and minced"
       },
       {
@@ -343,22 +343,22 @@
       },
       {
         "name": "Tomato paste",
-        "amount": "1 tbs",
+        "amount": "1 tbsp",
         "state": ""
       },
       {
         "name": "Ground turmeric",
-        "amount": "1/2 teaspoon",
+        "amount": "1/2 tsp",
         "state": ""
       },
       {
         "name": "Ground cumin",
-        "amount": "2 teaspoons",
+        "amount": "2 tsp",
         "state": ""
       },
       {
         "name": "Ground coriander",
-        "amount": "1 teaspoon",
+        "amount": "1 tsp",
         "state": ""
       },
       {
@@ -369,7 +369,7 @@
       },
       {
         "name": "Full fat greek yogurt",
-        "amount": "1/2 cup (120g)",
+        "amount": "1/2 cup, 120g",
         "state": ""
       },
       {
@@ -421,12 +421,13 @@
     "priceOnAverage": 12,
     "nutritionCategory": "everything",
     "preparationTimeInMinuts": 60,
+    "approvalRating": 97,
     "videoURL": "https://youtu.be/kt8ydA48NiA",
     "youtubeId": "kt8ydA48NiA",
     "imageURL": "https://img.youtube.com/vi/kt8ydA48NiA/mqdefault.jpg",
     "ingredients": [{
         "name": "Garlic",
-        "amount": "3 cloves",
+        "amount": "3",
         "state": "minced"
       },
       {
@@ -441,7 +442,7 @@
       },
       {
         "name": "Soy sauce",
-        "amount": "60 ml",
+        "amount": "60ml",
         "state": ""
       },
       {
@@ -461,17 +462,17 @@
       },
       {
         "name": "Skinless chicken thighs",
-        "amount": "455 grams",
+        "amount": "455g",
         "state": "sliced in 1.25 cm strips"
       },
       {
         "name": "Fresh spinach",
-        "amount": "160 grams",
+        "amount": "160g",
         "state": ""
       },
       {
         "name": "Kosher salt",
-        "amount": "To taste",
+        "amount": "to taste",
         "state": ""
       },
       {
@@ -481,7 +482,7 @@
       },
       {
         "name": "Shittake mushrooms",
-        "amount": "150 grams",
+        "amount": "150g",
         "state": "removed stems"
       },
       {
@@ -502,12 +503,12 @@
       },
       {
         "name": "Kimchi",
-        "amount": "To taste",
+        "amount": "to taste",
         "state": ""
       },
       {
         "name": "Persian cucumber",
-        "amount": "To taste",
+        "amount": "to taste",
         "state": ""
       }
     ],
@@ -520,6 +521,147 @@
       "In the same skillet, heat the remaining tablespoon of sesame oil over medium-high heat. Add the marinated chicken and sauté, stirring occasionally, until cooked through, about 5 minutes.",
       "Heat a nonstick pan over medium-high heat. Melt the butter in the pan. Once the foaming subsides, crack the eggs into the pan and cook until the whites are firm and golden brown around the edges and the yolks are still runny, or to your desired doneness.",
       "To assemble the bibimbap bowls, top the rice with the chicken, kimchi, sliced scallions, carrots, spinach, mushrooms, cucumbers, and fried eggs."
+    ],
+    "allergenics": []
+  },
+  {
+    "title": "Weekday Meal-prep Pesto Chicken & Veggies",
+    "amountOfPeople": 4,
+    "priceOnAverage": 12,
+    "approvalRating": 97,
+    "nutritionCategory": "everything",
+    "preparationTimeInMinuts": 30,
+    "videoURL": "https://vid.tasty.co/output/12355/mp4_720x1280/1476822662",
+    "youtubeId": null,
+    "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/29f6cbb3a6c44658ba03d3421e8d2204/BFV13595_One-PanPestoChickenAndGreenBeans-ThumbTextless1080.jpg",
+    "ingredients": [{
+        "name": "Olive oil",
+        "amount": "2 tbsp",
+        "state": ""
+      },
+      {
+        "name": "Chicken thigh",
+        "amount": "4",
+        "state": "skinless, boneless, sliced"
+      },
+      {
+        "name": "Salt",
+        "amount": "to taste",
+        "state": ""
+      },
+      {
+        "name": "Pepper",
+        "amount": "to taste",
+        "state": ""
+      },
+      {
+        "name": "Green beans",
+        "amount": "455g",
+        "state": ""
+      },
+      {
+        "name": "Cherry tomato",
+        "amount": "2 cups, 400g",
+        "state": "halved"
+      },
+      {
+        "name": "Basil pesto brown sugar",
+        "amount": "1/2 cup, 115g",
+        "state": ""
+      }
+    ],
+    "preparationSteps": [
+      "In a large pan, heat olive oil and add chicken thighs.",
+      "Season with salt and pepper. When the chicken is completely cooked through, remove from pan.",
+      "Slice into strips, and set aside.",
+      "Add green beans and cook until crisp tender.",
+      "Return the chicken strips to the pan, then add tomatoes and pesto. Stir until fully incorporated.",
+      "Divide into 4 food storage containers and store in the refrigerator.",
+      "Or serve immediately!",
+      "NOTE: Can be kept refrigerated for up to 4 days."
+    ],
+    "allergenics": []
+  },
+  {
+    "title": "One-pan Chicken & Veggie Meal Prep",
+    "amountOfPeople": 4,
+    "priceOnAverage": 12,
+    "approvalRating": 98,
+    "nutritionCategory": "everything",
+    "preparationTimeInMinuts": 50,
+    "videoURL": "https://vid.tasty.co/output/18939/mp4_720x1280/1482342336",
+    "youtubeId": null,
+    "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/a27db926525b4b2c9abd06b25606a4db/BFV15295_One-PanChickenVeggieMealPrep-ThumbTextless1080.jpg",
+    "ingredients": [{
+        "name": "Sweet potato",
+        "amount": "1/2",
+        "state": ""
+      },
+      {
+        "name": "Brussels sprouts",
+        "amount": "250g",
+        "state": ""
+      },
+      {
+        "name": "Carrot",
+        "amount": "1",
+        "state": ""
+      },
+
+      {
+        "name": "Head broccoli",
+        "amount": "1/2",
+        "state": ""
+      },
+      {
+        "name": "Chicken breast",
+        "amount": "750g",
+        "state": ""
+      },
+      {
+        "name": "Olive oil",
+        "amount": "to taste",
+        "state": ""
+      },
+      {
+        "name": "Fresh rosemary",
+        "amount": "2 tbsp",
+        "state": "chopped"
+      },
+      {
+        "name": "Fresh thyme",
+        "amount": "2 tbsp",
+        "state": "chopped"
+      },
+      {
+        "name": "Garlic",
+        "amount": "4",
+        "state": "minced"
+      },
+      {
+        "name": "Pepper",
+        "amount": "to taste",
+        "state": ""
+      },
+      {
+        "name": "Salt",
+        "amount": "to taste",
+        "state": ""
+      }
+    ],
+    "preparationSteps": [
+      "Preheat oven to 425˚F (220˚C).",
+      "Cut vegetables. Place each in a separate corner of a baking pan lined with parchment paper.",
+      "NOTE: Broccoli and Brussels sprouts cook faster, keep the cuts thicker for those. Sweet potato and carrots take more time - dice them, or cut them thinner.",
+      "Season veggies with olive oil, salt, pepper, rosemary, thyme, and garlic.",
+      "Season both sides of the chicken with olive oil, salt, pepper, and the remaining rosemary, thyme, and garlic over parchment paper.",
+      "Seal parchment paper to keep chicken moist, and place on the center of the baking pan.",
+      "Bake for 25-30 minutes, until chicken is fully cooked and veggies are done to your liking.",
+      "This meal works great with brown rice, so feel free to add some to your meal prep as well.",
+      "Unwrap and slice the chicken.",
+      "Separate veggies into each tupperware with chicken.",
+      "NOTE: If using plastic tupperware, allow food to cool down first",
+      "Can be refrigerated up to 4 days."
     ],
     "allergenics": []
   }

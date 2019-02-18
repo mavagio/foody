@@ -6,13 +6,13 @@
   <mat-tab label="Preparetion">
     <div class="recipe-wrapper">
       <div class="header-container">
-        <!-- <iframe class="recipe-video" src="https://www.youtube.com/embed/rHXobaiGFZ4?&theme=dark&autohide=1&modestbranding=1&showinfo=0&rel=0&end=149&iv_load_policy=3&mute=1"
-          frameborder="0">
-        </iframe> -->
-        <iframe class="recipe-video" [src]="videoSrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe *ngIf="recipe?.youtubeId !== null" class="recipe-video" [src]="videoSrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <video *ngIf="recipe?.youtubeId == null" class="recipe-video" controls>
+          <source src="https://vid.tasty.co/output/18939/mp4_720x1280/1482342336" type="video/mp4">
+        </video>
       </div>
       <div class="content-container">   
-        <h3 class="title-text">Mexican pulled pork ketogenic high energy taco's</h3>
+        <h3 class="title-text">{{recipe?.title}}</h3>
         <h3 class="section-title-text">Preparetion</h3>
         <ng-container *ngFor="let preparetionStep of recipe?.preparationSteps; let i = index">
             <div class="step-container">
@@ -31,7 +31,7 @@
 
   <mat-tab label="Ingrideints"> 
       <div class="recipe-wrapper">
-        <h3 class="title-text">Mexican pulled pork ketogenic high energy taco's</h3>
+        <h3 class="title-text">{{recipe?.title}}</h3>
         <h4 class="section-title-text">Ingredients</h4>
         <div class="ingridient-container">
             <mat-selection-list #ingredientslist (selectionChange)="onIngredientsSelected($event, ingredientslist.selectedOptions.selected)">
@@ -40,10 +40,10 @@
                                [value]="ingredient"
                                [selected]="ingredient?.selected">
                 <mat-divider></mat-divider>
-                <span class="ingredient-name">
-                  {{ingredient?.name}} 
+                <div class="ingredient-grid">
+                  <span class="ingredient-name">{{ingredient?.name}} </span>
                   <span class="ingredient-quantity">{{ingredient?.amount}}</span>
-                </span>
+                </div>
               </mat-list-option>
             </mat-selection-list>
       </div>

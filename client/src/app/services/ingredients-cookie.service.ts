@@ -8,13 +8,15 @@ import { IIngredient } from '../../../../shared/models/recipeModel';
 export class IngridientsCookieService {
   public cookieName: string;
   public currentCheckedIngreedients: string[];
+  private cookieExpirationDays: number;
   constructor() {
     this.cookieName = "checked-ingredients-cookie";
     this.updateCurrentCheckedIngredientsCookie();
+    this.cookieExpirationDays = 21;
   }
 
   public setIngredientsArrayCookie(ingredients: string[]) {
-    Cookie.set(this.cookieName, JSON.stringify(ingredients));
+    Cookie.set(this.cookieName, JSON.stringify(ingredients), this.cookieExpirationDays);
     this.updateCurrentCheckedIngredientsCookie();
   }
 
