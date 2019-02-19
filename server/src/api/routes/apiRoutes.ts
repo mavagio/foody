@@ -11,6 +11,7 @@ module.exports = (app: any, passport: any) => {
     app.route('/api/recipe').post(apiController.recipe_post);
     app.route('/api/recipes').post(apiController.recipes_post);
 
+    app.route('/api/weeks').get(apiController.weeks_get);
 
     /**
      * Login routes

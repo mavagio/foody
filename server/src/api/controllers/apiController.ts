@@ -1,14 +1,14 @@
-import {Model} from 'mongoose';
+import { Model } from 'mongoose';
 
 import * as testModel from '../models/testModel';
 import TestController from './testController';
 
-import {UserModule, IUserModel} from '../models/userModel';
+import { UserModule, IUserModel } from '../models/userModel';
 import UserController from './userController';
 
-import {RecipeModel, IRecipeModel} from '../models/recipeModel';
+import { RecipeModel, IRecipeModel } from '../models/recipeModel';
 import RecipeController from './recipeController';
-
+import { USER_SETTINGS_COOKIE_NAME } from '../../../../shared/consts/consts';
 
 
 import * as path from 'path';
@@ -44,24 +44,32 @@ module.exports = (passport: any) => {
         recipeCtrl.insertAll(req, res);
     };
 
+    publicModule.weeks_get = (req: any, res: any) => {
+        if(req.cookies == null || req.cookies[USER_SETTINGS_COOKIE_NAME] == null) {
+            res.redirect('/');
+            return;
+        }
+        publicModule.recipes_get(req,res);
+    };
+
     /**
      * Session based login functionality
      * */
     publicModule.session_login_post = (req: any, res: any, next: any) => {
-        passport.authenticate('local-login', {session: true}, (err: any, user: any, info: any) => {
+        passport.authenticate('local-login', { session: true }, (err: any, user: any, info: any) => {
             if (err) {
                 return next(err); // will generate a 500 error
             }
             // Generate a JSON response reflecting signup
             if (!user) {
-                return res.send({success: false, message: 'login failed'});
+                return res.send({ success: false, message: 'login failed' });
             }
 
-            req.login(user, {session: true}, (err2: any) => {
+            req.login(user, { session: true }, (err2: any) => {
                 if (err2) {
                     res.send(err2);
                 }
-                return res.json({success: true, user});
+                return res.json({ success: true, user });
             });
         })(req, res);
     };
@@ -70,20 +78,20 @@ module.exports = (passport: any) => {
      * JWT token based login functionality
      * */
     publicModule.jwt_login_post = (req: any, res: any, next: any) => {
-        passport.authenticate('local-login', {session: false}, (err: any, user: any, info: any) => {
+        passport.authenticate('local-login', { session: false }, (err: any, user: any, info: any) => {
             if (err) {
                 return next(err); // will generate a 500 error
             }
             // Generate a JSON response reflecting signup
             if (!user) {
-                return res.send({success: false, message: 'login failed'});
+                return res.send({ success: false, message: 'login failed' });
             }
             // generate a signed son web token with the contents of user object and return it in the response
             const token = jwt.sign(user.toJSON(),
                 String(process.env.JWT_SECRET),
                 { expiresIn: "1h" },
-                );
-            return res.json({success: true, user, token, expiresIn: 3600});
+            );
+            return res.json({ success: true, user, token, expiresIn: 3600 });
         })(req, res);
     };
 
@@ -97,9 +105,9 @@ module.exports = (passport: any) => {
             }
             // Generate a JSON response reflecting signup
             if (!user) {
-                return res.send({success: false, message: 'signup failed'});
+                return res.send({ success: false, message: 'signup failed' });
             }
-            return res.send({success: true, message: 'signup succeeded'});
+            return res.send({ success: true, message: 'signup succeeded' });
         })(req, res);
     };
 
@@ -123,7 +131,7 @@ module.exports = (passport: any) => {
      * If doing a JWT validation use the follwoing before the api call
      * */
     publicModule.isJWTValid = (req: any, res: any, next: any) => {
-        passport.authenticate('jwt', {session: false})(req, res, next);
+        passport.authenticate('jwt', { session: false })(req, res, next);
     };
 
     /**

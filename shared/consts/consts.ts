@@ -1,0 +1,1 @@
+export const USER_SETTINGS_COOKIE_NAME = "user_settings";

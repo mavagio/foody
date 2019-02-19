@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Cookie } from 'ng2-cookies';
 import { IUserSettings } from '../../../../shared/models/userSettingsModel';
 import { NutritionCategory } from '../../../../shared/models/recipeModel';
+import { USER_SETTINGS_COOKIE_NAME } from '../../../../shared/consts/consts';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +13,7 @@ export class UserSettingsCookieService {
   public cookieExpirationDays: number;
 
   constructor() {
-    this.cookieName = "user_settings";
+    this.cookieName = USER_SETTINGS_COOKIE_NAME;
     this.cookieExpirationDays = 21;
     this.updateCurrentUserSettingsCookieValue();
     if(this.currentUserSettingsCookieValue == null) {
