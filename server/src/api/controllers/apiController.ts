@@ -46,7 +46,7 @@ module.exports = (passport: any) => {
 
     publicModule.weeks_get = (req: any, res: any) => {
         if(req.cookies == null || req.cookies[USER_SETTINGS_COOKIE_NAME] == null) {
-            res.redirect('/');
+            res.send(null)
             return;
         }
         publicModule.recipes_get(req,res);

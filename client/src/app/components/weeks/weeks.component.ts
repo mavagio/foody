@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {ApiRequestsService} from '../../services/api-requests.service';
 import {IIngredient, IRecipe} from '../../../../../shared/models/recipeModel';
 import {IngridientsCookieService} from '../../services/ingredients-cookie.service';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-weeks',
@@ -17,7 +18,8 @@ export class WeeksComponent implements OnInit {
   public checkedIngredients: string[];
 
   constructor(private apiRequestsService: ApiRequestsService,
-              private ingridientsCookieService: IngridientsCookieService) {
+              private ingridientsCookieService: IngridientsCookieService, 
+              private router: Router,) {
   }
 
   ngOnInit() {
@@ -26,8 +28,13 @@ export class WeeksComponent implements OnInit {
   }
 
   public getAllRecipes(): void {
-    this.apiRequestsService.getAllRecipes().subscribe(response => {
+    this.apiRequestsService.getWeeks().subscribe(response => {
+      if(response == null) {
+        this.router.navigate(['/']);
+        return;
+      }
       this.recipes = response;
+      console.log(response);
       this.aggregateAllIngredients();
       this.assignCheckedIngredients();
     });

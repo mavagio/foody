@@ -12,11 +12,16 @@ export class ApiRequestsService {
   private userEndpoint = 'user/';
   private recipeEndpoint = 'recipe/';
   private recipesEndpoint = 'recipes/';
+  private weeksEndpoint = 'weeks/';
   private actionUrl: string;
 
   constructor(private http: HttpClient,
               private configurationService: ConfigurationService) {
     this.actionUrl = `${configurationService.apiHost}${configurationService.apiPrefix}`;
+  }
+
+  getWeeks(): Observable<any> {
+    return this.http.get<any>(this.actionUrl + this.weeksEndpoint);
   }
 
   getAllRecipes(): Observable<any> {
