@@ -44,7 +44,7 @@ export class IntroductionCarouselComponent implements OnInit {
     this.typeOfAllergenics = [{ value: 'gluten', viewValue: 'Gluten', selected: false },
                             { value: 'crustaceans', viewValue:  'Crustaceans', selected: false},
                             { value: 'eggs', viewValue:  'Eggs', selected: false},
-                            { value: 'peanuts', viewValue:  'peanuts', selected: false},
+                            { value: 'peanuts', viewValue:  'Peanuts', selected: false},
                             { value: 'soybeans', viewValue:  'Soybeans', selected: false},
                             { value: 'dairy', viewValue:  'Dairy', selected: false},
                             { value: 'tree_nuts', viewValue:  'Tree nuts', selected: false},
