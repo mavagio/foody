@@ -1,5 +1,6 @@
 import * as request from 'request-promise-native';
 import {JSDOM} from 'jsdom';
+import {IRecipe} from '../shared/models/recipeModel';
 
 export class Crawler {
   constructor(){
@@ -16,6 +17,19 @@ export class Crawler {
     let dom = new JSDOM(result);
     let the_json = dom.window.document.querySelectorAll("script[type='application/ld+json']")[0];
     console.log(JSON.parse(the_json.innerHTML));
+  }
+
+  transformRecipe(rawRecipe: any): IRecipe {
+    const newRecipe: IRecipe = {
+      title: rawRecipe.name,
+      approval: rawRecipe.aggregateRating.ratingValue,
+      amountOfPeople: rawRecipe.recipeYield
+    }
+    return newRecipe;
+  }
+
+  getNumberFromString(dataWithNumber: string): number {
+    let result =  +(dataWithNumber.match(/\d+/)[0]);
   }
 }
 
