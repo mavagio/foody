@@ -7,19 +7,38 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+    result["default"] = mod;
+    return result;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-const request = require("request-promise-native");
+const request = __importStar(require("request-promise-native"));
 const jsdom_1 = require("jsdom");
+const moment = __importStar(require("moment"));
+const ingredientExtractor_1 = require("./ingredientExtractor");
+const fs = __importStar(require("fs"));
 class Crawler {
     constructor() {
+        this.ingredientMap = ingredientExtractor_1.IngredientExtractor.extractIngredientNamesMap();
+        this.ingredientArray = ingredientExtractor_1.IngredientExtractor.extractIngredientNamesArray();
+        this.saveFileName = '../shared/assets/crawler_recipes.json';
     }
     recipeConstructor() {
         return __awaiter(this, void 0, void 0, function* () {
-            const recipeUrl = 'https://tasty.co/recipe/one-pan-fall-chicken-dinner';
+            // const recipeUrl = 'https://tasty.co/recipe/one-pan-fall-chicken-dinner';
+            const recipeUrl = 'https://tasty.co/recipe/chicken-bibimbap';
             const sourceRecipe = yield this.getJsonRecipes(recipeUrl);
             const targetRecipe = this.transformRecipe(sourceRecipe);
             console.log(targetRecipe);
+            this.saveRecipeAsJson(targetRecipe, this.saveFileName);
         });
+    }
+    saveRecipeAsJson(recipeJson, fileName) {
+        let finalJson = JSON.stringify(recipeJson);
+        fs.writeFile(fileName, finalJson, 'utf8', err => { console.error(err); });
     }
     /**
      * Given @param url, get the recipe data in json format
@@ -49,16 +68,19 @@ class Crawler {
             amountOfPeople: this.getNumberFromString(sourceRecipe.recipeYield),
             preparationSteps: this.transformPreparationSteps(sourceRecipe.recipeInstructions),
             ingredients: this.transformIngredients(sourceRecipe.recipeIngredient),
-            videoURL: sourceRecipe.video.contentUrl,
-            imageURL: sourceRecipe.video.thumbnailUrl,
+            videoURL: sourceRecipe.video[0].contentUrl,
+            imageURL: sourceRecipe.video[0].thumbnailUrl,
             youtubeId: null,
+            preparationTimeInMinuts: this.transformPreparationDuration(sourceRecipe.prepTime, sourceRecipe.cookTime),
             priceOnAverage: 0,
             nutritionCategory: '',
             allergenics: [],
-            preparationTimeInMinuts: 0,
         };
         //TODO do calcualted properties here
         return targetRecipe;
+    }
+    transformPreparationDuration(prepTime, cookTime) {
+        return moment.duration(prepTime).as('minutes') + moment.duration(cookTime).as('minutes');
     }
     transformPreparationSteps(sourcePreparationSteps) {
         const targetPreparationSteps = sourcePreparationSteps.map((step) => this.generatePreparationStepTarget(step));
@@ -84,7 +106,12 @@ class Crawler {
         return targetIngredient;
     }
     filterIngredientName(sourceIngredient) {
-        //TODO have ingredients list, check if any ingredient name is within the string, if it is return the name
+        for (let name of this.ingredientArray) {
+            //console.log(sourceIngredient.toLocaleLowerCase().includes(name), ' sourceIngredient: ', sourceIngredient.toLocaleLowerCase(), ' name: ',name);
+            if (sourceIngredient.toLocaleLowerCase().includes(name)) {
+                return name;
+            }
+        }
         return sourceIngredient;
     }
     filterIngredientAmount(sourceIngredient) {

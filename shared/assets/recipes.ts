@@ -1,4 +1,4 @@
-[{
+export const recipes = [{
     "title": "Avocado Quinoa Power Salad",
     "approvalRating": 94,
     "amountOfPeople": 6,
@@ -337,12 +337,12 @@
         "state": "peeled and minced"
       },
       {
-        "name": "Galic",
+        "name": "Garlic",
         "amount": "4 cloves",
         "state": "minced"
       },
       {
-        "name": "Tomato paste",
+        "name": "Tamtto paste",
         "amount": "1 tbsp",
         "state": ""
       },
@@ -565,7 +565,7 @@
         "state": "halved"
       },
       {
-        "name": "Basil pesto brown sugar",
+        "name": "Basil pesto",
         "amount": "1/2 cup, 115g",
         "state": ""
       }

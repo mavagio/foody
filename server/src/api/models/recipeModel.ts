@@ -15,7 +15,6 @@ const RecipeSchema: Schema = new Schema({
     title: String,
     approval: Number,
     amountOfPeople: Number,
-    priceOnAverage: Number,
     nutritionCategory: String,
     allergenics: [String],
     preparationSteps: [String],

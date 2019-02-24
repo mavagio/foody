@@ -24,6 +24,6 @@ export interface IRecipe {
    ingredients: IIngredient[];
    preparationTimeInMinuts: number,
    videoURL: string;
-   youtubeId: string;
+   youtubeId: string | null;
    imageURL: string;
 }
