@@ -1,9 +1,9 @@
 
 <mat-tab-group headerPosition="below" position="center" mat-stretch-tabs> 
 
-  <!-- Preparetion Tab -->
+  <!-- Preparation Tab -->
 
-  <mat-tab label="Preparetion">
+  <mat-tab label="Preparation">
     <div class="recipe-wrapper">
       <div class="header-container">
         <iframe *ngIf="recipe?.youtubeId !== null" class="recipe-video" [src]="videoSrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -13,11 +13,11 @@
       </div>
       <div class="content-container">   
         <h3 class="title-text">{{recipe?.title}}</h3>
-        <h3 class="section-title-text">Preparetion</h3>
-        <ng-container *ngFor="let preparetionStep of recipe?.preparationSteps; let i = index">
+        <h3 class="section-title-text">Preparation</h3>
+        <ng-container *ngFor="let preparationStep of recipe?.preparationSteps; let i = index">
             <div class="step-container">
               <span class="steps-number">{{i+1}}</span>
-              {{preparetionStep}}
+              {{preparationStep}}
             </div>
         </ng-container>
         <div class="step-container" last>
@@ -29,11 +29,11 @@
 
   <!-- Ingredients Tab -->
 
-  <mat-tab label="Ingrideints"> 
+  <mat-tab label="Ingredients"> 
       <div class="recipe-wrapper">
         <h3 class="title-text">{{recipe?.title}}</h3>
         <h4 class="section-title-text">Ingredients</h4>
-        <div class="ingridient-container">
+        <div class="ingredient-container">
             <mat-selection-list #ingredientslist (selectionChange)="onIngredientsSelected($event, ingredientslist.selectedOptions.selected)">
               <mat-list-option *ngFor="let ingredient of recipe?.ingredients" 
                                checkboxPosition="before"
