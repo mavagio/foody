@@ -1,5 +1,7 @@
+import {Helper} from '../helper';
+
 export class StaticPropertyCollector {
-  public static collectStaticProperties(recipeObject: any) {
+  public static collectStaticProperties(recipeObject: any): any {
     return {
       title: this.getSourceRecipeTitle(recipeObject),
       approval: this.getSourceRecipeRatingValue(recipeObject),
@@ -18,7 +20,7 @@ export class StaticPropertyCollector {
   }
 
   public static getSourceRecipeYield(recipeObject: any) {
-    return recipeObject.recipeYield;
+    return this.getNumberFromString(recipeObject.recipeYield);
   }
 
   public static getSourceRecipeVideoUrl(recipeObject: any) {
@@ -27,5 +29,15 @@ export class StaticPropertyCollector {
 
   public static getSourceRecipeThumbnail(recipeObject: any) {
     return recipeObject.video[0].thumbnailUrl;;
+  }
+
+  static getNumberFromString(dataWithNumber: string): number {
+    let numberFromString = dataWithNumber.match(/\d+/);
+    if(numberFromString !== null && numberFromString[0]){
+      return +(numberFromString[0]);
+    }
+    console.error("The string did not contain number: ", dataWithNumber);
+    Helper.terminateProgram();
+    return -1;
   }
 }

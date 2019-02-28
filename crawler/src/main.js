@@ -10,12 +10,13 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const load_agent_1 = require("./fetch-layer/load-agent");
 const fetch_agent_1 = require("./fetch-layer/fetch-agent");
+const transform_agent_1 = require("./transform-layer/transform-agent");
 class Main {
     static start() {
         return __awaiter(this, void 0, void 0, function* () {
             const sourceUrls = yield load_agent_1.LoadAgent.loadSourceUrls();
-            const getJsonRecipe = yield fetch_agent_1.FetchAgent.getJsonRecipe(sourceUrls[0]);
-            console.log(getJsonRecipe);
+            const getJsonRecipe = yield fetch_agent_1.FetchAgent.getRecipeObject(sourceUrls[0]);
+            transform_agent_1.TransformAgent.transformRecipe(getJsonRecipe);
         });
     }
 }

@@ -18,7 +18,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const request = __importStar(require("request-promise-native"));
 const jsdom_1 = require("jsdom");
 class FetchAgent {
-    static getJsonRecipe(recipeUrl, scriptSectionName = "script[type='application/ld+json']") {
+    static getRecipeObject(recipeUrl, scriptSectionName = "script[type='application/ld+json']") {
         return __awaiter(this, void 0, void 0, function* () {
             const recipeRaw = yield this.getRawRecipe(recipeUrl);
             const recipeDom = this.convertStringToHtmlDom(recipeRaw);

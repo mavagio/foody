@@ -4,9 +4,11 @@ import { StaticPropertyCollector } from './static-property-collector';
 
 export class TransformAgent {
   public static async transformRecipe(recipeObject: any) {
-    StaticPropertyCollector.collectStaticProperties(recipeObject);
-    //TODO analysed
+    const staticPropertiesObject = StaticPropertyCollector.collectStaticProperties(recipeObject);
+    const analysedPropertiesObject = AnalysedPropertyCollector.collectAnalysedProperties(recipeObject);
+
+    console.log(staticPropertiesObject);
+    console.log(analysedPropertiesObject);
     //TODO derived
   }
-
 }
