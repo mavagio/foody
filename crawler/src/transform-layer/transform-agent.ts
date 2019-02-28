@@ -3,7 +3,10 @@ import { DerivedPropertyCollector } from './derived-property-collector';
 import { StaticPropertyCollector } from './static-property-collector';
 
 export class TransformAgent {
-  transformRecipe() {
-
+  public static async transformRecipe(recipeObject: any) {
+    StaticPropertyCollector.collectStaticProperties(recipeObject);
+    //TODO analysed
+    //TODO derived
   }
+
 }
