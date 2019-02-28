@@ -4,10 +4,11 @@
   "description": "just getting some recipes",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha -r ts-node/register src/**/*.test.ts",
     "start": "tsc && node src/app.js",
     "dev": "nodemon --exec npm start",
-    "extract": "tsc && node src/ingredientExtractor.js"
+    "extract": "tsc && node src/ingredientExtractor.js",
+    "runcode": "tsc && node src/main.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,14 +19,19 @@
     "nodemon": "^1.18.10",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
-    "tslint": "^5.12.1",
-    "typescript": "^3.3.3"
+    "tslint": "^5.12.1"
   },
   "engines": {
     "node": "9.5.0"
   },
   "devDependencies": {
+    "@types/chai": "^4.1.7",
     "@types/jsdom": "^12.2.2",
-    "@types/request-promise-native": "^1.0.15"
+    "@types/mocha": "^5.2.6",
+    "@types/request-promise-native": "^1.0.15",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
   }
 }

@@ -1,7 +1,7 @@
 import { recipes } from '../../shared/assets/recipes';
 import { IRecipe, IIngredient } from '../../shared/models/recipeModel';
 
-export class IngredientExtractor {
+export class IngredientHelper {
   static extractIngredientNamesMap(): Map<string, boolean> {
     let ingredientNames: Map<string, boolean> = new Map<string, boolean>();
     for(let recipe of recipes) {

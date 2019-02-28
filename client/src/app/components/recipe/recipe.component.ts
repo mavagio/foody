@@ -50,7 +50,7 @@ export class RecipeComponent implements OnInit {
       if(recipeId) {
         this.apiRequestsService.getAllRecipeById(recipeId).subscribe(response => {
           this.recipe = response;
-          //TODO move to a better postion
+          //TODO move to a better position
           this.checkedIngredients = this.ingridientsCookieService.getCheckedIngredientsArray();
           this.assignCheckedIngredients();
           this.videoSrc = this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube-nocookie.com/embed/'+this.recipe.youtubeId);

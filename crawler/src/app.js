@@ -18,12 +18,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const request = __importStar(require("request-promise-native"));
 const jsdom_1 = require("jsdom");
 const moment = __importStar(require("moment"));
-const ingredientExtractor_1 = require("./ingredientExtractor");
-const fs = __importStar(require("fs"));
+const helper_1 = require("./helper");
 class Crawler {
     constructor() {
-        this.ingredientMap = ingredientExtractor_1.IngredientExtractor.extractIngredientNamesMap();
-        this.ingredientArray = ingredientExtractor_1.IngredientExtractor.extractIngredientNamesArray();
+        this.ingredientMap = helper_1.IngredientHelper.extractIngredientNamesMap();
         this.saveFileName = '../shared/assets/crawler_recipes.json';
     }
     recipeConstructor() {
@@ -32,13 +30,8 @@ class Crawler {
             const recipeUrl = 'https://tasty.co/recipe/chicken-bibimbap';
             const sourceRecipe = yield this.getJsonRecipes(recipeUrl);
             const targetRecipe = this.transformRecipe(sourceRecipe);
-            console.log(targetRecipe);
-            this.saveRecipeAsJson(targetRecipe, this.saveFileName);
+            // console.log(targetRecipe);
         });
-    }
-    saveRecipeAsJson(recipeJson, fileName) {
-        let finalJson = JSON.stringify(recipeJson);
-        fs.writeFile(fileName, finalJson, 'utf8', err => { console.error(err); });
     }
     /**
      * Given @param url, get the recipe data in json format
@@ -50,8 +43,18 @@ class Crawler {
             const result = yield request.get(options);
             const recipeDataSelector = "script[type='application/ld+json']";
             const recipeData = this.htmlToJsonConverter(result, recipeDataSelector);
+            this.getIngredientsFromHtml(result);
             return recipeData;
         });
+    }
+    getIngredientsFromHtml(html) {
+        let dom = new jsdom_1.JSDOM(html);
+        const ingredientsDom = dom.window.document.querySelectorAll('.ingredients-prep')[0].getElementsByTagName("li");
+        for (let ingredient of ingredientsDom) {
+            const measurment = ingredient.querySelector('.non-us-measuremessnt');
+            console.log('measurement, ', measurment);
+        }
+        // console.log('measurement, ', measurment.innerHTML.trim());
     }
     /**
      * Convert string html to
@@ -84,7 +87,7 @@ class Crawler {
     }
     transformPreparationSteps(sourcePreparationSteps) {
         const targetPreparationSteps = sourcePreparationSteps.map((step) => this.generatePreparationStepTarget(step));
-        //remove last element, "Enjoy!"]
+        //remove last element, "Enjoy!"
         targetPreparationSteps.pop();
         return targetPreparationSteps;
     }
@@ -106,7 +109,7 @@ class Crawler {
         return targetIngredient;
     }
     filterIngredientName(sourceIngredient) {
-        for (let name of this.ingredientArray) {
+        for (let name of Array.from(this.ingredientMap.keys())) {
             //console.log(sourceIngredient.toLocaleLowerCase().includes(name), ' sourceIngredient: ', sourceIngredient.toLocaleLowerCase(), ' name: ',name);
             if (sourceIngredient.toLocaleLowerCase().includes(name)) {
                 return name;
@@ -115,12 +118,18 @@ class Crawler {
         return sourceIngredient;
     }
     filterIngredientAmount(sourceIngredient) {
-        //TODO take anythign that is within breakets, if no breaket then take what is left after name and state
+        // TODO take anythign that is within breakets, if no breaket then take what is left after name and state
+        // take number followed by keyword combinations [tablespoon, large, teaspoon, tbs, cups, cup ... ]
+        // If there is plus difind it into two parts and apply the save before and after plus
         return '';
     }
     filterIngredientState(sourceIngredient) {
-        //TODO select the content after last comma if exits
-        return '';
+        const indexOfLastComma = sourceIngredient.indexOf(',');
+        let result = '';
+        if (indexOfLastComma !== -1) {
+            result = sourceIngredient.substring(indexOfLastComma + 1).trim();
+        }
+        return result;
     }
     filterIngredientRequired(sourceIngredient) {
         //TODO if option exits between breakets then return true, otherwise return false

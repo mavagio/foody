@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const recipes_1 = require("../../shared/assets/recipes");
-class IngredientExtractor {
+class IngredientHelper {
     static extractIngredientNamesMap() {
         let ingredientNames = new Map();
         for (let recipe of recipes_1.recipes) {
@@ -21,4 +21,4 @@ class IngredientExtractor {
         return ingredientNames;
     }
 }
-exports.IngredientExtractor = IngredientExtractor;
+exports.IngredientHelper = IngredientHelper;

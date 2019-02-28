@@ -3,17 +3,14 @@ import {JSDOM} from 'jsdom';
 import {IRecipe, IIngredient} from '../../shared/models/recipeModel';
 import { AnyRecord } from 'dns';
 import * as moment from 'moment';
-import {IngredientExtractor} from './ingredientExtractor';
-import * as fs from 'fs';
+import {IngredientHelper} from './helper';
 
 export class Crawler {
   private ingredientMap: Map<string, boolean>;
-  private ingredientArray: string[];
   private saveFileName: string;
 
-  constructor(){
-    this.ingredientMap = IngredientExtractor.extractIngredientNamesMap();
-    this.ingredientArray = IngredientExtractor.extractIngredientNamesArray();
+  constructor() {
+    this.ingredientMap = IngredientHelper.extractIngredientNamesMap();
     this.saveFileName = '../shared/assets/crawler_recipes.json';
   }
 
@@ -22,36 +19,7 @@ export class Crawler {
     const recipeUrl = 'https://tasty.co/recipe/chicken-bibimbap';
     const sourceRecipe = await this.getJsonRecipes(recipeUrl);
     const targetRecipe = this.transformRecipe(sourceRecipe);
-    console.log(targetRecipe);
-    this.saveRecipeAsJson(targetRecipe, this.saveFileName);
-  }
-
-  saveRecipeAsJson(recipeJson: any, fileName: string): void {
-    let finalJson = JSON.stringify(recipeJson);
-    fs.writeFile(fileName, finalJson, 'utf8', err => {console.error(err)});
-  }
-
-  /**
-   * Given @param url, get the recipe data in json format
-   * */
-  async getJsonRecipes(recipeUrl: string) {
-    const tatsy_url = recipeUrl;
-    var options = { uri: tatsy_url };
-
-    const result = await request.get(options);
-
-    const recipeDataSelector = "script[type='application/ld+json']";
-    const recipeData = this.htmlToJsonConverter(result, recipeDataSelector);
-    return recipeData;
-  }
-
-  /**
-   * Convert string html to 
-   */
-  htmlToJsonConverter( html: string, selectorName: string) {
-    let dom = new JSDOM(html);
-    const sourceData = dom.window.document.querySelectorAll(selectorName)[0];
-    return JSON.parse(sourceData.innerHTML);
+    // console.log(targetRecipe);
   }
 
   transformRecipe(sourceRecipe: any): IRecipe {
@@ -69,8 +37,6 @@ export class Crawler {
       nutritionCategory: '',//Calculated after ingredients
       allergenics: [], //Calculated after ingredients
     };
-  
-    //TODO do calcualted properties here
     return targetRecipe;
   }
 
@@ -82,7 +48,7 @@ export class Crawler {
     const targetPreparationSteps: string[] = sourcePreparationSteps.map(
       (step: any) => this.generatePreparationStepTarget(step)
     );
-    //remove last element, "Enjoy!"]
+    //remove last element, "Enjoy!"
     targetPreparationSteps.pop();
     return targetPreparationSteps;
   }
@@ -110,7 +76,7 @@ export class Crawler {
   }
 
   filterIngredientName(sourceIngredient: string): string {
-    for(let name of this.ingredientArray) {
+    for(let name of Array.from(this.ingredientMap.keys())) {
       //console.log(sourceIngredient.toLocaleLowerCase().includes(name), ' sourceIngredient: ', sourceIngredient.toLocaleLowerCase(), ' name: ',name);
       if(sourceIngredient.toLocaleLowerCase().includes(name)){
         return name;
@@ -120,13 +86,19 @@ export class Crawler {
   }
 
   filterIngredientAmount(sourceIngredient: string): string {
-    //TODO take anythign that is within breakets, if no breaket then take what is left after name and state
+    // TODO take anythign that is within breakets, if no breaket then take what is left after name and state
+    // take number followed by keyword combinations [tablespoon, large, teaspoon, tbs, cups, cup ... ]
+    // If there is plus difind it into two parts and apply the save before and after plus
     return '';
   }
 
   filterIngredientState(sourceIngredient: string): string {
-    //TODO select the content after last comma if exits
-    return '';
+    const indexOfLastComma = sourceIngredient.indexOf(',');
+    let result ='';
+    if(indexOfLastComma !== -1){
+      result = sourceIngredient.substring(indexOfLastComma + 1).trim();
+    }
+    return result;
   }
 
   filterIngredientRequired(sourceIngredient: string): boolean {
