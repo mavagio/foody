@@ -15,8 +15,8 @@ class TransformAgent {
         return __awaiter(this, void 0, void 0, function* () {
             const staticPropertiesObject = static_property_collector_1.StaticPropertyCollector.collectStaticProperties(recipeObject);
             const analysedPropertiesObject = analysed_property_collector_1.AnalysedPropertyCollector.collectAnalysedProperties(recipeObject);
-            console.log(staticPropertiesObject);
-            console.log(analysedPropertiesObject);
+            // console.log(staticPropertiesObject);
+            // console.log(analysedPropertiesObject);
             //TODO derived
         });
     }

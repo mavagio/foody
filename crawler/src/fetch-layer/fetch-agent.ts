@@ -2,8 +2,7 @@ import * as request from 'request-promise-native';
 import {JSDOM} from 'jsdom';
 
 export class FetchAgent {
-  public static async getRecipeObject(recipeUrl: string, scriptSectionName: string =  "script[type='application/ld+json']") {
-    const recipeRaw = await this.getRawRecipe(recipeUrl);
+  public static async getRecipeObject(recipeRaw :any, scriptSectionName: string =  "script[type='application/ld+json']") {
     const recipeDom = this.convertStringToHtmlDom(recipeRaw)
     const recipeSection = this.getSectionFromHtml(recipeDom, scriptSectionName);
     const recipeSectionObject = JSON.parse(recipeSection.innerHTML);
@@ -26,13 +25,10 @@ export class FetchAgent {
     return sourceData;
   }
 
-  // getIngredientsFromHtml(html: string) {
-  //   let dom = new JSDOM(html);
-  //   const ingredientsDom = dom.window.document.querySelectorAll('.ingredients-prep')[0].getElementsByTagName("li");
-  //   for(let ingredient of ingredientsDom) {
-  //     const measurment: any = ingredient.querySelector('.non-us-measuremessnt');
-  //     console.log('measurement, ', measurment);
-  //   }
-  //   console.log('measurement, ', measurment.innerHTML.trim());
-  // }
+  public static getIngredientsFromHtml(html: string) {
+    let dom = new JSDOM(html);
+    let measurment: any;
+    const ingredientsDom = dom.window.document.querySelectorAll('.ingredients-prep')[0].getElementsByTagName("li");
+    return ingredientsDom;
+  }
 }

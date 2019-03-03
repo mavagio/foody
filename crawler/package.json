@@ -5,10 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.test.ts",
-    "start": "tsc && node src/app.js",
+    "start": "tsc && node src/main.js",
     "dev": "nodemon --exec npm start",
-    "extract": "tsc && node src/ingredientExtractor.js",
-    "runcode": "tsc && node src/main.js"
+    "extract": "tsc && node src/ingredientExtractor.js"
   },
   "author": "",
   "license": "ISC",

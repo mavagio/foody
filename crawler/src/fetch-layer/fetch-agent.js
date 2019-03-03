@@ -18,9 +18,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const request = __importStar(require("request-promise-native"));
 const jsdom_1 = require("jsdom");
 class FetchAgent {
-    static getRecipeObject(recipeUrl, scriptSectionName = "script[type='application/ld+json']") {
+    static getRecipeObject(recipeRaw, scriptSectionName = "script[type='application/ld+json']") {
         return __awaiter(this, void 0, void 0, function* () {
-            const recipeRaw = yield this.getRawRecipe(recipeUrl);
             const recipeDom = this.convertStringToHtmlDom(recipeRaw);
             const recipeSection = this.getSectionFromHtml(recipeDom, scriptSectionName);
             const recipeSectionObject = JSON.parse(recipeSection.innerHTML);
@@ -41,6 +40,12 @@ class FetchAgent {
     static getSectionFromHtml(dom, selectorName) {
         const sourceData = dom.window.document.querySelectorAll(selectorName)[0];
         return sourceData;
+    }
+    static getIngredientsFromHtml(html) {
+        let dom = new jsdom_1.JSDOM(html);
+        let measurment;
+        const ingredientsDom = dom.window.document.querySelectorAll('.ingredients-prep')[0].getElementsByTagName("li");
+        return ingredientsDom;
     }
 }
 exports.FetchAgent = FetchAgent;
