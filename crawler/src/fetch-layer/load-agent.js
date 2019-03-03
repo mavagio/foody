@@ -27,7 +27,7 @@ class LoadAgent {
     static loadPluralMeasurements() {
         return __awaiter(this, void 0, void 0, function* () {
             const measurmentNames = yield this.loadSingularMeasurements();
-            let pluralMeasurments = yield measurmentNames.reduce((arr, e) => arr.push(e, e + 's') && arr, []);
+            let pluralMeasurments = yield measurmentNames.reduce((arr, e) => arr.push(e + 'es', e + 's', e) && arr, []);
             return pluralMeasurments;
         });
     }

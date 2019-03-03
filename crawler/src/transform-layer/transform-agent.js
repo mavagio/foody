@@ -11,12 +11,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const analysed_property_collector_1 = require("./analysed-property-collector");
 const static_property_collector_1 = require("./static-property-collector");
 class TransformAgent {
-    static transformRecipe(recipeObject) {
+    static transformRecipe(recipeObject, htmlIngredients) {
         return __awaiter(this, void 0, void 0, function* () {
             const staticPropertiesObject = static_property_collector_1.StaticPropertyCollector.collectStaticProperties(recipeObject);
-            const analysedPropertiesObject = analysed_property_collector_1.AnalysedPropertyCollector.collectAnalysedProperties(recipeObject);
+            const analysedPropertiesObject = yield analysed_property_collector_1.AnalysedPropertyCollector.collectAnalysedProperties(recipeObject, htmlIngredients);
             // console.log(staticPropertiesObject);
-            // console.log(analysedPropertiesObject);
+            console.log(analysedPropertiesObject);
             //TODO derived
         });
     }

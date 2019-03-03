@@ -15,4 +15,6 @@ export class Helper {
   public static terminateProgram() {
     process.exit(-1);
   }
+
+  public static pipe = (...fns: any) => (x: any) => fns.reduce((v: any, f: any) => f(v), x);
 }

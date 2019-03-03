@@ -28,7 +28,11 @@ export class FetchAgent {
   public static getIngredientsFromHtml(html: string) {
     let dom = new JSDOM(html);
     let measurment: any;
-    const ingredientsDom = dom.window.document.querySelectorAll('.ingredients-prep')[0].getElementsByTagName("li");
-    return ingredientsDom;
+    const ingredientsDoms: any = dom.window.document.querySelectorAll('.ingredients__section')[0].getElementsByTagName("li");
+    // const allIngredientListingsArray = Object.values(ingredientsDoms).map((ingredientDom:any) => ingredientDom.getElementsByTagName("li"));
+    // const allIngredientsArray = allIngredientListingsArray.join();
+    // console.log(allIngredientsArray)
+    // // const ingredientListing = ingredientsDom.getElementsByTagName("li");
+    return Object.values(ingredientsDoms);
   }
 }

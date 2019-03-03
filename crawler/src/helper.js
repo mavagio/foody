@@ -15,4 +15,5 @@ class Helper {
         process.exit(-1);
     }
 }
+Helper.pipe = (...fns) => (x) => fns.reduce((v, f) => f(v), x);
 exports.Helper = Helper;

@@ -12,7 +12,7 @@ export class LoadAgent {
 
   public static async loadPluralMeasurements(): Promise<Array<any>> {
     const measurmentNames = await this.loadSingularMeasurements();
-    let pluralMeasurments = await measurmentNames.reduce((arr, e) => arr.push(e, e+'s') && arr, []);
+    let pluralMeasurments = await measurmentNames.reduce((arr, e) => arr.push(e+'es', e+'s', e) && arr, []);
     return pluralMeasurments;
   }
 

@@ -44,8 +44,12 @@ class FetchAgent {
     static getIngredientsFromHtml(html) {
         let dom = new jsdom_1.JSDOM(html);
         let measurment;
-        const ingredientsDom = dom.window.document.querySelectorAll('.ingredients-prep')[0].getElementsByTagName("li");
-        return ingredientsDom;
+        const ingredientsDoms = dom.window.document.querySelectorAll('.ingredients__section')[0].getElementsByTagName("li");
+        // const allIngredientListingsArray = Object.values(ingredientsDoms).map((ingredientDom:any) => ingredientDom.getElementsByTagName("li"));
+        // const allIngredientsArray = allIngredientListingsArray.join();
+        // console.log(allIngredientsArray)
+        // // const ingredientListing = ingredientsDom.getElementsByTagName("li");
+        return Object.values(ingredientsDoms);
     }
 }
 exports.FetchAgent = FetchAgent;

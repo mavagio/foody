@@ -1,14 +1,16 @@
-import {IIngredient} from '../../../shared/models/recipeModel';
+import { IIngredient } from '../../../shared/models/recipeModel';
 import * as moment from 'moment';
-import {Helper} from '../helper';
+import { Helper } from '../helper';
+import { LoadAgent } from '../fetch-layer/load-agent';
 
 export class AnalysedPropertyCollector {
-  public static collectAnalysedProperties(sourceRecipeObject: any) {
-    return {
+  public static async collectAnalysedProperties(sourceRecipeObject: any, htmlIngredients: any) {
+    const collectedAnalysedProperties: any = {
       preparationSteps: this.transformPreparationSteps(sourceRecipeObject),
-      ingredients: this.transformIngredients(sourceRecipeObject),
       preparationTimeInMinuts: this.transformPreparationDuration(sourceRecipeObject)
     }
+    collectedAnalysedProperties.ingredients = await this.transformIngredients(sourceRecipeObject, htmlIngredients);
+    return collectedAnalysedProperties;
   }
 
   static transformPreparationSteps(sourceRecipeObject: any): string[] {
@@ -21,49 +23,81 @@ export class AnalysedPropertyCollector {
     return targetPreparationSteps;
   }
 
-  static transformIngredients(sourceRecipeObject: any): IIngredient[] {
+  private static async transformIngredients(sourceRecipeObject: any, htmlIngredients: any) {
     const sourceIngredients = sourceRecipeObject.recipeIngredient;
-    const targetIngredients: IIngredient[] = sourceIngredients.map(
-      (ingredient: string) => this.generateIngredientTarget(ingredient)
-    );
+    const targetIngredients = await Promise.all(htmlIngredients.map(
+      async (ingredient: any) => await this.generateIngredientTarget(ingredient)
+    ));
     return targetIngredients;
   }
 
-  static generateIngredientTarget(sourceIngredient: string): IIngredient {
+  private static async findMeasurmentsInText(text: string) {
+    const measurementName = await LoadAgent.loadPluralMeasurements();
+    const numberSpaceKeywordRegex = '(\\d+|[¼½¾⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞↉]+)\\s*' + '(' + measurementName.join("|") + ')';
+
+    var finalRegex = new RegExp(numberSpaceKeywordRegex, 'gi');
+    let matches = text.match(finalRegex) || [];
+
+    return matches.join(', ');
+  }
+
+  private static getSourceMeasurment(htmlIngredient: any) {
+    return htmlIngredient.querySelector('.non-us-measurement');
+  }
+
+  private static async generateIngredientTarget(sourceHtmlIngredient: any) {
+    const sourceTextIngredient: string = Helper.pipe(this.getHtmlInnerText, this.trimInnerOuterWhiteSpace)(sourceHtmlIngredient);
     const targetIngredient = {
-     name: this.filterIngredientName(sourceIngredient),
-     amount: this.filterIngredientAmount(sourceIngredient),
-     state: this.filterIngredientState(sourceIngredient),
-     required: this.filterIngredientRequired(sourceIngredient),
-   }
-   return targetIngredient;
+      name: this.filterIngredientName(sourceTextIngredient),
+      amount: '',
+      state: this.filterIngredientState(sourceTextIngredient),
+      required: this.filterIngredientRequired(sourceTextIngredient),
+    }
+    targetIngredient.amount = await this.filterIngredientAmount(sourceHtmlIngredient);
+    return targetIngredient;
+  }
+
+  private static trimInnerOuterWhiteSpace(text: string): string {
+    return text.replace(/\s\s+/g, ' ');
+  }
+
+  private static getHtmlInnerText(html: any): string {
+    if (html == null) {
+      return '';
+    }
+    return html.innerText || html.textContent;
   }
 
   private static filterIngredientName(sourceIngredient: string): string {
     const ingredientMap = Helper.extractIngredientNamesToMap();
-    for(let name of Array.from(ingredientMap.keys())) {
-      //console.log(sourceIngredient.toLocaleLowerCase().includes(name), ' sourceIngredient: ', sourceIngredient.toLocaleLowerCase(), ' name: ',name);
-      if(sourceIngredient.toLocaleLowerCase().includes(name)){
+    for (let name of Array.from(ingredientMap.keys())) {
+      if (sourceIngredient.toLocaleLowerCase().includes(name)) {
         return name;
       }
     }
     return sourceIngredient;
   }
 
-  private static filterIngredientAmount(sourceIngredient: string): string {
-    // TODO take anythign that is within breakets, if no breaket then take what is left after name and state
-    // take number followed by keyword combinations [tablespoon, large, teaspoon, tbs, cups, cup ... ]
-    // If there is plus difind it into two parts and apply the save before and after plus
-    return '';
+  private static async filterIngredientAmount(sourceHtmlIngredient: any) {
+    const ingredientText = this.getHtmlInnerText(sourceHtmlIngredient);
+    const finalIngredientAmount: string[] = []
+    const implicitMeasurement: string = Helper.pipe(this.getSourceMeasurment, this.getHtmlInnerText, this.trimInnerOuterWhiteSpace)(sourceHtmlIngredient);
+    const analysedMeasuremnt: string = await this.trimInnerOuterWhiteSpace(await this.findMeasurmentsInText(ingredientText));
+    const findToTaste: string = ingredientText.includes('to taste')? 'to taste': '';
+    finalIngredientAmount.push(implicitMeasurement.trim(), analysedMeasuremnt, findToTaste);
+    return finalIngredientAmount.filter(Boolean).join(', ');
   }
 
-  private static filterIngredientState(sourceIngredient: string): string {
-    const indexOfLastComma = sourceIngredient.indexOf(',');
-    let result ='';
-    if(indexOfLastComma !== -1){
-      result = sourceIngredient.substring(indexOfLastComma + 1).trim();
+  private static filterIngredientState(sourceIngredient: string) {
+    const ingredientListing = sourceIngredient.split('plus');
+    const result = [];
+    for(let ingredient of ingredientListing){
+      const indexOfFristComma = ingredient.indexOf(',');
+      if (indexOfFristComma !== -1) {
+        result.push(ingredient.substring(indexOfFristComma + 1).trim());
+      }
     }
-    return result;
+    return result.filter(Boolean).join(', ');
   }
 
   private static filterIngredientRequired(sourceIngredient: string): boolean {
