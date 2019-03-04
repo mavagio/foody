@@ -13,6 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const sources_json_1 = __importDefault(require("../assets/sources.json"));
 const measurments_json_1 = __importDefault(require("../assets/measurments.json"));
+const allergenics_json_1 = __importDefault(require("../assets/allergenics.json"));
 class LoadAgent {
     static loadSourceUrls() {
         return __awaiter(this, void 0, void 0, function* () {
@@ -29,6 +30,11 @@ class LoadAgent {
             const measurmentNames = yield this.loadSingularMeasurements();
             let pluralMeasurments = yield measurmentNames.reduce((arr, e) => arr.push(e + 'es', e + 's', e) && arr, []);
             return pluralMeasurments;
+        });
+    }
+    static loadAllergenics() {
+        return __awaiter(this, void 0, void 0, function* () {
+            return yield Promise.all(allergenics_json_1.default.map(allergenic => Promise.resolve(allergenic.name)));
         });
     }
 }

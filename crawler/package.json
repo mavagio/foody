@@ -7,7 +7,7 @@
     "test": "mocha -r ts-node/register src/**/*.test.ts",
     "start": "tsc && node src/main.js",
     "dev": "nodemon --exec npm start",
-    "extract": "tsc && node src/ingredientExtractor.js"
+    "extract": "tsc && node src/helper.js"
   },
   "author": "",
   "license": "ISC",

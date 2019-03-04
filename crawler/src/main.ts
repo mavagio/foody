@@ -1,6 +1,7 @@
 import { LoadAgent } from './fetch-layer/load-agent';
 import { FetchAgent } from './fetch-layer/fetch-agent';
 import { TransformAgent } from './transform-layer/transform-agent';
+import { SaveAgent } from './save-layer/save-agent';
 
 export class Main {
   public static async start() {
@@ -10,9 +11,12 @@ export class Main {
     const getJsonRecipe = await FetchAgent.getRecipeObject(rawRecipe);
     const htmlIngredients = await FetchAgent.getIngredientsFromHtml(rawRecipe);
 
-    TransformAgent.transformRecipe(getJsonRecipe, htmlIngredients); 
-  }
+    const targetRecipe = await TransformAgent.transformRecipe(getJsonRecipe, htmlIngredients); 
 
+    console.log(targetRecipe);
+
+    SaveAgent.saveObjectToFile(targetRecipe, './src/assets/crawler_recipe.json');
+  }
 }
 
 Main.start();

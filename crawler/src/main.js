@@ -11,6 +11,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const load_agent_1 = require("./fetch-layer/load-agent");
 const fetch_agent_1 = require("./fetch-layer/fetch-agent");
 const transform_agent_1 = require("./transform-layer/transform-agent");
+const save_agent_1 = require("./save-layer/save-agent");
 class Main {
     static start() {
         return __awaiter(this, void 0, void 0, function* () {
@@ -18,7 +19,9 @@ class Main {
             const rawRecipe = yield fetch_agent_1.FetchAgent.getRawRecipe(sourceUrls[0]);
             const getJsonRecipe = yield fetch_agent_1.FetchAgent.getRecipeObject(rawRecipe);
             const htmlIngredients = yield fetch_agent_1.FetchAgent.getIngredientsFromHtml(rawRecipe);
-            transform_agent_1.TransformAgent.transformRecipe(getJsonRecipe, htmlIngredients);
+            const targetRecipe = yield transform_agent_1.TransformAgent.transformRecipe(getJsonRecipe, htmlIngredients);
+            console.log(targetRecipe);
+            save_agent_1.SaveAgent.saveObjectToFile(targetRecipe, './src/assets/crawler_recipe.json');
         });
     }
 }

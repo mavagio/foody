@@ -1,0 +1,139 @@
+{
+  "title": "Sheet Tray Taco Night Recipe by Tasty",
+  "approval": 100,
+  "amountOfPeople": 4,
+  "videoURL": "https://vid.tasty.co/output/105979/landscape_720/1534803703",
+  "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/902865ccf964427bb9a8fdf2af7c0aeb/BFV46558EasyWeeknightMealstoMakeWithYourKidsFBV2.jpg",
+  "preparationSteps": ["Preheat the oven to 350°F (180°C) and line two baking sheets with parchment paper.", "Make the DIY taco seasoning: Mix the salt, pepper, cumin, garlic powder, and chili powder together in a small bowl.", "Add the flank steak to a baking sheet. Drizzle with 2 teaspoons of olive oil and rub to coat, then sprinkle with 2 teaspoons of the taco seasoning and rub to coat evenly. To the other baking sheet, add the green bell pepper, mushrooms, red bell pepper, red onion, and broccoli. Drizzle with 1 tablespoon of olive oil and sprinkle with 2 teaspoons of taco seasoning. Toss to coat.", "Wrap the tortillas in foil, add to the baking sheet with veggies, and bake until the vegetables are browned and the steak is cooked to your liking, about 20 minutes.  Let rest for 5 minutes, then thinly slice the steak against the grain.", "Make the lime crema: combine the Greek yogurt, lime juice, and zest in a small bowl.  Season with salt.", "Serve the roasted steak and vegetables with the lime crema and your family&#x27;s favorite toppings to create a DIY taco bar.", "Note: Feel free to serve with your family’s favorite toppings to create a taco bar that’ll make everyone happy.", "*Vegan/Vegetarian Substitution: Omit the steak and serve with 1 cup black beans for added protein."],
+  "preparationTimeInMinuts": 0,
+  "ingredients": [{
+    "name": "salt",
+    "amount": "2 teaspoons",
+    "state": "",
+    "required": true
+  }, {
+    "name": "pepper",
+    "amount": "1 teaspoon",
+    "state": "",
+    "required": true
+  }, {
+    "name": "ground cumin",
+    "amount": "1 teaspoon",
+    "state": "",
+    "required": true
+  }, {
+    "name": "garlic",
+    "amount": "1 teaspoon",
+    "state": "",
+    "required": true
+  }, {
+    "name": " 1 tablespoon chili powder ",
+    "amount": "1 tablespoon",
+    "state": "",
+    "required": true
+  }, {
+    "name": " 2 lb flank steak (905 g) ",
+    "amount": "(905 g)",
+    "state": "",
+    "required": true
+  }, {
+    "name": "olive oil",
+    "amount": "2 teaspoons",
+    "state": "divided",
+    "required": true
+  }, {
+    "name": "pepper",
+    "amount": "1 green",
+    "state": "seeded and sliced",
+    "required": true
+  }, {
+    "name": " 1 cup mushroom, sliced (75 g) ",
+    "amount": "(75 g), 1 cup",
+    "state": "sliced (75 g)",
+    "required": true
+  }, {
+    "name": "pepper",
+    "amount": "1 red",
+    "state": "seeded and sliced",
+    "required": true
+  }, {
+    "name": "red onion",
+    "amount": "1 medium",
+    "state": "thinly sliced",
+    "required": true
+  }, {
+    "name": "head broccoli",
+    "amount": "",
+    "state": "cut into florets",
+    "required": true
+  }, {
+    "name": " 12 small corn tortillas ",
+    "amount": "12 small",
+    "state": "",
+    "required": true
+  }, {
+    "name": " ½ cup greek yogurt (140 g) ",
+    "amount": "(140 g), ½ cup",
+    "state": "",
+    "required": true
+  }, {
+    "name": " 1 tablespoon lime juice ",
+    "amount": "1 tablespoon",
+    "state": "",
+    "required": true
+  }, {
+    "name": " ¼ teaspoon lime zest ",
+    "amount": "¼ teaspoon",
+    "state": "",
+    "required": true
+  }, {
+    "name": "salt",
+    "amount": "to taste",
+    "state": "to taste",
+    "required": true
+  }, {
+    "name": " black beans ",
+    "amount": "",
+    "state": "",
+    "required": true
+  }, {
+    "name": "fresh cilantro",
+    "amount": "",
+    "state": "chopped",
+    "required": true
+  }, {
+    "name": " pico de gallo ",
+    "amount": "",
+    "state": "",
+    "required": true
+  }, {
+    "name": " corn and black bean salsa ",
+    "amount": "",
+    "state": "",
+    "required": true
+  }, {
+    "name": " shredded cheddar cheese ",
+    "amount": "",
+    "state": "",
+    "required": true
+  }, {
+    "name": " guacamole ",
+    "amount": "",
+    "state": "",
+    "required": true
+  }, {
+    "name": "lime wedge",
+    "amount": "",
+    "state": "",
+    "required": true
+  }, {
+    "name": " hot sauce ",
+    "amount": "",
+    "state": "",
+    "required": true
+  }],
+  "priceOnAverage": 0,
+  "nutritionCategory": "",
+  "allergenics": [],
+  "youtubeId": null
+}

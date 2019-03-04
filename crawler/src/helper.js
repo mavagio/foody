@@ -17,3 +17,4 @@ class Helper {
 }
 Helper.pipe = (...fns) => (x) => fns.reduce((v, f) => f(v), x);
 exports.Helper = Helper;
+console.log(Helper.extractIngredientNamesToMap());

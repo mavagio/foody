@@ -9,9 +9,10 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs = __importStar(require("fs"));
 class SaveAgent {
-    saveObjectToFile(data, fileName) {
+    static saveObjectToFile(data, fileName) {
         let finalJson = JSON.stringify(data);
-        fs.writeFile(fileName, finalJson, 'utf8', err => { console.error(err); });
+        fs.writeFile(fileName, finalJson, 'utf8', err => { if (err)
+            console.error(err); });
     }
 }
 exports.SaveAgent = SaveAgent;

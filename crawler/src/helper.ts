@@ -18,3 +18,5 @@ export class Helper {
 
   public static pipe = (...fns: any) => (x: any) => fns.reduce((v: any, f: any) => f(v), x);
 }
+
+console.log(Helper.extractIngredientNamesToMap());

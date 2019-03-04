@@ -1,5 +1,6 @@
 import sources from '../assets/sources.json';
 import measurments from '../assets/measurments.json';
+import allergenics from '../assets/allergenics.json';
 
 export class LoadAgent {
   public static async loadSourceUrls(): Promise<Array<any>> {
@@ -14,6 +15,10 @@ export class LoadAgent {
     const measurmentNames = await this.loadSingularMeasurements();
     let pluralMeasurments = await measurmentNames.reduce((arr, e) => arr.push(e+'es', e+'s', e) && arr, []);
     return pluralMeasurments;
+  }
+
+  public static async loadAllergenics(): Promise<Array<any>> {
+    return await Promise.all(allergenics.map(allergenic => Promise.resolve(allergenic.name)));
   }
 
 }

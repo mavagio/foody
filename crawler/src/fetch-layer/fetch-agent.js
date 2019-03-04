@@ -42,14 +42,15 @@ class FetchAgent {
         return sourceData;
     }
     static getIngredientsFromHtml(html) {
-        let dom = new jsdom_1.JSDOM(html);
-        let measurment;
-        const ingredientsDoms = dom.window.document.querySelectorAll('.ingredients__section')[0].getElementsByTagName("li");
-        // const allIngredientListingsArray = Object.values(ingredientsDoms).map((ingredientDom:any) => ingredientDom.getElementsByTagName("li"));
-        // const allIngredientsArray = allIngredientListingsArray.join();
-        // console.log(allIngredientsArray)
-        // // const ingredientListing = ingredientsDom.getElementsByTagName("li");
-        return Object.values(ingredientsDoms);
+        return __awaiter(this, void 0, void 0, function* () {
+            let dom = new jsdom_1.JSDOM(html);
+            let measurment;
+            const ingredientsDoms = dom.window.document.querySelectorAll('.ingredients__section');
+            const result = [];
+            yield Object.values(ingredientsDoms).forEach((ingredientDom) => result.push(Object.values(ingredientDom.getElementsByTagName("li"))));
+            const ingredientsHtmlList = [].concat.apply([], result);
+            return Object.values(ingredientsHtmlList);
+        });
     }
 }
 exports.FetchAgent = FetchAgent;
