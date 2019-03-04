@@ -41,17 +41,16 @@ export class IntroductionCarouselComponent implements OnInit {
               private router: Router,
               private userSettingsCookieService: UserSettingsCookieService) {
     this.activePage = 0;
-    this.typeOfAllergenics = [{ value: 'gluten', viewValue: 'Gluten', selected: false },
-                            { value: 'crustaceans', viewValue:  'Crustaceans', selected: false},
-                            { value: 'eggs', viewValue:  'Eggs', selected: false},
-                            { value: 'peanuts', viewValue:  'Peanuts', selected: false},
-                            { value: 'soybeans', viewValue:  'Soybeans', selected: false},
+    this.typeOfAllergenics = [{ value: 'shellfish', viewValue: 'Shellfish', selected: false },
                             { value: 'dairy', viewValue:  'Dairy', selected: false},
-                            { value: 'tree_nuts', viewValue:  'Tree nuts', selected: false},
-                            { value: 'celery', viewValue:  'Celery', selected: false},
-                            { value: 'mustard', viewValue:  'Mustard', selected: false},
-                            { value: 'sesame_seeds ', viewValue:  'Sesame seeds', selected: false},
-                            { value: 'molluscs ', viewValue:  'Molluscs', selected: false},]
+                            { value: 'fish', viewValue:  'Fish', selected: false},
+                            { value: 'gluten', viewValue:  'Gluten', selected: false},
+                            { value: 'peanut', viewValue:  'Peanut', selected: false},
+                            { value: 'tree_nut', viewValue:  'Tree nut', selected: false},
+                            { value: 'soy', viewValue:  'Soy', selected: false},
+                            { value: 'egg', viewValue:  'Egg', selected: false},
+                            { value: 'sesame ', viewValue:  'Sesame', selected: false},
+                            { value: 'mustard ', viewValue:  'Mustard', selected: false},]
   }
   ngOnInit() {
     this.setActivePageFromParams();

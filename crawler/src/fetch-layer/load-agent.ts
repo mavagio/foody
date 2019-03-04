@@ -1,6 +1,7 @@
 import sources from '../assets/sources.json';
 import measurments from '../assets/measurments.json';
 import allergenics from '../assets/allergenics.json';
+import ingredientMap from '../assets/ingredients_map.json'
 
 export class LoadAgent {
   public static async loadSourceUrls(): Promise<Array<any>> {
@@ -19,6 +20,10 @@ export class LoadAgent {
 
   public static async loadAllergenics(): Promise<Array<any>> {
     return await Promise.all(allergenics.map(allergenic => Promise.resolve(allergenic.name)));
+  }
+
+  public static async loadIngredientMap() {
+    return ingredientMap;
   }
 
 }
