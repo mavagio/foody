@@ -11,6 +11,7 @@ export enum NutritionCategory {
   vegan,
   vegetarian,
   everything,
+  na,
 }
 
 export interface IRecipe {

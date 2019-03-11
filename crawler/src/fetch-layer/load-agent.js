@@ -14,6 +14,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const sources_json_1 = __importDefault(require("../assets/sources.json"));
 const measurments_json_1 = __importDefault(require("../assets/measurments.json"));
 const allergenics_json_1 = __importDefault(require("../assets/allergenics.json"));
+const ingredients_info_json_1 = __importDefault(require("../assets/ingredients_info.json"));
 class LoadAgent {
     static loadSourceUrls() {
         return __awaiter(this, void 0, void 0, function* () {
@@ -35,6 +36,11 @@ class LoadAgent {
     static loadAllergenics() {
         return __awaiter(this, void 0, void 0, function* () {
             return yield Promise.all(allergenics_json_1.default.map(allergenic => Promise.resolve(allergenic.name)));
+        });
+    }
+    static loadIngredientInfo() {
+        return __awaiter(this, void 0, void 0, function* () {
+            return ingredients_info_json_1.default;
         });
     }
 }

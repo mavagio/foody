@@ -7,7 +7,7 @@ export class TransformAgent {
     const staticPropertiesObject = StaticPropertyCollector.collectStaticProperties(recipeObject);
     const analysedPropertiesObject = await AnalysedPropertyCollector.collectAnalysedProperties(recipeObject, htmlIngredients);
 
-    const derivedPropertiesObject = DerivedPropertyCollector.collectDerivedProperties(analysedPropertiesObject.ingredients, analysedPropertiesObject.title);
+    const derivedPropertiesObject = await DerivedPropertyCollector.collectDerivedProperties(analysedPropertiesObject.ingredients, analysedPropertiesObject.title);
 
     return Object.assign(staticPropertiesObject, analysedPropertiesObject, derivedPropertiesObject);
   }

@@ -46,7 +46,7 @@ class AnalysedPropertyCollector {
     static findMeasurmentsInText(text) {
         return __awaiter(this, void 0, void 0, function* () {
             const measurementName = yield load_agent_1.LoadAgent.loadPluralMeasurements();
-            const numberSpaceKeywordRegex = '(\\d+|[¼½¾⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞↉]+)\\s*' + '(' + measurementName.join("|") + ')';
+            const numberSpaceKeywordRegex = '(\\d+|[¼½¾⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞↉]+)\\s*' + '(' + measurementName.join("|") + ')?';
             var finalRegex = new RegExp(numberSpaceKeywordRegex, 'gi');
             let matches = text.match(finalRegex) || [];
             return matches.join(', ');
@@ -81,10 +81,10 @@ class AnalysedPropertyCollector {
         const ingredientMap = helper_1.Helper.extractIngredientNamesToMap();
         for (let name of Array.from(ingredientMap.keys())) {
             if (sourceIngredient.toLocaleLowerCase().includes(name)) {
-                return name;
+                return name.trim();
             }
         }
-        return sourceIngredient;
+        return sourceIngredient.trim();
     }
     static filterIngredientAmount(sourceHtmlIngredient) {
         return __awaiter(this, void 0, void 0, function* () {
@@ -94,8 +94,11 @@ class AnalysedPropertyCollector {
             const analysedMeasuremnt = yield this.trimInnerOuterWhiteSpace(yield this.findMeasurmentsInText(ingredientText));
             const findToTaste = ingredientText.includes('to taste') ? 'to taste' : '';
             finalIngredientAmount.push(implicitMeasurement.trim(), analysedMeasuremnt, findToTaste);
-            return finalIngredientAmount.filter(Boolean).join(', ');
+            return this.filterEmptyArrayString(finalIngredientAmount).join(', ');
         });
+    }
+    static filterEmptyArrayString(text) {
+        return text.filter(Boolean);
     }
     static filterIngredientState(sourceIngredient) {
         const ingredientListing = sourceIngredient.split('plus');

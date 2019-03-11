@@ -33,7 +33,7 @@ export class AnalysedPropertyCollector {
 
   private static async findMeasurmentsInText(text: string) {
     const measurementName = await LoadAgent.loadPluralMeasurements();
-    const numberSpaceKeywordRegex = '(\\d+|[¼½¾⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞↉]+)\\s*' + '(' + measurementName.join("|") + ')';
+    const numberSpaceKeywordRegex = '(\\d+|[¼½¾⅐⅑⅒⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞↉]+)\\s*' + '(' + measurementName.join("|") + ')?';
 
     var finalRegex = new RegExp(numberSpaceKeywordRegex, 'gi');
     let matches = text.match(finalRegex) || [];
@@ -72,20 +72,26 @@ export class AnalysedPropertyCollector {
     const ingredientMap = Helper.extractIngredientNamesToMap();
     for (let name of Array.from(ingredientMap.keys())) {
       if (sourceIngredient.toLocaleLowerCase().includes(name)) {
-        return name;
+        return name.trim();
       }
     }
-    return sourceIngredient;
+    return sourceIngredient.trim();
   }
 
   private static async filterIngredientAmount(sourceHtmlIngredient: any) {
     const ingredientText = this.getHtmlInnerText(sourceHtmlIngredient);
     const finalIngredientAmount: string[] = []
+
     const implicitMeasurement: string = Helper.pipe(this.getSourceMeasurment, this.getHtmlInnerText, this.trimInnerOuterWhiteSpace)(sourceHtmlIngredient);
     const analysedMeasuremnt: string = await this.trimInnerOuterWhiteSpace(await this.findMeasurmentsInText(ingredientText));
     const findToTaste: string = ingredientText.includes('to taste')? 'to taste': '';
+
     finalIngredientAmount.push(implicitMeasurement.trim(), analysedMeasuremnt, findToTaste);
-    return finalIngredientAmount.filter(Boolean).join(', ');
+    return this.filterEmptyArrayString(finalIngredientAmount).join(', ');
+  }
+
+  private static filterEmptyArrayString(text: string[]): string[] {
+    return text.filter(Boolean);
   }
 
   private static filterIngredientState(sourceIngredient: string) {

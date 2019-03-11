@@ -6,7 +6,8 @@ class Helper {
         let ingredientNames = new Map();
         for (let recipe of recipes_1.recipes) {
             for (let ingredient of recipe.ingredients) {
-                ingredientNames.set(ingredient.name.toLowerCase(), true);
+                const nameLowercase = ingredient.name.toLowerCase();
+                ingredientNames.set(nameLowercase, true);
             }
         }
         return ingredientNames;
@@ -17,4 +18,3 @@ class Helper {
 }
 Helper.pipe = (...fns) => (x) => fns.reduce((v, f) => f(v), x);
 exports.Helper = Helper;
-console.log(Helper.extractIngredientNamesToMap());
