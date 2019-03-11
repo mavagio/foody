@@ -6,7 +6,7 @@ import { SaveAgent } from './save-layer/save-agent';
 export class Main {
   public static async start() {
     const sourceUrls = await LoadAgent.loadSourceUrls();
-    const rawRecipe = await FetchAgent.getRawRecipe(sourceUrls[0]);
+    const rawRecipe = await FetchAgent.getRawRecipe(sourceUrls[3]);
 
     const getJsonRecipe = await FetchAgent.getRecipeObject(rawRecipe);
     const htmlIngredients = await FetchAgent.getIngredientsFromHtml(rawRecipe);

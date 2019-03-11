@@ -53,7 +53,11 @@ export class RecipeComponent implements OnInit {
           //TODO move to a better position
           this.checkedIngredients = this.ingridientsCookieService.getCheckedIngredientsArray();
           this.assignCheckedIngredients();
-          this.videoSrc = this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube-nocookie.com/embed/'+this.recipe.youtubeId);
+          if(this.recipe.youtubeId) {
+            this.videoSrc = this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube-nocookie.com/embed/'+this.recipe.youtubeId);
+          } else {
+            this.videoSrc = this.recipe.videoURL;
+          }
         });
       }
     });

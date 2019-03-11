@@ -7,8 +7,8 @@
     <div class="recipe-wrapper">
       <div class="header-container">
         <iframe *ngIf="recipe?.youtubeId !== null" class="recipe-video" [src]="videoSrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <video *ngIf="recipe?.youtubeId == null" class="recipe-video" controls>
-          <source src="https://vid.tasty.co/output/18939/mp4_720x1280/1482342336" type="video/mp4">
+        <video *ngIf="recipe?.youtubeId == null" class="recipe-video" [src]="videoSrc" controls>
+          <source  type="video/mp4">
         </video>
       </div>
       <div class="content-container">   

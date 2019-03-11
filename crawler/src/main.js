@@ -16,7 +16,7 @@ class Main {
     static start() {
         return __awaiter(this, void 0, void 0, function* () {
             const sourceUrls = yield load_agent_1.LoadAgent.loadSourceUrls();
-            const rawRecipe = yield fetch_agent_1.FetchAgent.getRawRecipe(sourceUrls[0]);
+            const rawRecipe = yield fetch_agent_1.FetchAgent.getRawRecipe(sourceUrls[3]);
             const getJsonRecipe = yield fetch_agent_1.FetchAgent.getRecipeObject(rawRecipe);
             const htmlIngredients = yield fetch_agent_1.FetchAgent.getIngredientsFromHtml(rawRecipe);
             const targetRecipe = yield transform_agent_1.TransformAgent.transformRecipe(getJsonRecipe, htmlIngredients);
