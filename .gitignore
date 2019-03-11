@@ -8,6 +8,8 @@ yarn-error.log*
 #js files
 server/src/**/*.js
 scraper/src/**/*.js
+shared/**/*.js
+
 
 # Runtime data
 pids
