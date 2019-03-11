@@ -15,7 +15,7 @@ export class Main {
 
     console.log(targetRecipe.allergenics);
 
-    SaveAgent.saveObjectToFile(targetRecipe, './src/assets/crawler_recipe.json');
+    SaveAgent.saveObjectToFile(targetRecipe, './src/assets/scraper_recipe.json');
   }
 }
 

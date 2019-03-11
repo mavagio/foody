@@ -1,5 +1,5 @@
 {
-  "name": "crawler",
+  "name": "scraper",
   "version": "1.0.0",
   "description": "just getting some recipes",
   "main": "app.js",
