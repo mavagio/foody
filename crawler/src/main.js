@@ -20,7 +20,7 @@ class Main {
             const getJsonRecipe = yield fetch_agent_1.FetchAgent.getRecipeObject(rawRecipe);
             const htmlIngredients = yield fetch_agent_1.FetchAgent.getIngredientsFromHtml(rawRecipe);
             const targetRecipe = yield transform_agent_1.TransformAgent.transformRecipe(getJsonRecipe, htmlIngredients);
-            console.log(targetRecipe.nutritionCategory);
+            console.log(targetRecipe.allergenics);
             save_agent_1.SaveAgent.saveObjectToFile(targetRecipe, './src/assets/crawler_recipe.json');
         });
     }

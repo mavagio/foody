@@ -8,7 +8,7 @@ export class DerivedPropertyCollector {
     const collectedDerivedProperties: any = {
       priceOnAverage: this.derivePriceOnAverage(ingredients),
       nutritionCategory: this.deriveNutritionCategory(ingredients, ingredientsInfo),
-      allergenics: this.deriveAllergenics(ingredients),
+      allergenics: this.deriveAllergenics(ingredients, ingredientsInfo),
       youtubeId: this.deriveYoutubeId(recipeTitle), 
     }
     return collectedDerivedProperties;
@@ -31,12 +31,19 @@ export class DerivedPropertyCollector {
     return defaultReturnValue;
   }
 
-  private static derivePriceOnAverage(ingredients: IIngredient[]) {
-    return 0
+  private static derivePriceOnAverage(ingredients: IIngredient[]): number {
+    return 0; // Future work
   }
 
-  private static deriveAllergenics(ingredients: IIngredient[]) {
-    return []
+  private static deriveAllergenics(ingredients: IIngredient[], ingredientsInfo: any): string[] {
+    let resultedAllergenics: string[] = [];
+    for(let ingredient of ingredients) {
+      const ingredientInfo = ingredientsInfo[ingredient.name];
+      if(ingredientInfo && ingredientInfo.allergenics) {
+        resultedAllergenics = [...ingredientInfo.allergenics, ...resultedAllergenics];
+      }
+    }
+    return resultedAllergenics;
   }
 
   private static deriveYoutubeId(recipeTitle: string) {

@@ -13,7 +13,7 @@ export class Main {
 
     const targetRecipe = await TransformAgent.transformRecipe(getJsonRecipe, htmlIngredients); 
 
-    console.log(targetRecipe.nutritionCategory);
+    console.log(targetRecipe.allergenics);
 
     SaveAgent.saveObjectToFile(targetRecipe, './src/assets/crawler_recipe.json');
   }

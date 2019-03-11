@@ -17,7 +17,7 @@ class DerivedPropertyCollector {
             const collectedDerivedProperties = {
                 priceOnAverage: this.derivePriceOnAverage(ingredients),
                 nutritionCategory: this.deriveNutritionCategory(ingredients, ingredientsInfo),
-                allergenics: this.deriveAllergenics(ingredients),
+                allergenics: this.deriveAllergenics(ingredients, ingredientsInfo),
                 youtubeId: this.deriveYoutubeId(recipeTitle),
             };
             return collectedDerivedProperties;
@@ -40,10 +40,17 @@ class DerivedPropertyCollector {
         return defaultReturnValue;
     }
     static derivePriceOnAverage(ingredients) {
-        return 0;
+        return 0; // Future work
     }
-    static deriveAllergenics(ingredients) {
-        return [];
+    static deriveAllergenics(ingredients, ingredientsInfo) {
+        let resultedAllergenics = [];
+        for (let ingredient of ingredients) {
+            const ingredientInfo = ingredientsInfo[ingredient.name];
+            if (ingredientInfo && ingredientInfo.allergenics) {
+                resultedAllergenics = [...ingredientInfo.allergenics, ...resultedAllergenics];
+            }
+        }
+        return resultedAllergenics;
     }
     static deriveYoutubeId(recipeTitle) {
         return null; //TODO is possible to use youtube API to search by name and find if availalbe
