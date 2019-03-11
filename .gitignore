@@ -7,7 +7,7 @@ yarn-error.log*
 
 #js files
 server/src/**/*.js
-crawler/**/*.js
+crawler/src/**/*.js
 
 # Runtime data
 pids
