@@ -1,8 +1,9 @@
 import {Helper} from '../helper';
 
 export class StaticPropertyCollector {
-  public static collectStaticProperties(recipeObject: any): any {
+  public static collectStaticProperties(recipeObject: any, sourceUrl: string): any {
     return {
+      source: sourceUrl,
       title: this.getSourceRecipeTitle(recipeObject),
       approval: this.getSourceRecipeRatingValue(recipeObject),
       amountOfPeople: this.getSourceRecipeYield(recipeObject),

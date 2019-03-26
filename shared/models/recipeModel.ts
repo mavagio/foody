@@ -15,16 +15,17 @@ export enum NutritionCategory {
 }
 
 export interface IRecipe {
-   title: string;
-   approval: number
-   amountOfPeople: number;
-   priceOnAverage: number,
-   nutritionCategory: string;
-   allergenics?: string[];
-   preparationSteps: string[];
-   ingredients: IIngredient[];
-   preparationTimeInMinuts: number,
-   videoURL: string;
-   youtubeId: string | null;
-   imageURL: string;
+  source: string;
+  title: string;
+  approval: number
+  amountOfPeople: number;
+  priceOnAverage: number,
+  nutritionCategory: string;
+  allergenics?: string[];
+  preparationSteps: string[];
+  ingredients: IIngredient[];
+  preparationTimeInMinuts: number,
+  videoURL: string;
+  youtubeId: string | null;
+  imageURL: string;
 }

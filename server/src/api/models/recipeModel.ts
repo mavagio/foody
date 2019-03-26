@@ -12,6 +12,7 @@ const IngredientSchema: Schema = new Schema({
 });
 
 const RecipeSchema: Schema = new Schema({
+    source: String,
     title: String,
     approval: Number,
     amountOfPeople: Number,

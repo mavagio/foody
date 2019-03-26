@@ -4,7 +4,7 @@ import { NutritionCategory} from "../../../shared/models/recipeModel";
 
 export class DerivedPropertyCollector {
   public static async collectDerivedProperties(ingredients: IIngredient[], recipeTitle: string) {
-    const ingredientsInfo = await LoadAgent.loadIngredientInfo();
+    const ingredientsInfo = LoadAgent.loadIngredientInfo();
     const collectedDerivedProperties: any = {
       priceOnAverage: this.derivePriceOnAverage(ingredients),
       nutritionCategory: this.deriveNutritionCategory(ingredients, ingredientsInfo),
