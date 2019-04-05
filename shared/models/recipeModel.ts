@@ -20,7 +20,7 @@ export interface IRecipe {
   approval: number
   amountOfPeople: number;
   priceOnAverage: number,
-  nutritionCategory: string;
+  nutritionCategory: NutritionCategory;
   allergenics?: string[];
   preparationSteps: string[];
   ingredients: IIngredient[];

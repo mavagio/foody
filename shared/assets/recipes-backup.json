@@ -4,7 +4,7 @@
         "title": "Avocado Quinoa Power Salad",
         "amountOfPeople": 6,
         "priceOnAverage": 0,
-        "nutritionCategory": "0",
+        "nutritionCategory": 0,
         "preparationTimeInMinuts": 30,
         "videoURL": "https://youtu.be/Ny1hGQ5uvYc",
         "youtubeId": "Ny1hGQ5uvYc",
@@ -82,7 +82,7 @@
         "title": "Middle Eastern Pita Salad (Fattoush Salad)",
         "amountOfPeople": 6,
         "priceOnAverage": 0,
-        "nutritionCategory": "0",
+        "nutritionCategory": 0,
         "preparationTimeInMinuts": 20,
         "videoURL": "https://youtu.be/9dQvLt5LGes",
         "youtubeId": "9dQvLt5LGes",
@@ -212,7 +212,7 @@
         "title": "Sweet Potato And Chickpea Salad",
         "amountOfPeople": 4,
         "priceOnAverage": 0,
-        "nutritionCategory": "0",
+        "nutritionCategory": 0,
         "preparationTimeInMinuts": 55,
         "videoURL": "https://youtu.be/GXZXq7cb8P0",
         "youtubeId": "GXZXq7cb8P0",
@@ -335,7 +335,7 @@
         "title": "Easy Chicken Curry",
         "amountOfPeople": 2,
         "priceOnAverage": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "preparationTimeInMinuts": 55,
         "videoURL": "https://youtu.be/Ut6hZL0FbtA",
         "youtubeId": "Ut6hZL0FbtA",
@@ -493,7 +493,7 @@
         "title": "Chicken Bibimbap",
         "amountOfPeople": 2,
         "priceOnAverage": 12,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "preparationTimeInMinuts": 60,
         "videoURL": "https://youtu.be/kt8ydA48NiA",
         "youtubeId": "kt8ydA48NiA",
@@ -624,7 +624,7 @@
         "title": "Weekday Meal-prep Pesto Chicken & Veggies",
         "amountOfPeople": 4,
         "priceOnAverage": 12,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "preparationTimeInMinuts": 30,
         "videoURL": "https://vid.tasty.co/output/12355/mp4_720x1280/1476822662",
         "youtubeId": null,
@@ -691,7 +691,7 @@
         "title": "One-pan Chicken & Veggie Meal Prep",
         "amountOfPeople": 4,
         "priceOnAverage": 12,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "preparationTimeInMinuts": 50,
         "videoURL": "https://vid.tasty.co/output/18939/mp4_720x1280/1482342336",
         "youtubeId": null,
@@ -790,7 +790,7 @@
         "videoURL": "https://vid.tasty.co/output/32197/mp4_720x1280/1495125471",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/9534c85289dc40cbb0a30e5528137429/BFV6935_Slow-Cooker_Beef_and_Broccoli-FB1080.jpg",
         "preparationTimeInMinuts": 270,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -886,7 +886,7 @@
         "videoURL": "https://vid.tasty.co/output/53655/mp4_720x1280/1506464710",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/50e8eeb609f340f788ddddf8bc7faaa3/BFV28280EasySalmonDinnervsGourmetSalmonDinnerFBV4.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -1048,7 +1048,7 @@
         "videoURL": "https://vid.tasty.co/output/105979/landscape_720/1534803703",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/902865ccf964427bb9a8fdf2af7c0aeb/BFV46558EasyWeeknightMealstoMakeWithYourKidsFBV2.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -1249,7 +1249,7 @@
         "videoURL": "https://vid.tasty.co/output/23039/mp4_720x1280/1486150051",
         "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/890f725fcee44cec8833a4ac086d697e/Sticky_Chicken_Textless_Thumbnail.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -1333,7 +1333,7 @@
         "videoURL": "https://vid.tasty.co/output/99245/landscape_720/1529441653",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/a85715addab441fb9af4c0de2c14352b/seafoodfinalFB.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -1384,7 +1384,7 @@
         "videoURL": "https://vid.tasty.co/output/59025/mp4_720x1280/1509393167",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/934891f32fed43cfa611d4c77d029785/BFV30877_WeekdayMealPrepFor4FB1080x1080.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -1492,7 +1492,7 @@
         "videoURL": "https://vid.tasty.co/output/59025/mp4_720x1280/1509393167",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/866baaa671874497bd0443dce083da78/BFV30877_WeekdayMealPrepFor4FB1080x1080.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -1579,7 +1579,7 @@
         "videoURL": "https://vid.tasty.co/output/11272/mp4_720x1280/1475518362",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/24124f6a6e3748389d2551b4364214e9/BFV12924_EasyNoodles4Ways-FB1080SQ.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "0",
+        "nutritionCategory": 0,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -1659,7 +1659,7 @@
         "videoURL": "https://vid.tasty.co/output/59025/mp4_720x1280/1509393167",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/31cb8ce5b6e54178b02d8dc0563d07c5/BFV30877_WeekdayMealPrepFor4FB1080x1080.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "0",
+        "nutritionCategory": 0,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -1738,7 +1738,7 @@
         "videoURL": "https://vid.tasty.co/output/23541/mp4_720x1280/1486665111",
         "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/e21355e2c49b45c1ab7abe037db783d0/salmonthumb.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -1832,7 +1832,7 @@
         "videoURL": "https://vid.tasty.co/output/58030/mp4_720x1280/1508864010",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/945aad4d57cf433e94381cb0796631e9/fb.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "0",
+        "nutritionCategory": 0,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -1940,7 +1940,7 @@
         "videoURL": "https://vid.tasty.co/output/53923/mp4_720x1280/1506549248",
         "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/17559f93b94b45489eb4a47dd9b4f8a3/1506549248_00001.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "1",
+        "nutritionCategory": 1,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -2007,7 +2007,7 @@
         "videoURL": "https://vid.tasty.co/output/24516/mp4_720x1280/1487727857",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/3815cefcf1ca4a338edc124504a20682/BFV17423_4_Ways_To_Cook_Salmon_FB1080SQ.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -2064,7 +2064,7 @@
         "videoURL": "https://vid.tasty.co/output/10187/mp4_720x1280/1473975104",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/fcd041658e2b4793b7a0eb37529f1a47/BFV12310_4BurgersAroundtheWorld-FB1080SQ.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "3",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -2174,7 +2174,7 @@
         "videoURL": "https://vid.tasty.co/output/93734/landscape_720/1526064036",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/155837.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "0",
+        "nutritionCategory": 0,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -2333,7 +2333,7 @@
         "videoURL": "https://vid.tasty.co/output/31203/mp4_720x1280/1494349079",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/87b2ebfa685841cca37454ea00111943/Tasty_-_Facebook_-_1080x1080.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "0",
+        "nutritionCategory": 0,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -2398,7 +2398,7 @@
         "videoURL": "https://vid.tasty.co/output/10402/mp4_720x1280/1474401236",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/1d47125afffa461a9711758f632306b8/BFV12484_3-IngredientDinners-FB1080SQ.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -2443,7 +2443,7 @@
         "videoURL": "https://vid.tasty.co/output/53133/mp4_720x1280/1506097199",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/c52276e929bb44a0bb1dccc550aff16a/FB_Syphus_AsparagusStuffedChicken_v1.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -2534,7 +2534,7 @@
         "videoURL": "https://vid.tasty.co/output/79548/landscape_720/1518807520",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/8c13419678474dfa97b562df829674d2/BFV36769_InstantPotDinners-FB1080x1080.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "0",
+        "nutritionCategory": 0,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -2642,7 +2642,7 @@
         "videoURL": "https://vid.tasty.co/output/49619/mp4_720x1280/1503937699",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/97aa9be31408452591baef80ebc6b52c/BFV24904_FriedRice4Ways_FB1080SQ.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "1",
+        "nutritionCategory": 1,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -2759,7 +2759,7 @@
         "videoURL": "https://vid.tasty.co/output/11675/mp4_720x1280/1475879092",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/6dba1399f40e49bc8031db66514501ae/BFV13225_ShrimpStir-Fry4Ways-FB1080SQ.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -2837,7 +2837,7 @@
         "videoURL": "https://vid.tasty.co/output/14681/mp4_720x1280/1479146220",
         "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/cae70bb5ca7f424abc8e3ccff6b7bb59/BFV14656_ChickenNoodleSoup_ThumbB.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -2939,7 +2939,7 @@
         "videoURL": "https://vid.tasty.co/output/43727/mp4_720x1280/1500071112",
         "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/906d96d9f4c04ff0994e85c7c0dcfb06/Easy_Homemade_Chicken_Curry_Low_Fodmap_FB_Thumbnail_copy.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -3069,7 +3069,7 @@
         "videoURL": "https://vid.tasty.co/output/105912/landscape_720/1534790361",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/174425.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -3196,7 +3196,7 @@
         "videoURL": "https://vid.tasty.co/output/117263/landscape_720/1543486207",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/4e1c1bd803f4457d84dd12aca9aabf82/Vegan_Recipes_FB.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "0",
+        "nutritionCategory": 0,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -3382,7 +3382,7 @@
         "videoURL": "https://vid.tasty.co/output/18904/mp4_720x1280/1482284246",
         "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/e74d91426ca04b61a2bc165d7a5e5f47/BFV15344_TornadoZucchini_ThumbA.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "1",
+        "nutritionCategory": 1,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -3495,7 +3495,7 @@
         "videoURL": "https://vid.tasty.co/output/31203/mp4_720x1280/1494349079",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/c903a3d7cb684325b525aa236e017022/Tasty_-_Facebook_-_1080x1080.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "1",
+        "nutritionCategory": 1,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -3576,7 +3576,7 @@
         "videoURL": "https://vid.tasty.co/output/31866/mp4_720x1280/1495124937",
         "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/891cdcace9904113b06757bc8678255f/BFV5752_One-PotTomatoAndBasilPasta_Thumbnail_B.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "1",
+        "nutritionCategory": 1,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -3682,7 +3682,7 @@
         "videoURL": "https://vid.tasty.co/output/58958/mp4_720x1280/1509380974",
         "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/f69a7f4192b94d8395757b365ac6d866/GarlicParmPasta.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -3770,7 +3770,7 @@
         "videoURL": "https://vid.tasty.co/output/30369/mp4_720x1280/1493400520",
         "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/70defc85fe5c40ddb249ea76d93a0f75/Thumb_1_copy.jpg",
         "preparationTimeInMinuts": 0,
-        "nutritionCategory": "2",
+        "nutritionCategory": 2,
         "youtubeId": null,
         "__v": 0,
         "ingredients": [
@@ -3877,82 +3877,5 @@
             "Serve immediately."
         ],
         "allergenics": []
-    },
-    {
-        "_id": "5ca710601ad58208c74ceaa9",
-        "title": "Avocado Quinoa Power Salad",
-        "amountOfPeople": 6,
-        "nutritionCategory": "vegan",
-        "preparationTimeInMinuts": 30,
-        "videoURL": "https://youtu.be/Ny1hGQ5uvYc",
-        "youtubeId": "Ny1hGQ5uvYc",
-        "imageURL": "https://img.youtube.com/vi/Ny1hGQ5uvYc/mqdefault.jpg",
-        "__v": 0,
-        "ingredients": [
-            {
-                "name": "Water",
-                "amount": "2 cups, 480ml",
-                "_id": "5c6b37a71ac0ef13c871ceaa"
-            },
-            {
-                "name": "Salt",
-                "amount": "to taste",
-                "_id": "5c6b37a71ac0ef13c871cea9"
-            },
-            {
-                "name": "Pepper",
-                "amount": "to taste",
-                "_id": "5c6b37a71ac0ef13c871cea8"
-            },
-            {
-                "name": "Quinoa",
-                "amount": "1 cup, 170g",
-                "state": "rinsed",
-                "_id": "5c6b37a71ac0ef13c871cea7"
-            },
-            {
-                "name": "Fresh Spinach",
-                "amount": "2 cups, 80g",
-                "state": "raughly chopped",
-                "_id": "5c6b37a71ac0ef13c871cea6"
-            },
-            {
-                "name": "Cucumber",
-                "amount": "1 large",
-                "state": "diced",
-                "_id": "5c6b37a71ac0ef13c871cea5"
-            },
-            {
-                "name": "Roma tomatoes",
-                "amount": "4",
-                "state": "diced",
-                "_id": "5c6b37a71ac0ef13c871cea4"
-            },
-            {
-                "name": "Avocados",
-                "amount": "2 ripe",
-                "state": "pits removed and diced",
-                "_id": "5c6b37a71ac0ef13c871cea3"
-            },
-            {
-                "name": "Lemon",
-                "amount": "1",
-                "state": "juiced",
-                "_id": "5c6b37a71ac0ef13c871cea2"
-            },
-            {
-                "name": "Olive oil (extra virgin)",
-                "amount": "4 tbsp",
-                "state": "",
-                "_id": "5c6b37a71ac0ef13c871cea1"
-            }
-        ],
-        "preparationSteps": [
-            "In a small saucepan, bring the water and a pinch of salt to a boil. Add the quinoa, cover, and simmer for 15 minutes, or until the water is absorbed. Transfer to a medium bowl to cool to room temperature, then fluff the quinoa.",
-            "Refrigerate the quinoa for 20 minutes",
-            "Add the spinach, cucumber, tomatoes, and avocado to the bowl of quinoa and mix to combine.",
-            "Add the lemon juice, olive oil, salt, and pepper, and mix well."
-        ],
-        "allergenics": []
     }
-  ]
+]

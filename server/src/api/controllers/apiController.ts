@@ -49,7 +49,7 @@ module.exports = (passport: any) => {
             res.send(null)
             return;
         }
-        publicModule.recipes_get(req,res);
+        recipeCtrl.getRecipesForWeek(req, res, JSON.parse(req.cookies[USER_SETTINGS_COOKIE_NAME]));
     };
 
     /**
