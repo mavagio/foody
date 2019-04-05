@@ -1,0 +1,225 @@
+{
+  "_commnet": "More detialed information per ingredient, nutrition category 0 for vegan, 1 for vegeterian, 2 for everything",
+  "water": {
+    "nutrition_category": 1
+  },
+  "salt": {
+    "nutrition_category": 1
+  },
+  "pepper": {
+    "nutrition_category": 1
+  },
+  "quinoa": {
+    "nutrition_category": 1
+  },
+  "fresh spinach": {
+    "nutrition_category": 1
+  },
+  "cucumber": {
+    "nutrition_category": 1
+  },
+  "roma tomatoes": {
+    "nutrition_category": 1
+  },
+  "avocados": {
+    "nutrition_category": 1
+  },
+  "lemon": {
+    "nutrition_category": 1
+  },
+  "olive oil (extra virgin)": {
+    "nutrition_category": 1
+  },
+  "small pita rounds": {
+    "nutrition_category": 1
+  },
+  "olive oil": {
+    "nutrition_category": 1
+  },
+  "romaine lettuce": {
+    "nutrition_category": 1
+  },
+  "cherry tomatoes": {
+    "nutrition_category": 1
+  },
+  "scallions": {
+    "nutrition_category": 1
+  },
+  "radish": {
+    "nutrition_category": 1
+  },
+  "red bell pepper": {
+    "nutrition_category": 1
+  },
+  "fresh parsley": {
+    "nutrition_category": 1
+  },
+  "fresh mint": {
+    "nutrition_category": 1
+  },
+  "white wine vinegar": {
+    "nutrition_category": 1
+  },
+  "garlic": {
+    "nutrition_category": 1
+  },
+  "ground sumac": {
+    "nutrition_category": 1
+  },
+  "allspice": {
+    "nutrition_category": 1
+  },
+  "sweet potatoes": {
+    "nutrition_category": 1
+  },
+  "red onion": {
+    "nutrition_category": 1
+  },
+  "chickpeas": {
+    "nutrition_category": 1
+  },
+  "lemon juice": {
+    "nutrition_category": 1
+  },
+  "ground cumin": {
+    "nutrition_category": 1
+  },
+  "paprika": {
+    "nutrition_category": 1
+  },
+  "cinnamon": {
+    "nutrition_category": 1
+  },
+  "cayenne": {
+    "nutrition_category": 1
+  },
+  "mixed greens": {
+    "nutrition_category": 1
+  },
+  "fresh cilantro": {
+    "nutrition_category": 1
+  },
+  "dried cranberries": {
+    "nutrition_category": 1
+  },
+  "coconut oil": {
+    "nutrition_category": 1
+  },
+  "cinnamon stick": {
+    "nutrition_category": 1
+  },
+  "cardamom pods": {
+    "nutrition_category": 1
+  },
+  "basmati rice": {
+    "nutrition_category": 1
+  },
+  "yellow onion": {
+    "nutrition_category": 1
+  },
+  "fresh ginger": {
+    "nutrition_category": 1
+  },
+  "tamtto paste": {
+    "nutrition_category": 1
+  },
+  "ground turmeric": {
+    "nutrition_category": 1
+  },
+  "ground coriander": {
+    "nutrition_category": 1
+  },
+  "full fat greek yogurt": {
+    "nutrition_category": 1,
+    "allergenics": [
+      "dairy"
+    ]
+  },
+  "chicken thigh": {
+    "nutrition_category": 2
+  },
+  "lime wedge": {
+    "nutrition_category": 1
+  },
+  "soy sauce": {
+    "nutrition_category": 1,
+    "allergenics": [
+      "soy"
+    ]
+  },
+  "mirin": {
+    "nutrition_category": 1
+  },
+  "sesam oil": {
+    "nutrition_category": 1,
+    "allergenics": [
+      "sesame"
+    ]
+  },
+  "light brown sugar": {
+    "nutrition_category": 1
+  },
+  "skinless chicken thighs": {
+    "nutrition_category": 2
+  },
+  "kosher salt": {
+    "nutrition_category": 1
+  },
+  "large carrots": {
+    "nutrition_category": 1
+  },
+  "shittake mushrooms": {
+    "nutrition_category": 1
+  },
+  "unsalted butter": {
+    "nutrition_category": 1
+  },
+  "large eggs": {
+    "nutrition_category": 1,
+    "allergenics": [
+      "egg"
+    ]
+  },
+  "sushi rice": {
+    "nutrition_category": 1
+  },
+  "persian cucumber": {
+    "nutrition_category": 1
+  },
+  "kimchi": {
+    "nutrition_category": 1
+  },
+  "cherry tomato": {
+    "nutrition_category": 1
+  },
+  "green beans": {
+    "nutrition_category": 1
+  },
+  "sweet potato": {
+    "nutrition_category": 1
+  },
+  "basil pesto": {
+    "nutrition_category": 1
+  },
+  "carrot": {
+    "nutrition_category": 1
+  },
+  "brussels sprouts": {
+    "nutrition_category": 1
+  },
+  "chicken breast": {
+    "nutrition_category": 2
+  },
+  "head broccoli": {
+    "nutrition_category": 1
+  },
+  "fresh thyme": {
+    "nutrition_category": 1
+  },
+  "fresh rosemary": {
+    "nutrition_category": 1
+  },
+  "beef": {
+    "nutrition_category": 2
+  }
+}

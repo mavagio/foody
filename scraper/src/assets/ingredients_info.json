@@ -1,225 +1,508 @@
 {
   "_commnet": "More detialed information per ingredient, nutrition category 0 for vegan, 1 for vegeterian, 2 for everything",
   "water": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "salt": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "pepper": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "quinoa": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "fresh spinach": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "cucumber": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "roma tomatoes": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "avocados": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "lemon": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "olive oil (extra virgin)": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "small pita rounds": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "olive oil": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "romaine lettuce": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "cherry tomatoes": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "scallions": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "radish": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "red bell pepper": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "fresh parsley": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "fresh mint": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "white wine vinegar": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "garlic": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "ground sumac": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "allspice": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "sweet potatoes": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "red onion": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "chickpeas": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "lemon juice": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "ground cumin": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "paprika": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "cinnamon": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "cayenne": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "mixed greens": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "fresh cilantro": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "dried cranberries": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "coconut oil": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "cinnamon stick": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "cardamom pods": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "basmati rice": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "yellow onion": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "fresh ginger": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
-  "tamtto paste": {
-    "nutrition_category": 1
+  "tomato paste": {
+    "nutrition_category": 0
   },
   "ground turmeric": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "ground coriander": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "full fat greek yogurt": {
     "nutrition_category": 1,
-    "allergenics": [
-      "dairy"
-    ]
+    "allergenics": ["dairy"]
   },
   "chicken thigh": {
     "nutrition_category": 2
   },
   "lime wedge": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "soy sauce": {
-    "nutrition_category": 1,
-    "allergenics": [
-      "soy"
-    ]
+    "nutrition_category": 0,
+    "allergenics": ["soy"]
   },
   "mirin": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "sesam oil": {
     "nutrition_category": 1,
-    "allergenics": [
-      "sesame"
-    ]
+    "allergenics": ["sesame"]
   },
   "light brown sugar": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "skinless chicken thighs": {
     "nutrition_category": 2
   },
   "kosher salt": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "large carrots": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "shittake mushrooms": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "unsalted butter": {
     "nutrition_category": 1
   },
   "large eggs": {
     "nutrition_category": 1,
-    "allergenics": [
-      "egg"
-    ]
+    "allergenics": ["egg"]
   },
   "sushi rice": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "persian cucumber": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "kimchi": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "cherry tomato": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "green beans": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "sweet potato": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "basil pesto": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "carrot": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "brussels sprouts": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "chicken breast": {
     "nutrition_category": 2
   },
   "head broccoli": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "fresh thyme": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "fresh rosemary": {
-    "nutrition_category": 1
+    "nutrition_category": 0
   },
   "beef": {
     "nutrition_category": 2
+  },
+  "sirloin steak": {
+    "nutrition_category": 2
+  },
+  "beef broth": {
+    "nutrition_category": 2
+  },
+  "brown sugar": {
+    "nutrition_category": 0
+  },
+  "sesame oil": {
+    "nutrition_category": 0,
+    "allergenics": ["sesame"]
+  },
+  "cornstarch": {
+    "nutrition_category": 1
+  },
+  "white rice": {
+    "nutrition_category": 0
+  },
+  "butter": {
+    "nutrition_category": 1
+  },
+  "shallots": {
+    "nutrition_category": 0
+  },
+  "whole milk": {
+    "nutrition_category": 1
+  },
+  "yellow potato": {
+    "nutrition_category": 0
+  },
+  "porcini mushroom": {
+    "nutrition_category": 0
+  },
+  "asparagus": {
+    "nutrition_category": 0
+  },
+  "salmon fillets": {
+    "nutrition_category": 2
+  },
+  "chili powder": {
+    "nutrition_category": 0
+  },
+  "flank steak": {
+    "nutrition_category": 2
+  },
+  "mushroom": {
+    "nutrition_category": 0
+  },
+  "corn tortillas": {
+    "nutrition_category": 0
+  },
+  "greek yogurt": {
+    "nutrition_category": 1
+  },
+  "lime juice": {
+    "nutrition_category": 0
+  },
+  "lime zest": {
+    "nutrition_category": 0
+  },
+  "black beans": {
+    "nutrition_category": 0
+  },
+  "pico de gallo": {
+    "nutrition_category": 0
+  },
+  "corn and black bean salsa": {
+    "nutrition_category": 0
+  },
+  "shredded cheddar cheese": {
+    "nutrition_category": 1
+  },
+  "guacamole": {
+    "nutrition_category": 1
+  },
+  "hot sauce": {
+    "nutrition_category": 0
+  },
+  "cooking spray": {
+    "nutrition_category": 0
+  },
+  "oil": {
+    "nutrition_category": 0
+  },
+  "lean ground beef": {
+    "nutrition_category": 2
+  },
+  "onion": {
+    "nutrition_category": 0
+  },
+  "panko breadcrumbs": {
+    "nutrition_category": 0
+  },
+  "egg": {
+    "nutrition_category": 1,
+    "allergenics": ["egg"]
+  },
+  "beef gravy": {
+    "nutrition_category": 2
+  },
+  "green onion": {
+    "nutrition_category": 0
+  },
+  "chicken drumsticks": {
+    "nutrition_category": 2
+  },
+  "ginger": {
+    "nutrition_category": 0
+  },
+  "red chili": {
+    "nutrition_category": 0
+  },
+  "honey": {
+    "nutrition_category": 1
+  },
+  "sesame seed": {
+    "nutrition_category": 0,
+    "allergenics": ["sesame"]
+  },
+  "spathetti": {
+    "nutrition_category": 0
+  },
+  "stalk celery": {
+    "nutrition_category": 0
+  },
+  "red wine": {
+    "nutrition_category": 0
+  },
+  "tomato": {
+    "nutrition_category": 0
+  },
+  "vegetable broth": {
+    "nutrition_category": 0
+  },
+  "brown lentil": {
+    "nutrition_category": 0
+  },
+  "basil": {
+    "nutrition_category": 0
+  },
+  "oregano": {
+    "nutrition_category": 0
+  },
+  "rosemary": {
+    "nutrition_category": 0
+  },
+  "baking soda": {
+    "nutrition_category": 0
+  },
+  "skin-on salmon": {
+    "nutrition_category": 2
+  },
+  "wild rice": {
+    "nutrition_category": 0
+  },
+  "avocado": {
+    "nutrition_category": 0
+  },
+  "cumin": {
+    "nutrition_category": 0
+  },
+  "salmon": {
+    "nutrition_category": 2
+  },
+  "snap pea": {
+    "nutrition_category": 0
+  },
+  "rice noodles": {
+    "nutrition_category": 0
+  },
+  "cauliflower ": {
+    "nutrition_category": 0
+  },
+  "broccoli": {
+    "nutrition_category": 0
+  },
+  "parmesan cheese": {
+    "nutrition_category": 1,
+    "allergenics": ["dairy"]
+  },
+  "cauliflower": {
+    "nutrition_category": 0
+  },
+  "breadcrumb": {
+    "nutrition_category": 0
+  },
+  "provolone cheese": {
+    "nutrition_category": 1,
+    "allergenics": ["dairy"]
+  },
+  "brown rice": {
+    "nutrition_category": 0
+  },
+  "frozen peas": {
+    "nutrition_category": 0
+  },
+  "scallion": {
+    "nutrition_category": 0
+  },
+  "peas": {
+    "nutrition_category": 0
+  },
+  "corn": {
+    "nutrition_category": 0
+  },
+  "shrimp": {
+    "nutrition_category": 2
+  },
+  "celery": {
+    "nutrition_category": 1
+  },
+  "cooked chicken": {
+    "nutrition_category": 2
+  },
+  "chicken broth": {
+    "nutrition_category": 2
+  },
+  "bay leaf": {
+    "nutrition_category": 0
+  },
+  "turmeric": {
+    "nutrition_category": 0
+  },
+  "garam masala": {
+    "nutrition_category": 0
+  },
+  "rice": {
+    "nutrition_category": 0
+  },
+  "fresh coriander": {
+    "nutrition_category": 0
+  },
+  "instant ramen": {
+    "nutrition_category": 0
+  },
+  "lime": {
+    "nutrition_category": 0
+  },
+  "vegetable stock": {
+    "nutrition_category": 0
+  },
+  "miso paste": {
+    "nutrition_category": 0
+  },
+  "ramen noodle": {
+    "nutrition_category": 1
+  },
+  "bok choy": {
+    "nutrition_category": 0
+  },
+  "fresh parlsey": {
+    "nutrition_category": 0
+  },
+  "nori": {
+    "nutrition_category": 0
+  },
+  "spinach": {
+    "nutrition_category": 0
+  },
+  "bean sprout": {
+    "nutrition_category": 0
+  },
+  "jalapeño": {
+    "nutrition_category": 0
+  },
+  "zucchini": {
+    "nutrition_category": 0
+  },
+  "bamboo skewers": {
+    "nutrition_category": 0
+  },
+  "ranch dressing": {
+    "nutrition_category": 1
+  },
+  "spaghetti": {
+    "nutrition_category": 0
+  },
+  "chillie": {
+    "nutrition_category": 0
+  },
+  "milk": {
+    "nutrition_category": 1,
+    "allergenics": ["dairy"]
+  },
+  "fettuccine": {
+    "nutrition_category": 0
+  },
+  "cilantro": {
+    "nutrition_category": 0
   }
 }

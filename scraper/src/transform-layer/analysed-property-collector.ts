@@ -69,8 +69,9 @@ export class AnalysedPropertyCollector {
   }
 
   private static filterIngredientName(sourceIngredient: string): string {
-    const ingredientMap = Helper.extractIngredientNamesToMap();
-    for (let name of Array.from(ingredientMap.keys())) {
+    const recipes: any = LoadAgent.loadRecipes();
+    const ingredientsMap = Helper.extractIngredientNamesToMap(recipes);
+    for (let name of ingredientsMap) {
       if (sourceIngredient.toLocaleLowerCase().includes(name)) {
         return name.trim();
       }

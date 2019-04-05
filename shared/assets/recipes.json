@@ -1,1 +1,3958 @@
-{"source":"https://tasty.co/recipe/gourmet-salmon-dinner","title":"Gourmet Salmon Dinner Recipe by Tasty","approval":99,"amountOfPeople":2,"videoURL":"https://vid.tasty.co/output/53655/mp4_720x1280/1506464710","imageURL":"https://img.buzzfeed.com/thumbnailer-prod-us-east-1/50e8eeb609f340f788ddddf8bc7faaa3/BFV28280EasySalmonDinnervsGourmetSalmonDinnerFBV4.jpg","preparationSteps":["Make the creamy shallot potato puree: Melt 3 tablespoons of butter in a medium pan over medium-high heat. Add the shallots and cook for 3-4 minutes, until softened.","Add the garlic and another tablespoon of butter and continue to cook for another 3-4 minutes, stirring frequently, until the shallots are browned.","Add the milk, white pepper, and salt and stir to incorporate.","Transfer the shallot mixture to a food processor and process until smooth.","Mash potatoes in a large bowl. Add the shallot puree and continue to mash until fully incorporated. Set aside.","Make the sautéed vegetables: Heat a drizzle of olive oil in a large pan over medium heat. Add the mushrooms and cook for 5 minutes, stirring occasionally, until starting to soften.","Push the mushrooms to one side of the pan and add a bit more oil. Add the asparagus and season everything with salt and pepper. Cook for 5 minutes, until the vegetables are tender. Remove from the heat and set aside.","Make the salmon: On a cutting board, cut 4 slits in the salmon skin, roughly ¼-inch (6 mm) apart and ½-inch (12 mm) into the salmon flesh. Season with salt, pepper, and thyme leaves.","Heat a drizzle of olive oil in a medium pan over medium-high heat. Add the salmon, skin-side down. Cook for 3-4 minutes, or until a lighter pink color has reached ⅓-½ of the way up the side of the salmon. ","Flip the salmon and immediately add the butter, garlic, and a few sprigs of thyme. Stir the garlic and thyme around the pan to infuse the flavors and spoon the butter over the salmon for 2 minutes more, until the salmon is cooked through. Remove the salmon from the pan.","Add the potato puree to plates and top with the sautéed vegetables and salmon."],"preparationTimeInMinuts":0,"ingredients":[{"name":"4 tablespoons butter, divided","amount":"4 tablespoons","state":"divided","required":true},{"name":"2 shallots, thinly sliced","amount":"2 ","state":"thinly sliced","required":true},{"name":"garlic","amount":"2 cloves","state":"minced","required":true},{"name":"⅓ cup whole milk","amount":"⅓ cup","state":"","required":true},{"name":"pepper","amount":"1 , ½ teaspoons","state":"","required":true},{"name":"salt","amount":"1 teaspoon","state":"","required":true},{"name":"2 lb yellow potato, peeled, quartered, and boiled until tender (905 g)","amount":"(905 g), 2 , 905 ","state":"peeled, quartered, and boiled until tender (905 g)","required":true},{"name":"olive oil","amount":"to taste","state":"to taste","required":true},{"name":"1 cup porcini mushroom, trimmed and quartered (75 g)","amount":"(75 g), 1 cup, 75 ","state":"trimmed and quartered (75 g)","required":true},{"name":"1 bunch asparagus, ends trimmed","amount":"1 bunch","state":"ends trimmed","required":true},{"name":"salt","amount":"to taste","state":"to taste","required":true},{"name":"pepper","amount":"to taste","state":"to taste","required":true},{"name":"2 skin-on salmon fillets","amount":"2 ","state":"","required":true},{"name":"salt","amount":"to taste","state":"to taste","required":true},{"name":"pepper","amount":"to taste","state":"to taste","required":true},{"name":"fresh thyme","amount":"to taste","state":"to taste","required":true},{"name":"olive oil","amount":"to taste","state":"to taste","required":true},{"name":"2 tablespoons butter, cubed","amount":"2 tablespoons","state":"cubed","required":true},{"name":"garlic","amount":"3 cloves","state":"crushed","required":true}],"priceOnAverage":0,"nutritionCategory":3,"allergenics":[],"youtubeId":null}
+[
+  {
+      "_id": "5c6b37a71ac0ef13c871cea0",
+      "title": "Avocado Quinoa Power Salad",
+      "amountOfPeople": 6,
+      "priceOnAverage": 0,
+      "nutritionCategory": "0",
+      "preparationTimeInMinuts": 30,
+      "videoURL": "https://youtu.be/Ny1hGQ5uvYc",
+      "youtubeId": "Ny1hGQ5uvYc",
+      "imageURL": "https://img.youtube.com/vi/Ny1hGQ5uvYc/mqdefault.jpg",
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "Water",
+              "amount": "2 cups, 480ml",
+              "_id": "5c6b37a71ac0ef13c871ceaa"
+          },
+          {
+              "name": "Salt",
+              "amount": "to taste",
+              "_id": "5c6b37a71ac0ef13c871cea9"
+          },
+          {
+              "name": "Pepper",
+              "amount": "to taste",
+              "_id": "5c6b37a71ac0ef13c871cea8"
+          },
+          {
+              "name": "Quinoa",
+              "amount": "1 cup, 170g",
+              "state": "rinsed",
+              "_id": "5c6b37a71ac0ef13c871cea7"
+          },
+          {
+              "name": "Fresh Spinach",
+              "amount": "2 cups, 80g",
+              "state": "raughly chopped",
+              "_id": "5c6b37a71ac0ef13c871cea6"
+          },
+          {
+              "name": "Cucumber",
+              "amount": "1 large",
+              "state": "diced",
+              "_id": "5c6b37a71ac0ef13c871cea5"
+          },
+          {
+              "name": "Roma tomatoes",
+              "amount": "4",
+              "state": "diced",
+              "_id": "5c6b37a71ac0ef13c871cea4"
+          },
+          {
+              "name": "Avocados",
+              "amount": "2 ripe",
+              "state": "pits removed and diced",
+              "_id": "5c6b37a71ac0ef13c871cea3"
+          },
+          {
+              "name": "Lemon",
+              "amount": "1",
+              "state": "juiced",
+              "_id": "5c6b37a71ac0ef13c871cea2"
+          },
+          {
+              "name": "Olive oil (extra virgin)",
+              "amount": "4 tbsp",
+              "state": "",
+              "_id": "5c6b37a71ac0ef13c871cea1"
+          }
+      ],
+      "preparationSteps": [
+          "In a small saucepan, bring the water and a pinch of salt to a boil. Add the quinoa, cover, and simmer for 15 minutes, or until the water is absorbed. Transfer to a medium bowl to cool to room temperature, then fluff the quinoa.",
+          "Refrigerate the quinoa for 20 minutes",
+          "Add the spinach, cucumber, tomatoes, and avocado to the bowl of quinoa and mix to combine.",
+          "Add the lemon juice, olive oil, salt, and pepper, and mix well."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5c6b37a71ac0ef13c871ceab",
+      "title": "Middle Eastern Pita Salad (Fattoush Salad)",
+      "amountOfPeople": 6,
+      "priceOnAverage": 0,
+      "nutritionCategory": "0",
+      "preparationTimeInMinuts": 20,
+      "videoURL": "https://youtu.be/9dQvLt5LGes",
+      "youtubeId": "9dQvLt5LGes",
+      "imageURL": "https://img.youtube.com/vi/9dQvLt5LGes/mqdefault.jpg",
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "Small pita rounds",
+              "amount": "2",
+              "state": "",
+              "_id": "5c6b37a71ac0ef13c871cebd"
+          },
+          {
+              "name": "Olive oil",
+              "amount": "1/2 cup, 2 tbsp",
+              "state": "",
+              "_id": "5c6b37a71ac0ef13c871cebc"
+          },
+          {
+              "name": "Pepper",
+              "amount": "to taste",
+              "_id": "5c6b37a71ac0ef13c871cebb"
+          },
+          {
+              "name": "Salt",
+              "amount": "to taste",
+              "_id": "5c6b37a71ac0ef13c871ceba"
+          },
+          {
+              "name": "Romaine lettuce",
+              "amount": "2 medium",
+              "state": "",
+              "_id": "5c6b37a71ac0ef13c871ceb9"
+          },
+          {
+              "name": "Cucumber",
+              "amount": "1 medium",
+              "state": "",
+              "_id": "5c6b37a71ac0ef13c871ceb8"
+          },
+          {
+              "name": "Cherry tomatoes",
+              "amount": "400g",
+              "state": "",
+              "_id": "5c6b37a71ac0ef13c871ceb7"
+          },
+          {
+              "name": "Scallions",
+              "amount": "5",
+              "state": "",
+              "_id": "5c6b37a71ac0ef13c871ceb6"
+          },
+          {
+              "name": "Radish",
+              "amount": "1/2 cup, 60g",
+              "state": "sliced",
+              "_id": "5c6b37a71ac0ef13c871ceb5"
+          },
+          {
+              "name": "Red bell pepper",
+              "amount": "1",
+              "state": "seeded and diced",
+              "_id": "5c6b37a71ac0ef13c871ceb4"
+          },
+          {
+              "name": "Fresh parsley",
+              "amount": "80g",
+              "state": "chopped",
+              "_id": "5c6b37a71ac0ef13c871ceb3"
+          },
+          {
+              "name": "Fresh mint",
+              "amount": "40g",
+              "state": "chopped",
+              "_id": "5c6b37a71ac0ef13c871ceb2"
+          },
+          {
+              "name": "Lemon",
+              "amount": "1.5 lemons",
+              "state": "juiced",
+              "_id": "5c6b37a71ac0ef13c871ceb1"
+          },
+          {
+              "name": "White wine vinegar",
+              "amount": "1 tbsp",
+              "_id": "5c6b37a71ac0ef13c871ceb0"
+          },
+          {
+              "name": "Garlic",
+              "amount": "2",
+              "state": "minced",
+              "_id": "5c6b37a71ac0ef13c871ceaf"
+          },
+          {
+              "name": "White wine vinegar",
+              "amount": "1 tbsp",
+              "_id": "5c6b37a71ac0ef13c871ceae"
+          },
+          {
+              "name": "Ground sumac",
+              "amount": "2 tsp",
+              "_id": "5c6b37a71ac0ef13c871cead"
+          },
+          {
+              "name": "Allspice",
+              "amount": "1/4 tsp",
+              "_id": "5c6b37a71ac0ef13c871ceac"
+          }
+      ],
+      "preparationSteps": [
+          "Preheat the oven to 350°F (180°C).",
+          "Slice the pitas in half to make 4 thin rounds. Place the pitas on a nonstick sheet pan. Brush with 2 tablespoons of olive oil and season with salt.",
+          "Bake for about 5 minutes, until the outside is golden brown. Let cool until they become crispy.",
+          "Make 3 cuts lengthwise on each of the romaine hearts, remove the stems, and chop into smaller pieces. Rinse, drain, and add to a large salad bowl.",
+          "Seed the cucumber, dice it, and add it to the salad bowl.",
+          "Cut the tomatoes in half and add them to the salad bowl.",
+          "Mince the scallions and add them to the salad bowl.",
+          "Add the radishes, bell pepper, parsley, and mint to the salad bowl and toss to combine.",
+          "In a liquid measuring cup or small bowl, combine the remaining ½ cup (120 ml) of oil, the lemon juice, white wine vinegar, garlic, sumac, allspice, salt, and pepper and whisk until well-combined.",
+          "Pour the dressing over the salad.",
+          "Break the crispy pitas into small pieces and add to the salad. Toss well."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5c6b37a81ac0ef13c871cebe",
+      "title": "Sweet Potato And Chickpea Salad",
+      "amountOfPeople": 4,
+      "priceOnAverage": 0,
+      "nutritionCategory": "0",
+      "preparationTimeInMinuts": 55,
+      "videoURL": "https://youtu.be/GXZXq7cb8P0",
+      "youtubeId": "GXZXq7cb8P0",
+      "imageURL": "https://img.youtube.com/vi/GXZXq7cb8P0/mqdefault.jpg",
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "Sweet potatoes",
+              "amount": "2 large",
+              "state": "scrubbed",
+              "_id": "5c6b37a81ac0ef13c871cece"
+          },
+          {
+              "name": "Red onion",
+              "amount": "1/2 medium",
+              "state": "chopped",
+              "_id": "5c6b37a81ac0ef13c871cecd"
+          },
+          {
+              "name": "Chickpeas",
+              "amount": "1 can, 425g",
+              "state": "rinsed and drained",
+              "_id": "5c6b37a81ac0ef13c871cecc"
+          },
+          {
+              "name": "Olive oil",
+              "amount": "120ml",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cecb"
+          },
+          {
+              "name": "Lemon juice",
+              "amount": "1/5 cup, 60ml",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871ceca"
+          },
+          {
+              "name": "Garlic",
+              "amount": "2 tbsp",
+              "state": "minced",
+              "_id": "5c6b37a81ac0ef13c871cec9"
+          },
+          {
+              "name": "Ground cumin",
+              "amount": "1 tsp",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cec8"
+          },
+          {
+              "name": "Paprika",
+              "amount": "1 tsp",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cec7"
+          },
+          {
+              "name": "Cinnamon",
+              "amount": "1/4 tsp",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cec6"
+          },
+          {
+              "name": "Cayenne",
+              "amount": "1/4 tsp",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cec5"
+          },
+          {
+              "name": "Mixed greens",
+              "amount": "85g",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cec4"
+          },
+          {
+              "name": "Fresh parsley",
+              "amount": "1/4 cup, (10g)",
+              "state": "chopped",
+              "_id": "5c6b37a81ac0ef13c871cec3"
+          },
+          {
+              "name": "Fresh cilantro",
+              "amount": "1/4 tbsp",
+              "state": "chopped",
+              "_id": "5c6b37a81ac0ef13c871cec2"
+          },
+          {
+              "name": "Dried cranberries",
+              "amount": "2 cloves",
+              "state": "for garnish",
+              "required": false,
+              "_id": "5c6b37a81ac0ef13c871cec1"
+          },
+          {
+              "name": "Salt",
+              "amount": "to taste",
+              "_id": "5c6b37a81ac0ef13c871cec0"
+          },
+          {
+              "name": "Pepper",
+              "amount": "to taste",
+              "_id": "5c6b37a81ac0ef13c871cebf"
+          }
+      ],
+      "preparationSteps": [
+          "Preheat the oven to 425ºF (220ºC).",
+          "Cut the sweet potatoes in small cubes and transfer on one half of a non-stick baking sheet.",
+          "Peel and slice the onion and set aside.",
+          "Add the chickpeas to the other half of the baking sheet.",
+          "In a liquid measuring cup with a pour spout, combine the olive oil, lemon juice, garlic, cumin, paprika, cinnamon, cayenne, salt, and pepper and mix well.",
+          "Pour half of the dressing over the sweet potatoes and chickpeas and mix with your hands until well-coated. Keep the chickpeas and sweet potatoes separated as much as possible.",
+          "Scoot the chickpeas toward the sweet potatoes and add the onions to the baking sheet. Make sure everything is spread out evenly.",
+          "Bake for 30 minutes, until the sweet potatoes are tender. Use tongs to stir halfway through. Let cool for 20 minutes.",
+          "Place the greens in a large bowl. Top with the roasted chickpeas, sweet potatoes, and onion.",
+          "Add the parsley, cilantro, and remaining dressing and toss to combine.",
+          "Top with dried cranberries, if using."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5c6b37a81ac0ef13c871cecf",
+      "title": "Easy Chicken Curry",
+      "amountOfPeople": 2,
+      "priceOnAverage": 0,
+      "nutritionCategory": "2",
+      "preparationTimeInMinuts": 55,
+      "videoURL": "https://youtu.be/Ut6hZL0FbtA",
+      "youtubeId": "Ut6hZL0FbtA",
+      "imageURL": "https://img.youtube.com/vi/Ut6hZL0FbtA/mqdefault.jpg",
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "Coconut oil",
+              "amount": "1 tbsp",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cee5"
+          },
+          {
+              "name": "Cinnamon stick",
+              "amount": "1",
+              "state": "halved",
+              "_id": "5c6b37a81ac0ef13c871cee4"
+          },
+          {
+              "name": "Cardamom pods",
+              "amount": "6",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cee3"
+          },
+          {
+              "name": "Basmati rice",
+              "amount": "1 cup, 200g",
+              "state": "soaked for 10 minutes",
+              "_id": "5c6b37a81ac0ef13c871cee2"
+          },
+          {
+              "name": "Water",
+              "amount": "2 cups (480ml)",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cee1"
+          },
+          {
+              "name": "Coconut oil",
+              "amount": "1 tsp",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cee0"
+          },
+          {
+              "name": "Salt",
+              "amount": "1 pinch",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cedf"
+          },
+          {
+              "name": "Yellow onion",
+              "amount": "1 medium",
+              "state": "finely chopped",
+              "_id": "5c6b37a81ac0ef13c871cede"
+          },
+          {
+              "name": "Fresh ginger",
+              "amount": "1 tbsp",
+              "state": "peeled and minced",
+              "_id": "5c6b37a81ac0ef13c871cedd"
+          },
+          {
+              "name": "Galic",
+              "amount": "4 cloves",
+              "state": "minced",
+              "_id": "5c6b37a81ac0ef13c871cedc"
+          },
+          {
+              "name": "Tomato paste",
+              "amount": "1 tbsp",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cedb"
+          },
+          {
+              "name": "Ground turmeric",
+              "amount": "1/2 tsp",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871ceda"
+          },
+          {
+              "name": "Ground cumin",
+              "amount": "2 tsp",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871ced9"
+          },
+          {
+              "name": "Ground coriander",
+              "amount": "1 tsp",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871ced8"
+          },
+          {
+              "name": "Cayenne",
+              "amount": "1 pinch",
+              "state": "for garnish",
+              "required": false,
+              "_id": "5c6b37a81ac0ef13c871ced7"
+          },
+          {
+              "name": "Full fat greek yogurt",
+              "amount": "1/2 cup, 120g",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871ced6"
+          },
+          {
+              "name": "Chicken thigh",
+              "amount": "455g",
+              "state": "boneless, skinless",
+              "_id": "5c6b37a81ac0ef13c871ced5"
+          },
+          {
+              "name": "Water",
+              "amount": "1/4 cup",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871ced4"
+          },
+          {
+              "name": "Lime wedge",
+              "amount": "1",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871ced3"
+          },
+          {
+              "name": "Fresh cilantro",
+              "amount": "10g",
+              "state": "chopped",
+              "_id": "5c6b37a81ac0ef13c871ced2"
+          },
+          {
+              "name": "Salt",
+              "amount": "to taste",
+              "_id": "5c6b37a81ac0ef13c871ced1"
+          },
+          {
+              "name": "Pepper",
+              "amount": "to taste",
+              "_id": "5c6b37a81ac0ef13c871ced0"
+          }
+      ],
+      "preparationSteps": [
+          "Make the basmati rice: Melt the coconut oil in a small pot over medium heat. Add the cinnamon stick and cardamom pods and sauté for 2 minutes, until toasty and aromatic.",
+          "Add the soaked basmati rice, water, and salt. Cover and cook for 10 minutes, until the rice is fluffy. Remove from the heat, fluff the rice with a fork, and remove the cinnamon sticks and cardamom pods. Set aside.",
+          "In a large pan, melt the coconut oil over medium heat.",
+          "Add the onion and sauté, stirring occasionally for 10 minutes, until onion is light golden brown.",
+          "Add the ginger and garlic and sauté for 1 minute, until toasty and aromatic.",
+          "Add the tomato paste, turmeric, cumin, coriander, and cayenne and stir to combine.",
+          "Add the yogurt and chicken thighs and season with salt and pepper. Cook for 5 minutes, or until the chicken is no longer pink on the outside.",
+          "Add the water, cover, and cook for 10 minutes.",
+          "Remove the lid and continue to cook, tossing the chicken occasionally, for 5 minutes or until the curry sauce has thickened to your liking.",
+          "Serve the chicken and sauce over the rice with lime wedges and cilantro."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5c6b37a81ac0ef13c871cee6",
+      "title": "Chicken Bibimbap",
+      "amountOfPeople": 2,
+      "priceOnAverage": 12,
+      "nutritionCategory": "2",
+      "preparationTimeInMinuts": 60,
+      "videoURL": "https://youtu.be/kt8ydA48NiA",
+      "youtubeId": "kt8ydA48NiA",
+      "imageURL": "https://img.youtube.com/vi/kt8ydA48NiA/mqdefault.jpg",
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "Garlic",
+              "amount": "3",
+              "state": "minced",
+              "_id": "5c6b37a81ac0ef13c871cef7"
+          },
+          {
+              "name": "Fresh ginger",
+              "amount": "2 tsp",
+              "state": "minced",
+              "_id": "5c6b37a81ac0ef13c871cef6"
+          },
+          {
+              "name": "Scallions",
+              "amount": "2",
+              "state": "thinly sliced",
+              "_id": "5c6b37a81ac0ef13c871cef5"
+          },
+          {
+              "name": "Soy sauce",
+              "amount": "60ml",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cef4"
+          },
+          {
+              "name": "Mirin",
+              "amount": "1 tbsp",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cef3"
+          },
+          {
+              "name": "Sesam oil",
+              "amount": "4 tbsp",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cef2"
+          },
+          {
+              "name": "Light brown sugar",
+              "amount": "1 tbsp",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cef1"
+          },
+          {
+              "name": "Skinless chicken thighs",
+              "amount": "455g",
+              "state": "sliced in 1.25 cm strips",
+              "_id": "5c6b37a81ac0ef13c871cef0"
+          },
+          {
+              "name": "Fresh spinach",
+              "amount": "160g",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871ceef"
+          },
+          {
+              "name": "Kosher salt",
+              "amount": "to taste",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871ceee"
+          },
+          {
+              "name": "Large carrots",
+              "amount": "2",
+              "state": "sliced in strips",
+              "_id": "5c6b37a81ac0ef13c871ceed"
+          },
+          {
+              "name": "Shittake mushrooms",
+              "amount": "150g",
+              "state": "removed stems",
+              "_id": "5c6b37a81ac0ef13c871ceec"
+          },
+          {
+              "name": "Unsalted butter",
+              "amount": "1 tbsp",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871ceeb"
+          },
+          {
+              "name": "Large eggs",
+              "amount": "2",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871ceea"
+          },
+          {
+              "name": "Sushi rice",
+              "amount": "1 cup",
+              "state": "",
+              "required": false,
+              "_id": "5c6b37a81ac0ef13c871cee9"
+          },
+          {
+              "name": "Kimchi",
+              "amount": "to taste",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cee8"
+          },
+          {
+              "name": "Persian cucumber",
+              "amount": "to taste",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cee7"
+          }
+      ],
+      "preparationSteps": [
+          "In a shallow dish, combine 2 cloves of garlic, the ginger, 2 thinly sliced scallions, the soy sauce, 2 tablespoons sesame oil, the mirin, and brown sugar, and whisk to combine.",
+          "Add the chicken and toss to coat. Cover with plastic wrap and let marinate in the refrigerator for 30 minutes.",
+          "Bring a large pot of water to boil over high heat and season generously with salt. Prepare an ice bath in a large bowl. Blanch the spinach in the boiling water for 30 seconds, then transfer to the ice bath to shock, then drain. Transfer to a small bowl and season with 1 teaspoon of sesame oil, salt, and pepper.",
+          "In a medium skillet, heat 1 teaspoon of sesame oil over medium heat. Add the carrots and cook until softened, 2-3 minutes. Remove from the pan and set aside. Season with salt.",
+          "In the same skillet, heat 1 tablespoon of sesame oil over medium-high heat. Add the remaining clove of garlic and cook for 30 seconds, until fragrant. Add the mushrooms and cook, stirring frequently, until softened, about 2 minutes. Season with salt, then remove from the pan and set aside.",
+          "In the same skillet, heat the remaining tablespoon of sesame oil over medium-high heat. Add the marinated chicken and sauté, stirring occasionally, until cooked through, about 5 minutes.",
+          "Heat a nonstick pan over medium-high heat. Melt the butter in the pan. Once the foaming subsides, crack the eggs into the pan and cook until the whites are firm and golden brown around the edges and the yolks are still runny, or to your desired doneness.",
+          "To assemble the bibimbap bowls, top the rice with the chicken, kimchi, sliced scallions, carrots, spinach, mushrooms, cucumbers, and fried eggs."
+      ],
+      "allergenics": [
+          "soy",
+          "egg"
+      ]
+  },
+  {
+      "_id": "5c6b37a81ac0ef13c871cef8",
+      "title": "Weekday Meal-prep Pesto Chicken & Veggies",
+      "amountOfPeople": 4,
+      "priceOnAverage": 12,
+      "nutritionCategory": "2",
+      "preparationTimeInMinuts": 30,
+      "videoURL": "https://vid.tasty.co/output/12355/mp4_720x1280/1476822662",
+      "youtubeId": null,
+      "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/29f6cbb3a6c44658ba03d3421e8d2204/BFV13595_One-PanPestoChickenAndGreenBeans-ThumbTextless1080.jpg",
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "Olive oil",
+              "amount": "2 tbsp",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871ceff"
+          },
+          {
+              "name": "Chicken thigh",
+              "amount": "4",
+              "state": "skinless, boneless, sliced",
+              "_id": "5c6b37a81ac0ef13c871cefe"
+          },
+          {
+              "name": "Salt",
+              "amount": "to taste",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cefd"
+          },
+          {
+              "name": "Pepper",
+              "amount": "to taste",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cefc"
+          },
+          {
+              "name": "Green beans",
+              "amount": "455g",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cefb"
+          },
+          {
+              "name": "Cherry tomato",
+              "amount": "2 cups, 400g",
+              "state": "halved",
+              "_id": "5c6b37a81ac0ef13c871cefa"
+          },
+          {
+              "name": "Basil pesto brown sugar",
+              "amount": "1/2 cup, 115g",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cef9"
+          }
+      ],
+      "preparationSteps": [
+          "In a large pan, heat olive oil and add chicken thighs.",
+          "Season with salt and pepper. When the chicken is completely cooked through, remove from pan.",
+          "Slice into strips, and set aside.",
+          "Add green beans and cook until crisp tender.",
+          "Return the chicken strips to the pan, then add tomatoes and pesto. Stir until fully incorporated.",
+          "Divide into 4 food storage containers and store in the refrigerator.",
+          "Or serve immediately!",
+          "NOTE: Can be kept refrigerated for up to 4 days."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5c6b37a81ac0ef13c871cf00",
+      "title": "One-pan Chicken & Veggie Meal Prep",
+      "amountOfPeople": 4,
+      "priceOnAverage": 12,
+      "nutritionCategory": "2",
+      "preparationTimeInMinuts": 50,
+      "videoURL": "https://vid.tasty.co/output/18939/mp4_720x1280/1482342336",
+      "youtubeId": null,
+      "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/a27db926525b4b2c9abd06b25606a4db/BFV15295_One-PanChickenVeggieMealPrep-ThumbTextless1080.jpg",
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "Sweet potato",
+              "amount": "1/2",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cf0b"
+          },
+          {
+              "name": "Brussels sprouts",
+              "amount": "250g",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cf0a"
+          },
+          {
+              "name": "Carrot",
+              "amount": "1",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cf09"
+          },
+          {
+              "name": "Head broccoli",
+              "amount": "1/2",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cf08"
+          },
+          {
+              "name": "Chicken breast",
+              "amount": "750g",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cf07"
+          },
+          {
+              "name": "Olive oil",
+              "amount": "to taste",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cf06"
+          },
+          {
+              "name": "Fresh rosemary",
+              "amount": "2 tbsp",
+              "state": "chopped",
+              "_id": "5c6b37a81ac0ef13c871cf05"
+          },
+          {
+              "name": "Fresh thyme",
+              "amount": "2 tbsp",
+              "state": "chopped",
+              "_id": "5c6b37a81ac0ef13c871cf04"
+          },
+          {
+              "name": "Garlic",
+              "amount": "4",
+              "state": "minced",
+              "_id": "5c6b37a81ac0ef13c871cf03"
+          },
+          {
+              "name": "Pepper",
+              "amount": "to taste",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cf02"
+          },
+          {
+              "name": "Salt",
+              "amount": "to taste",
+              "state": "",
+              "_id": "5c6b37a81ac0ef13c871cf01"
+          }
+      ],
+      "preparationSteps": [
+          "Preheat oven to 425˚F (220˚C).",
+          "Cut vegetables. Place each in a separate corner of a baking pan lined with parchment paper.",
+          "NOTE: Broccoli and Brussels sprouts cook faster, keep the cuts thicker for those. Sweet potato and carrots take more time - dice them, or cut them thinner.",
+          "Season veggies with olive oil, salt, pepper, rosemary, thyme, and garlic.",
+          "Season both sides of the chicken with olive oil, salt, pepper, and the remaining rosemary, thyme, and garlic over parchment paper.",
+          "Seal parchment paper to keep chicken moist, and place on the center of the baking pan.",
+          "Bake for 25-30 minutes, until chicken is fully cooked and veggies are done to your liking.",
+          "This meal works great with brown rice, so feel free to add some to your meal prep as well.",
+          "Unwrap and slice the chicken.",
+          "Separate veggies into each tupperware with chicken.",
+          "NOTE: If using plastic tupperware, allow food to cool down first",
+          "Can be refrigerated up to 4 days."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca09dc92c53fa04133e288d",
+      "source": "https://tasty.co/recipe/slow-cooker-beef-and-broccoli",
+      "title": "Slow Cooker Beef and Broccoli",
+      "approval": 97,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/32197/mp4_720x1280/1495125471",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/9534c85289dc40cbb0a30e5528137429/BFV6935_Slow-Cooker_Beef_and_Broccoli-FB1080.jpg",
+      "preparationTimeInMinuts": 270,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "sirloin steak",
+              "amount": "(905 g)",
+              "state": "or boneless beef chuck roast, sliced thin",
+              "required": true,
+              "_id": "5ca09dc92c53fa04133e2897"
+          },
+          {
+              "name": "beef broth",
+              "amount": "(240 mL), 1 cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca09dc92c53fa04133e2896"
+          },
+          {
+              "name": "soy sauce",
+              "amount": "(120 mL), ½ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca09dc92c53fa04133e2895"
+          },
+          {
+              "name": "brown sugar",
+              "amount": "(55 g), ¼ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca09dc92c53fa04133e2894"
+          },
+          {
+              "name": "sesame oil",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca09dc92c53fa04133e2893"
+          },
+          {
+              "name": "garlic",
+              "amount": "4 cloves",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca09dc92c53fa04133e2892"
+          },
+          {
+              "name": "cornstarch",
+              "amount": "4 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca09dc92c53fa04133e2891"
+          },
+          {
+              "name": "water",
+              "amount": "4 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca09dc92c53fa04133e2890"
+          },
+          {
+              "name": "head broccoli",
+              "amount": "1 head",
+              "state": "cut into florets",
+              "required": true,
+              "_id": "5ca09dc92c53fa04133e288f"
+          },
+          {
+              "name": "white rice",
+              "amount": "",
+              "state": "cooked, for serving",
+              "required": true,
+              "_id": "5ca09dc92c53fa04133e288e"
+          }
+      ],
+      "preparationSteps": [
+          "In the insert of the crockpot, whisk together beef broth, soy sauce, sesame oil, minced garlic, and brown sugar.",
+          "Place slices of beef in the liquid and toss to coat.",
+          "Cover with lid and cook on low heat for 4 hours.",
+          "After 4 hours, whisk together cornstarch and water in small bowl. Pour into crock pot, add the broccoli and gently stir to combine.",
+          "Cover with lid and cook 30 minutes to cook broccoli and thicken sauce.",
+          "Serve with warm white rice."
+      ],
+      "allergenics": [
+          "soy"
+      ]
+  },
+  {
+      "_id": "5ca09f372c53fa04133e28a3",
+      "source": "https://tasty.co/recipe/gourmet-salmon-dinner",
+      "title": "Gourmet Salmon Dinner",
+      "approval": 99,
+      "amountOfPeople": 2,
+      "videoURL": "https://vid.tasty.co/output/53655/mp4_720x1280/1506464710",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/50e8eeb609f340f788ddddf8bc7faaa3/BFV28280EasySalmonDinnervsGourmetSalmonDinnerFBV4.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "butter",
+              "amount": "4 tablespoons",
+              "state": "divided",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28b6"
+          },
+          {
+              "name": "shallots",
+              "amount": "2 ",
+              "state": "thinly sliced",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28b5"
+          },
+          {
+              "name": "garlic",
+              "amount": "2 cloves",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28b4"
+          },
+          {
+              "name": "whole milk",
+              "amount": "⅓ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28b3"
+          },
+          {
+              "name": "pepper",
+              "amount": "1 , ½ teaspoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28b2"
+          },
+          {
+              "name": "salt",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28b1"
+          },
+          {
+              "name": "yellow potato",
+              "amount": "(905 g), 2",
+              "state": "peeled, quartered, and boiled until tender",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28b0"
+          },
+          {
+              "name": "olive oil",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28af"
+          },
+          {
+              "name": "porcini mushroom",
+              "amount": "(75 g), 1 cup",
+              "state": "trimmed and quartered",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28ae"
+          },
+          {
+              "name": "asparagus",
+              "amount": "1 bunch",
+              "state": "ends trimmed",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28ad"
+          },
+          {
+              "name": "salt",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28ac"
+          },
+          {
+              "name": "pepper",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28ab"
+          },
+          {
+              "name": "salmon fillets",
+              "amount": "2 ",
+              "state": "skin-on",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28aa"
+          },
+          {
+              "name": "salt",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28a9"
+          },
+          {
+              "name": "pepper",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28a8"
+          },
+          {
+              "name": "fresh thyme",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28a7"
+          },
+          {
+              "name": "olive oil",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28a6"
+          },
+          {
+              "name": "butter",
+              "amount": "2 tablespoons",
+              "state": "cubed",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28a5"
+          },
+          {
+              "name": "garlic",
+              "amount": "3 cloves",
+              "state": "crushed",
+              "required": true,
+              "_id": "5ca09f372c53fa04133e28a4"
+          }
+      ],
+      "preparationSteps": [
+          "Make the creamy shallot potato puree: Melt 3 tablespoons of butter in a medium pan over medium-high heat. Add the shallots and cook for 3-4 minutes, until softened.",
+          "Add the garlic and another tablespoon of butter and continue to cook for another 3-4 minutes, stirring frequently, until the shallots are browned.",
+          "Add the milk, white pepper, and salt and stir to incorporate.",
+          "Transfer the shallot mixture to a food processor and process until smooth.",
+          "Mash potatoes in a large bowl. Add the shallot puree and continue to mash until fully incorporated. Set aside.",
+          "Make the sautéed vegetables: Heat a drizzle of olive oil in a large pan over medium heat. Add the mushrooms and cook for 5 minutes, stirring occasionally, until starting to soften.",
+          "Push the mushrooms to one side of the pan and add a bit more oil. Add the asparagus and season everything with salt and pepper. Cook for 5 minutes, until the vegetables are tender. Remove from the heat and set aside.",
+          "Make the salmon: On a cutting board, cut 4 slits in the salmon skin, roughly ¼-inch (6 mm) apart and ½-inch (12 mm) into the salmon flesh. Season with salt, pepper, and thyme leaves.",
+          "Heat a drizzle of olive oil in a medium pan over medium-high heat. Add the salmon, skin-side down. Cook for 3-4 minutes, or until a lighter pink color has reached ⅓-½ of the way up the side of the salmon. ",
+          "Flip the salmon and immediately add the butter, garlic, and a few sprigs of thyme. Stir the garlic and thyme around the pan to infuse the flavors and spoon the butter over the salmon for 2 minutes more, until the salmon is cooked through. Remove the salmon from the pan.",
+          "Add the potato puree to plates and top with the sautéed vegetables and salmon."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca0a11d2c53fa04133e28b7",
+      "source": "https://tasty.co/recipe/sheet-tray-taco-night",
+      "title": "Sheet Tray Taco Night",
+      "approval": 100,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/105979/landscape_720/1534803703",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/902865ccf964427bb9a8fdf2af7c0aeb/BFV46558EasyWeeknightMealstoMakeWithYourKidsFBV2.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "salt",
+              "amount": "2 teaspoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28d0"
+          },
+          {
+              "name": "pepper",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28cf"
+          },
+          {
+              "name": "ground cumin",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28ce"
+          },
+          {
+              "name": "garlic",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28cd"
+          },
+          {
+              "name": "chili powder",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28cc"
+          },
+          {
+              "name": "flank steak",
+              "amount": "(905 g)",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28cb"
+          },
+          {
+              "name": "olive oil",
+              "amount": "2 teaspoons",
+              "state": "divided",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28ca"
+          },
+          {
+              "name": "pepper",
+              "amount": "1 green",
+              "state": "seeded and sliced",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28c9"
+          },
+          {
+              "name": "mushroom",
+              "amount": "(75 g), 1 cup",
+              "state": "sliced",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28c8"
+          },
+          {
+              "name": "pepper",
+              "amount": "1 red",
+              "state": "seeded and sliced",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28c7"
+          },
+          {
+              "name": "red onion",
+              "amount": "1 medium",
+              "state": "thinly sliced",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28c6"
+          },
+          {
+              "name": "head broccoli",
+              "amount": "1 head",
+              "state": "cut into florets",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28c5"
+          },
+          {
+              "name": "corn tortillas",
+              "amount": "12 small",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28c4"
+          },
+          {
+              "name": "greek yogurt",
+              "amount": "(140 g), ½ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28c3"
+          },
+          {
+              "name": "lime juice",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28c2"
+          },
+          {
+              "name": "lime zest",
+              "amount": "¼ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28c1"
+          },
+          {
+              "name": "salt",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28c0"
+          },
+          {
+              "name": "black beans",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28bf"
+          },
+          {
+              "name": "fresh cilantro",
+              "amount": "",
+              "state": "chopped",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28be"
+          },
+          {
+              "name": "pico de gallo",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28bd"
+          },
+          {
+              "name": "corn and black bean salsa",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28bc"
+          },
+          {
+              "name": "shredded cheddar cheese",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28bb"
+          },
+          {
+              "name": "guacamole",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28ba"
+          },
+          {
+              "name": "lime wedge",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28b9"
+          },
+          {
+              "name": "hot sauce",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca0a11d2c53fa04133e28b8"
+          }
+      ],
+      "preparationSteps": [
+          "Preheat the oven to 350°F (180°C) and line two baking sheets with parchment paper.",
+          "Make the DIY taco seasoning: Mix the salt, pepper, cumin, garlic powder, and chili powder together in a small bowl.",
+          "Add the flank steak to a baking sheet. Drizzle with 2 teaspoons of olive oil and rub to coat, then sprinkle with 2 teaspoons of the taco seasoning and rub to coat evenly. To the other baking sheet, add the green bell pepper, mushrooms, red bell pepper, red onion, and broccoli. Drizzle with 1 tablespoon of olive oil and sprinkle with 2 teaspoons of taco seasoning. Toss to coat.",
+          "Wrap the tortillas in foil, add to the baking sheet with veggies, and bake until the vegetables are browned and the steak is cooked to your liking, about 20 minutes.  Let rest for 5 minutes, then thinly slice the steak against the grain.",
+          "Make the lime crema: combine the Greek yogurt, lime juice, and zest in a small bowl.  Season with salt.",
+          "Serve the roasted steak and vegetables with the lime crema and your families favorite toppings to create a DIY taco bar.",
+          "Note: Feel free to serve with your family’s favorite toppings to create a taco bar that’ll make everyone happy.",
+          "*Vegan/Vegetarian Substitution: Omit the steak and serve with 1 cup black beans for added protein."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca282521dcc7029b49a1160",
+      "source": "https://tasty.co/recipe/easy-sticky-chicken-drumsticks",
+      "title": "Easy Sticky Chicken Drumsticks",
+      "approval": 93,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/23039/mp4_720x1280/1486150051",
+      "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/890f725fcee44cec8833a4ac086d697e/Sticky_Chicken_Textless_Thumbnail.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "chicken drumsticks",
+              "amount": "12 ",
+              "state": "",
+              "required": true,
+              "_id": "5ca282521dcc7029b49a1168"
+          },
+          {
+              "name": "garlic",
+              "amount": "6 cloves",
+              "state": "crushed",
+              "required": true,
+              "_id": "5ca282521dcc7029b49a1167"
+          },
+          {
+              "name": "ginger",
+              "amount": "3 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca282521dcc7029b49a1166"
+          },
+          {
+              "name": "red chili",
+              "amount": "1",
+              "state": "",
+              "required": true,
+              "_id": "5ca282521dcc7029b49a1165"
+          },
+          {
+              "name": "honey",
+              "amount": "3 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca282521dcc7029b49a1164"
+          },
+          {
+              "name": "soy sauce",
+              "amount": "(100 mL), ½ cup, 100 ",
+              "state": "",
+              "required": true,
+              "_id": "5ca282521dcc7029b49a1163"
+          },
+          {
+              "name": "sesame seed",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca282521dcc7029b49a1162"
+          },
+          {
+              "name": "spring onion",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca282521dcc7029b49a1161"
+          }
+      ],
+      "preparationSteps": [
+          "In a mixing bowl, combine the garlic, ginger, chili, honey, and soy sauce.",
+          "Mix in the chicken drumsticks.",
+          "Cover with cling film and leave to marinate in the fridge for 4-6 hours, or overnight.",
+          "Fry the chicken in a large pan, on all sides for about 10-15 minutes, stirring often to prevent the marinade from burning, until golden brown.",
+          "Remove from the pan and pour in the marinade.",
+          "Bring to a boil and stir, until the marinade is thick and resembles a sauce.",
+          "Throw the chicken back in the pan and fry for a further 5-10 minutes in the sauce, making sure each drumstick is evenly coated and cooked through.",
+          "Garnish with sesame seeds and spring onions."
+      ],
+      "allergenics": [
+          "soy"
+      ]
+  },
+  {
+      "_id": "5ca284831dcc7029b49a117d",
+      "source": "https://tasty.co/recipe/grilled-salmon",
+      "title": "Grilled Salmon",
+      "approval": 83,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/99245/landscape_720/1529441653",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/a85715addab441fb9af4c0de2c14352b/seafoodfinalFB.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "skin-on salmon",
+              "amount": "4 fillets (225 g)",
+              "state": "skin-on",
+              "required": true,
+              "_id": "5ca284831dcc7029b49a1181"
+          },
+          {
+              "name": "salt",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca284831dcc7029b49a1180"
+          },
+          {
+              "name": "pepper",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca284831dcc7029b49a117f"
+          },
+          {
+              "name": "lemon",
+              "amount": "2 ",
+              "state": "halved crosswise",
+              "required": true,
+              "_id": "5ca284831dcc7029b49a117e"
+          }
+      ],
+      "preparationSteps": [
+          "Heat a grill to medium-high heat.",
+          "Season the salmon with salt and pepper.",
+          "Brush the grill grates with oil and place the salmon, skin side down on the oiled grates.",
+          "Grill until lightly browned, 3-5 minutes, then gently flip and continue to cook until just opaque in center.",
+          "Add the lemon halves to the grill, cut side down and grill until lightly charred, about 2 minutes."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca285051dcc7029b49a1182",
+      "source": "https://tasty.co/recipe/one-pan-chicken-fajita-rice-bowl",
+      "title": "One-pan Chicken Fajita Rice Bowl",
+      "approval": 99,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/59025/mp4_720x1280/1509393167",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/934891f32fed43cfa611d4c77d029785/BFV30877_WeekdayMealPrepFor4FB1080x1080.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "pepper",
+              "amount": "1 red",
+              "state": "sliced",
+              "required": true,
+              "_id": "5ca285051dcc7029b49a118e"
+          },
+          {
+              "name": "pepper",
+              "amount": "1 yellow",
+              "state": "sliced",
+              "required": true,
+              "_id": "5ca285051dcc7029b49a118d"
+          },
+          {
+              "name": "onion",
+              "amount": "½ ",
+              "state": "sliced",
+              "required": true,
+              "_id": "5ca285051dcc7029b49a118c"
+          },
+          {
+              "name": "chicken breast",
+              "amount": "2 large",
+              "state": "boneless, skinless chicken breasts",
+              "required": true,
+              "_id": "5ca285051dcc7029b49a118b"
+          },
+          {
+              "name": "olive oil",
+              "amount": "2 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca285051dcc7029b49a118a"
+          },
+          {
+              "name": "wild rice",
+              "amount": "(920 g), 4 cups",
+              "state": "cooked, to serve",
+              "required": true,
+              "_id": "5ca285051dcc7029b49a1189"
+          },
+          {
+              "name": "avocado",
+              "amount": "½ ",
+              "state": "sliced",
+              "required": false,
+              "_id": "5ca285051dcc7029b49a1188"
+          },
+          {
+              "name": "salt",
+              "amount": "¼ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca285051dcc7029b49a1187"
+          },
+          {
+              "name": "pepper",
+              "amount": "¼ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca285051dcc7029b49a1186"
+          },
+          {
+              "name": "cumin",
+              "amount": "¼ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca285051dcc7029b49a1185"
+          },
+          {
+              "name": "garlic",
+              "amount": "½ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca285051dcc7029b49a1184"
+          },
+          {
+              "name": "paprika",
+              "amount": "½ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca285051dcc7029b49a1183"
+          }
+      ],
+      "preparationSteps": [
+          "Preheat oven to 400°F (200°C).",
+          "In a bowl, mix together the salt, pepper cumin, garlic powder, and paprika.",
+          "Add chicken, peppers, and onions to a baking tray and a pour of oil.",
+          "Sprinkle seasoning on chicken, bell peppers, and onions.",
+          "Bake for 20-22 minutes or until internal temperature reaches 165°F (75°C).",
+          "Serve with avocado slices (optional) and rice of choice now. Or refrigerate in airtight container up to 3-4 days."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca2858b1dcc7029b49a118f",
+      "source": "https://tasty.co/recipe/one-pan-honey-garlic-salmon-asparagus",
+      "title": "One-Pan Honey Garlic Salmon & Asparagus",
+      "approval": 98,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/59025/mp4_720x1280/1509393167",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/866baaa671874497bd0443dce083da78/BFV30877_WeekdayMealPrepFor4FB1080x1080.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "asparagus",
+              "amount": "14, (395 g)",
+              "state": "trimmed",
+              "required": true,
+              "_id": "5ca2858b1dcc7029b49a1198"
+          },
+          {
+              "name": "olive oil",
+              "amount": "2 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca2858b1dcc7029b49a1197"
+          },
+          {
+              "name": "salt",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca2858b1dcc7029b49a1196"
+          },
+          {
+              "name": "pepper",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca2858b1dcc7029b49a1195"
+          },
+          {
+              "name": "garlic",
+              "amount": "3 cloves",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca2858b1dcc7029b49a1194"
+          },
+          {
+              "name": "olive oil",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca2858b1dcc7029b49a1193"
+          },
+          {
+              "name": "honey",
+              "amount": "4 teaspoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca2858b1dcc7029b49a1192"
+          },
+          {
+              "name": "garlic",
+              "amount": "4 cloves",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca2858b1dcc7029b49a1191"
+          },
+          {
+              "name": "salmon",
+              "amount": "4, (170 g)",
+              "state": "fillets",
+              "required": true,
+              "_id": "5ca2858b1dcc7029b49a1190"
+          }
+      ],
+      "preparationSteps": [
+          "Preheat oven to 400°F (200°C).",
+          "Add the asparagus onto a baking tray and coat with olive oil, salt, pepper, and garlic.",
+          "Place salmon fillets in the middle of the baking tray.",
+          "In a small bowl, add the olive oil, honey, and garlic. Mix until well combined. Coat salmon with mixture.",
+          "Bake for 12-15 minutes.",
+          "Serve now or refrigerate in airtight container up to 3-4 days."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca286161dcc7029b49a1199",
+      "source": "https://tasty.co/recipe/veggie-garlic-noodles",
+      "title": "Veggie Garlic Noodles",
+      "approval": 96,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/11272/mp4_720x1280/1475518362",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/24124f6a6e3748389d2551b4364214e9/BFV12924_EasyNoodles4Ways-FB1080SQ.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "0",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "oil",
+              "amount": "(30 mL), 2 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca286161dcc7029b49a11a1"
+          },
+          {
+              "name": "garlic",
+              "amount": "5 cloves",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca286161dcc7029b49a11a0"
+          },
+          {
+              "name": "onion",
+              "amount": "4 ",
+              "state": "divided",
+              "required": true,
+              "_id": "5ca286161dcc7029b49a119f"
+          },
+          {
+              "name": "carrot",
+              "amount": "2 ",
+              "state": "cut into matchsticks",
+              "required": true,
+              "_id": "5ca286161dcc7029b49a119e"
+          },
+          {
+              "name": "snap pea",
+              "amount": "(100 g), 1 cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca286161dcc7029b49a119d"
+          },
+          {
+              "name": "brown sugar",
+              "amount": "2 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca286161dcc7029b49a119c"
+          },
+          {
+              "name": "soy sauce",
+              "amount": "3 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca286161dcc7029b49a119b"
+          },
+          {
+              "name": "rice noodles",
+              "amount": "(250 g)",
+              "state": "dried, cooked",
+              "required": true,
+              "_id": "5ca286161dcc7029b49a119a"
+          }
+      ],
+      "preparationSteps": [
+          "Heat the oil in a skillet over medium heat. Add the garlic and 3 spring onions and cook for 2-3 minutes.",
+          "Add the carrots and peas, before stirring in the brown sugar and soy sauce.",
+          "Add the noodles and mix together for another couple of minutes.",
+          "Season with salt and pepper, then slice remaining spring onion and top to serve. "
+      ],
+      "allergenics": [
+          "soy"
+      ]
+  },
+  {
+      "_id": "5ca286851dcc7029b49a11a2",
+      "source": "https://tasty.co/recipe/one-pan-roasted-veggie-salad-bowl",
+      "title": "One-pan Roasted Veggie Salad Bowl",
+      "approval": 100,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/59025/mp4_720x1280/1509393167",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/31cb8ce5b6e54178b02d8dc0563d07c5/BFV30877_WeekdayMealPrepFor4FB1080x1080.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "0",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "sweet potato",
+              "amount": "1 medium",
+              "state": "peeled and cubed",
+              "required": true,
+              "_id": "5ca286851dcc7029b49a11aa"
+          },
+          {
+              "name": "cauliflower ",
+              "amount": "(395 g)",
+              "state": "florets",
+              "required": true,
+              "_id": "5ca286851dcc7029b49a11a9"
+          },
+          {
+              "name": "brussels sprouts",
+              "amount": "(225 g)",
+              "state": "halved",
+              "required": true,
+              "_id": "5ca286851dcc7029b49a11a8"
+          },
+          {
+              "name": "olive oil",
+              "amount": "3 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca286851dcc7029b49a11a7"
+          },
+          {
+              "name": "salt",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca286851dcc7029b49a11a6"
+          },
+          {
+              "name": "pepper",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca286851dcc7029b49a11a5"
+          },
+          {
+              "name": "garlic",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca286851dcc7029b49a11a4"
+          },
+          {
+              "name": "mixed greens",
+              "amount": "(140 g)",
+              "state": "",
+              "required": true,
+              "_id": "5ca286851dcc7029b49a11a3"
+          }
+      ],
+      "preparationSteps": [
+          "Preheat oven to 400°F (200°C).",
+          "Add sweet potatoes, cauliflower, and Brussels sprouts to a baking tray.",
+          "Sprinkle with olive oil, salt, pepper, and garlic powder. Mix until well coated.",
+          "Bake for 25-30 minutes.",
+          "Serve with mixed greens now or refrigerate in airtight container up to 3-5 days."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca286f51dcc7029b49a11ab",
+      "source": "https://tasty.co/recipe/one-pan-garlic-butter-salmon",
+      "title": "One-pan Garlic Butter Salmon",
+      "approval": 100,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/23541/mp4_720x1280/1486665111",
+      "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/e21355e2c49b45c1ab7abe037db783d0/salmonthumb.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "salmon",
+              "amount": "4 (170 g)",
+              "state": "fillets",
+              "required": true,
+              "_id": "5ca286f51dcc7029b49a11b5"
+          },
+          {
+              "name": "butter",
+              "amount": "(115 g), ½ cup",
+              "state": "melted",
+              "required": true,
+              "_id": "5ca286f51dcc7029b49a11b4"
+          },
+          {
+              "name": "garlic",
+              "amount": "3 cloves",
+              "state": "",
+              "required": true,
+              "_id": "5ca286f51dcc7029b49a11b3"
+          },
+          {
+              "name": "lemon",
+              "amount": "½ ",
+              "state": "juiced",
+              "required": true,
+              "_id": "5ca286f51dcc7029b49a11b2"
+          },
+          {
+              "name": "salt",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca286f51dcc7029b49a11b1"
+          },
+          {
+              "name": "pepper",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca286f51dcc7029b49a11b0"
+          },
+          {
+              "name": "broccoli",
+              "amount": "(900 g), 4 cups",
+              "state": "",
+              "required": true,
+              "_id": "5ca286f51dcc7029b49a11af"
+          },
+          {
+              "name": "olive oil",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca286f51dcc7029b49a11ae"
+          },
+          {
+              "name": "parmesan cheese",
+              "amount": "(30 g), ¼ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca286f51dcc7029b49a11ad"
+          },
+          {
+              "name": "fresh parsley",
+              "amount": "",
+              "state": "fresh, to garnish",
+              "required": true,
+              "_id": "5ca286f51dcc7029b49a11ac"
+          }
+      ],
+      "preparationSteps": [
+          "Preheat oven to 375°F (190°C).",
+          "In a bowl, mix butter, garlic, lemon juice, salt, and pepper.",
+          "Lay salmon fillets on a pan, and evenly distribute the marinade.",
+          "Place broccoli on both sides of the salmon, and drizzle on olive oil, salt, pepper, and parmesan.",
+          "Bake 18 minutes.",
+          "Serve and garnish with parsley."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca2873f1dcc7029b49a11b6",
+      "source": "https://tasty.co/recipe/tomato-basil-soup",
+      "title": "Tomato Basil Soup",
+      "approval": 98,
+      "amountOfPeople": 8,
+      "videoURL": "https://vid.tasty.co/output/58030/mp4_720x1280/1508864010",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/945aad4d57cf433e94381cb0796631e9/fb.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "0",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "oil",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca2873f1dcc7029b49a11c2"
+          },
+          {
+              "name": "onion",
+              "amount": "1 ",
+              "state": "chopped",
+              "required": true,
+              "_id": "5ca2873f1dcc7029b49a11c1"
+          },
+          {
+              "name": "stalk celery",
+              "amount": "1 ",
+              "state": "chopped",
+              "required": true,
+              "_id": "5ca2873f1dcc7029b49a11c0"
+          },
+          {
+              "name": "garlic",
+              "amount": "3 cloves",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca2873f1dcc7029b49a11bf"
+          },
+          {
+              "name": "salt",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca2873f1dcc7029b49a11be"
+          },
+          {
+              "name": "pepper",
+              "amount": "¼ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca2873f1dcc7029b49a11bd"
+          },
+          {
+              "name": "tomato paste",
+              "amount": "2 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca2873f1dcc7029b49a11bc"
+          },
+          {
+              "name": "basil",
+              "amount": "(10 g), ¼ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca2873f1dcc7029b49a11bb"
+          },
+          {
+              "name": "tomato",
+              "amount": "(795 g), 2 cans",
+              "state": "2 cans (795 g)",
+              "required": true,
+              "_id": "5ca2873f1dcc7029b49a11ba"
+          },
+          {
+              "name": "vegetable broth",
+              "amount": "(1 ½ L), 6 cups",
+              "state": "",
+              "required": true,
+              "_id": "5ca2873f1dcc7029b49a11b9"
+          },
+          {
+              "name": "baking soda",
+              "amount": "½ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca2873f1dcc7029b49a11b8"
+          },
+          {
+              "name": "fresh thyme",
+              "amount": "2 ",
+              "state": "",
+              "required": true,
+              "_id": "5ca2873f1dcc7029b49a11b7"
+          }
+      ],
+      "preparationSteps": [
+          "Combine oil, onion, celery, and garlic over medium heat in a large pot. Sauté for 3 minutes until onions are translucent.",
+          "Add salt, pepper, tomato paste, basil, crushed tomatoes, broth, baking soda, and thyme. Bring to a boil.",
+          "Lower heat and cover, simmering for 15 minutes.",
+          "Uncover and remove thyme.",
+          "Use an immersion or countertop blender to blend the soup until smooth.",
+          "Allow to cool 2 minutes and serve topped with basil."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca2878f1dcc7029b49a11c3",
+      "source": "https://tasty.co/recipe/parmesan-roasted-cauliflower",
+      "title": "Parmesan Roasted Cauliflower",
+      "approval": 94,
+      "amountOfPeople": 6,
+      "videoURL": "https://vid.tasty.co/output/53923/mp4_720x1280/1506549248",
+      "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/17559f93b94b45489eb4a47dd9b4f8a3/1506549248_00001.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "1",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "cauliflower",
+              "amount": "(2 kg), 7 cups",
+              "state": "",
+              "required": true,
+              "_id": "5ca2878f1dcc7029b49a11c9"
+          },
+          {
+              "name": "olive oil",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca2878f1dcc7029b49a11c8"
+          },
+          {
+              "name": "breadcrumb",
+              "amount": "(115 g), 1 cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca2878f1dcc7029b49a11c7"
+          },
+          {
+              "name": "garlic",
+              "amount": "½ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca2878f1dcc7029b49a11c6"
+          },
+          {
+              "name": "salt",
+              "amount": "½ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca2878f1dcc7029b49a11c5"
+          },
+          {
+              "name": "parmesan cheese",
+              "amount": "(55 g), ½ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca2878f1dcc7029b49a11c4"
+          }
+      ],
+      "preparationSteps": [
+          "Preheat oven to 425˚F (220˚F).",
+          "In a bowl or ziploc bag, add the cauliflower florets and olive oil and stir until fully combined.",
+          "Add the garlic powder, salt, breadcrumbs, and Parmesan. Stir until fully coated.",
+          "Spread the cauliflower on a greased, foil-lined baking sheet.",
+          "Bake for 20 minutes. Stir the cauliflower and bake for an additional 10."
+      ],
+      "allergenics": [
+          "dairy"
+      ]
+  },
+  {
+      "_id": "5ca287e51dcc7029b49a11ca",
+      "source": "https://tasty.co/recipe/poached-salmon",
+      "title": "Poached Salmon",
+      "approval": 93,
+      "amountOfPeople": 2,
+      "videoURL": "https://vid.tasty.co/output/24516/mp4_720x1280/1487727857",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/3815cefcf1ca4a338edc124504a20682/BFV17423_4_Ways_To_Cook_Salmon_FB1080SQ.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "salmon",
+              "amount": "2 (170 g)",
+              "state": "",
+              "required": true,
+              "_id": "5ca287e51dcc7029b49a11cf"
+          },
+          {
+              "name": "salt",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca287e51dcc7029b49a11ce"
+          },
+          {
+              "name": "pepper",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca287e51dcc7029b49a11cd"
+          },
+          {
+              "name": "lemon",
+              "amount": "1 ",
+              "state": "sliced",
+              "required": true,
+              "_id": "5ca287e51dcc7029b49a11cc"
+          },
+          {
+              "name": "fresh thyme",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca287e51dcc7029b49a11cb"
+          }
+      ],
+      "preparationSteps": [
+          "Fill a pan with enough water to submerge a fillet. Bring the water to a simmer.",
+          "Add salt, peppercorns, sliced lemon, and thyme to water.",
+          "Add salmon, cover the pan, and cook for 20 minutes.",
+          "Remove salmon from pan, and season with salt, pepper, and fresh lemon."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca0d6a32c53fa04133e28d1",
+      "source": "https://tasty.co/recipe/japanese-rice-burger",
+      "title": "Japanese Rice Burger Recipe by Tasty",
+      "approval": 79,
+      "amountOfPeople": 3,
+      "videoURL": "https://vid.tasty.co/output/10187/mp4_720x1280/1473975104",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/fcd041658e2b4793b7a0eb37529f1a47/BFV12310_4BurgersAroundtheWorld-FB1080SQ.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "3",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "white rice",
+              "amount": "(460 g), 2 cups",
+              "state": "cooked",
+              "required": true,
+              "_id": "5ca0d6a32c53fa04133e28dd"
+          },
+          {
+              "name": "cooking spray",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca0d6a32c53fa04133e28dc"
+          },
+          {
+              "name": "oil",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca0d6a32c53fa04133e28db"
+          },
+          {
+              "name": "lean ground beef",
+              "amount": "(455 g)",
+              "state": "",
+              "required": true,
+              "_id": "5ca0d6a32c53fa04133e28da"
+          },
+          {
+              "name": "onion",
+              "amount": "½",
+              "state": "finely chopped",
+              "required": true,
+              "_id": "5ca0d6a32c53fa04133e28d9"
+          },
+          {
+              "name": "panko breadcrumbs",
+              "amount": "(25 g), ½ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca0d6a32c53fa04133e28d8"
+          },
+          {
+              "name": "egg",
+              "amount": "1",
+              "state": "",
+              "required": true,
+              "_id": "5ca0d6a32c53fa04133e28d7"
+          },
+          {
+              "name": "salt",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca0d6a32c53fa04133e28d6"
+          },
+          {
+              "name": "pepper",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca0d6a32c53fa04133e28d5"
+          },
+          {
+              "name": "beef gravy",
+              "amount": "(240 g), 1 cup",
+              "state": "or demi-glace",
+              "required": true,
+              "_id": "5ca0d6a32c53fa04133e28d4"
+          },
+          {
+              "name": "eggs",
+              "amount": "3 ",
+              "state": "fried",
+              "required": true,
+              "_id": "5ca0d6a32c53fa04133e28d3"
+          },
+          {
+              "name": "green onion",
+              "amount": "(35 g), ⅓ cup",
+              "state": "thinly sliced",
+              "required": true,
+              "_id": "5ca0d6a32c53fa04133e28d2"
+          }
+      ],
+      "preparationSteps": [
+          "Press ⅓ cup (75 g) of rice into the bottom of a greased 1 cup measure, then remove. Repeat with the rice until you have 6 buns.",
+          "In a pan over medium-high heat, fry the buns until lightly browned on both sides.",
+          "Set aside on a paper towel.",
+          "Mix together the the patty ingredients until evenly combined.",
+          "Form the beef into 3 patties.",
+          "Heat oil in a pan over medium heat.",
+          "Cook the burgers for 3 minutes on the first side, flip, then cook for 6 more minutes.",
+          "Assemble the burgers with the rice buns, beef gravy, egg, and green onions. scallions."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca283e31dcc7029b49a1169",
+      "source": "https://tasty.co/recipe/one-pot-lentil-bolognese",
+      "title": "One-Pot Lentil Bolognese Recipe by Tasty",
+      "approval": 94,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/93734/landscape_720/1526064036",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/155837.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "0",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "spathetti",
+              "amount": "(225 g)",
+              "state": "dried",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a117c"
+          },
+          {
+              "name": "olive oil",
+              "amount": "2 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a117b"
+          },
+          {
+              "name": "yellow onion",
+              "amount": "½ large",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a117a"
+          },
+          {
+              "name": "carrot",
+              "amount": "2 medium",
+              "state": "sliced",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a1179"
+          },
+          {
+              "name": "stalk celery",
+              "amount": "1",
+              "state": "sliced",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a1178"
+          },
+          {
+              "name": "mushroom",
+              "amount": "(300 g), 4 cups",
+              "state": "sliced",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a1177"
+          },
+          {
+              "name": "salt",
+              "amount": "1 teaspoon, to taste",
+              "state": "",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a1176"
+          },
+          {
+              "name": "pepper",
+              "amount": "1 teaspoon, to taste",
+              "state": "",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a1175"
+          },
+          {
+              "name": "red wine",
+              "amount": "(120 mL, ½ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a1174"
+          },
+          {
+              "name": "garlic",
+              "amount": "3 cloves",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a1173"
+          },
+          {
+              "name": "tomato",
+              "amount": "(795 g), 1 can",
+              "state": "diced",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a1172"
+          },
+          {
+              "name": "tomato paste",
+              "amount": "(55 g), ¼ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a1171"
+          },
+          {
+              "name": "vegetable broth",
+              "amount": "(480 mL), 2 cups",
+              "state": "",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a1170"
+          },
+          {
+              "name": "brown lentil",
+              "amount": "(200 g), 1 cup",
+              "state": "dried",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a116f"
+          },
+          {
+              "name": "basil",
+              "amount": "½ teaspoon",
+              "state": "dried",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a116e"
+          },
+          {
+              "name": "oregano",
+              "amount": "½ teaspoon",
+              "state": "dried",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a116d"
+          },
+          {
+              "name": "rosemary",
+              "amount": "½ teaspoon",
+              "state": "dried",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a116c"
+          },
+          {
+              "name": "baking soda",
+              "amount": "½ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a116b"
+          },
+          {
+              "name": "fresh parsley",
+              "amount": "(10 g), ¼ cup",
+              "state": "chopped, for garnish",
+              "required": true,
+              "_id": "5ca283e31dcc7029b49a116a"
+          }
+      ],
+      "preparationSteps": [
+          "In a large pot, cook the pasta according to the package instructions. Drain and set aside.",
+          "Heat the olive oil in the same pot over medium heat. Add the onion and sauté until translucent, about 2 minutes.",
+          "Stir in the carrots, celery, mushrooms, salt, and pepper. Sauté until mushrooms have cooked down and are turning golden, about 5 minutes.",
+          "Add the wine and simmer until most of the liquid is absorbed, about 4 minutes.",
+          "Add the garlic and stir to combine, then add the diced tomatoes, tomato paste, broth, lentils, basil, oregano, rosemary, and baking soda. Stir to combine.",
+          "Bring to a boil, then cover, reduce the heat to low, and simmer for 40 minutes, until the bolognese is thickened.",
+          "Serve the bolognese over the pasta, or, for a lighter option, use zucchini noodles or spaghetti squash.",
+          "Garnish with parsley."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca288021dcc7029b49a11d0",
+      "source": "https://tasty.co/recipe/rosemary-roasted-sweet-potatoes",
+      "title": "Rosemary Roasted Sweet Potatoes Recipe by Tasty",
+      "approval": 99,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/31203/mp4_720x1280/1494349079",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/87b2ebfa685841cca37454ea00111943/Tasty_-_Facebook_-_1080x1080.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "0",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "sweet potatoes",
+              "amount": "3",
+              "state": "",
+              "required": true,
+              "_id": "5ca288021dcc7029b49a11d6"
+          },
+          {
+              "name": "oil",
+              "amount": "2 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca288021dcc7029b49a11d5"
+          },
+          {
+              "name": "rosemary",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca288021dcc7029b49a11d4"
+          },
+          {
+              "name": "salt",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca288021dcc7029b49a11d3"
+          },
+          {
+              "name": "pepper",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca288021dcc7029b49a11d2"
+          },
+          {
+              "name": "fresh parsley",
+              "amount": "",
+              "state": "chopped, for serving",
+              "required": true,
+              "_id": "5ca288021dcc7029b49a11d1"
+          }
+      ],
+      "preparationSteps": [
+          "Preheat the oven to 400°F (200ºC).",
+          "Slice the top and bottom off of the sweet potatoes, and slice potatoes in half crosswise. Rest each half on the broader end, then slice 3 times vertically and horizontally. Turn the potatoes on their side and make 4 or five more slices, to form cubes.",
+          "Transfer the sweet potatoes to a baking sheet, then add the oil, rosemary, salt, and pepper. Toss to coat evenly.",
+          "Bake for 35-40 minutes, until the sweet potatoes are tender and starting to brown around the edges.",
+          "Let cool for 5 minutes. Garnish with chopped parsley before serving."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca288331dcc7029b49a11d7",
+      "source": "https://tasty.co/recipe/3-ingredient-teriyaki-chicken",
+      "title": "3-ingredient Teriyaki Chicken Recipe by Tasty",
+      "approval": 92,
+      "amountOfPeople": 2,
+      "videoURL": "https://vid.tasty.co/output/10402/mp4_720x1280/1474401236",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/1d47125afffa461a9711758f632306b8/BFV12484_3-IngredientDinners-FB1080SQ.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "chicken thigh",
+              "amount": "(910 g)",
+              "state": "sliced into chunks",
+              "required": true,
+              "_id": "5ca288331dcc7029b49a11da"
+          },
+          {
+              "name": "soy sauce",
+              "amount": "(240 mL), 1 cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca288331dcc7029b49a11d9"
+          },
+          {
+              "name": "brown sugar",
+              "amount": "(110 g), ½ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca288331dcc7029b49a11d8"
+          }
+      ],
+      "preparationSteps": [
+          "Sear the chicken thighs evenly in a pan, then flip.",
+          "Add the soy sauce and brown sugar, stirring and bringing to a boil.",
+          "Stir until the sauce has reduced and evenly glazes the chicken.",
+          "Serve with rice, if desired!"
+      ],
+      "allergenics": [
+          "soy"
+      ]
+  },
+  {
+      "_id": "5ca288821dcc7029b49a11db",
+      "source": "https://tasty.co/recipe/asparagus-stuffed-chicken-breast",
+      "title": "Asparagus Stuffed Chicken Breast Recipe by Tasty",
+      "approval": 97,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/53133/mp4_720x1280/1506097199",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/c52276e929bb44a0bb1dccc550aff16a/FB_Syphus_AsparagusStuffedChicken_v1.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "chicken breast",
+              "amount": "3 ",
+              "state": "skinless chicken breasts",
+              "required": true,
+              "_id": "5ca288821dcc7029b49a11e4"
+          },
+          {
+              "name": "salt",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca288821dcc7029b49a11e3"
+          },
+          {
+              "name": "pepper",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca288821dcc7029b49a11e2"
+          },
+          {
+              "name": "lemon",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca288821dcc7029b49a11e1"
+          },
+          {
+              "name": "asparagus",
+              "amount": "9",
+              "state": "ends trimmed",
+              "required": true,
+              "_id": "5ca288821dcc7029b49a11e0"
+          },
+          {
+              "name": "provolone cheese",
+              "amount": "3 slices",
+              "state": "",
+              "required": true,
+              "_id": "5ca288821dcc7029b49a11df"
+          },
+          {
+              "name": "garlic",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca288821dcc7029b49a11de"
+          },
+          {
+              "name": "paprika",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca288821dcc7029b49a11dd"
+          },
+          {
+              "name": "olive oil",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca288821dcc7029b49a11dc"
+          }
+      ],
+      "preparationSteps": [
+          "Preheat oven to 425˚F (220˚F).",
+          "On a cutting board, cut the chicken breasts in half, lengthwise, leaving it intact on one side.",
+          "Season the inside of the chicken with salt and pepper.",
+          "Sprinkle the lemon zest on the interior of the chicken. Top with piece of provolone and three stalks of asparagus, then fold the chicken over enclosing the filling.",
+          "Season the outside of the chicken breasts with salt, pepper, garlic powder, and paprika.",
+          "Heat a large oven-safe skillet over medium-high heat, and add the oil. Add the chicken to the pan, and cook for 3 to 5 minutes, until golden brown.",
+          "Flip the chicken over and cook for an additional 3 to 5 minutes.",
+          "Cover the skillet with aluminum foil and place in the oven for 15 minutes, or until the internal temperature reaches 155˚F (70˚C).",
+          "Remove the skillet and let sit, covered, for 5 minutes.",
+          "Remove the foil, and serve."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca288e81dcc7029b49a11e5",
+      "source": "https://tasty.co/recipe/healthier-veggie-fried-rice",
+      "title": "Healthier Veggie Fried Rice Recipe by Tasty",
+      "approval": 92,
+      "amountOfPeople": 2,
+      "videoURL": "https://vid.tasty.co/output/79548/landscape_720/1518807520",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/8c13419678474dfa97b562df829674d2/BFV36769_InstantPotDinners-FB1080x1080.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "0",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "brown rice",
+              "amount": "(390 g), 2 cups",
+              "state": "",
+              "required": true,
+              "_id": "5ca288e81dcc7029b49a11f0"
+          },
+          {
+              "name": "vegetable broth",
+              "amount": "(475 mL), 2 cups",
+              "state": "",
+              "required": true,
+              "_id": "5ca288e81dcc7029b49a11ef"
+          },
+          {
+              "name": "carrot",
+              "amount": "2",
+              "state": "diced",
+              "required": true,
+              "_id": "5ca288e81dcc7029b49a11ee"
+          },
+          {
+              "name": "oil",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca288e81dcc7029b49a11ed"
+          },
+          {
+              "name": "onion",
+              "amount": "½ ",
+              "state": "diced",
+              "required": true,
+              "_id": "5ca288e81dcc7029b49a11ec"
+          },
+          {
+              "name": "garlic",
+              "amount": "2 cloves",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca288e81dcc7029b49a11eb"
+          },
+          {
+              "name": "frozen peas",
+              "amount": "(75 g), ½ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca288e81dcc7029b49a11ea"
+          },
+          {
+              "name": "salt",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca288e81dcc7029b49a11e9"
+          },
+          {
+              "name": "pepper",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca288e81dcc7029b49a11e8"
+          },
+          {
+              "name": "egg",
+              "amount": "2 ",
+              "state": "whisked",
+              "required": true,
+              "_id": "5ca288e81dcc7029b49a11e7"
+          },
+          {
+              "name": "scallion",
+              "amount": "",
+              "state": "sliced, for garnish",
+              "required": true,
+              "_id": "5ca288e81dcc7029b49a11e6"
+          }
+      ],
+      "preparationSteps": [
+          "Add the brown rice, vegetable broth, and diced carrots to your Instant Pot. Stir until combined.",
+          "Close the lid until you hear the beep. Tip: Closing the lid can be tricky. Have the pressure knob at 11 o’clock and turn right.",
+          "Turn pressure knob to “Sealing”. Select Manual and reduce the time to 24 minutes. It will say “On” in a few seconds. Note: the Instant Pot will need to warm up for 5-10 minutes. Steam will be released and a few minutes later, the time will start counting down.",
+          "Once the time goes off, carefully turn the pressure knob to “Venting”. Let all of the stream release before opening the lid.",
+          "Stir the rice, then transfer from the pot into a medium sized bowl and set aside.",
+          "Select “Saute” on the Instant Pot.  Once it says “Hot”, add the oil.",
+          "When the oil is shimmering, add the onion. Cook for around 1 minute until slightly opaque.",
+          "Add the minced garlic, frozen peas, salt, and pepper. Mix until incorporated.",
+          "Add rice mixture and stir until everything is combined.",
+          "Make a well in the middle of the rice for the eggs. Pour the beaten eggs into the well, stirring only the eggs until they are cooked.",
+          "Mix everything together. Top with scallions."
+      ],
+      "allergenics": [
+          "egg"
+      ]
+  },
+  {
+      "_id": "5ca289591dcc7029b49a11f1",
+      "source": "https://tasty.co/recipe/veggie-fried-rice",
+      "title": "Veggie Fried Rice Recipe by Tasty",
+      "approval": 96,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/49619/mp4_720x1280/1503937699",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/97aa9be31408452591baef80ebc6b52c/BFV24904_FriedRice4Ways_FB1080SQ.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "1",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "oil",
+              "amount": "2 teaspoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca289591dcc7029b49a11fe"
+          },
+          {
+              "name": "carrot",
+              "amount": "(60 g), ½ cup",
+              "state": "diced",
+              "required": true,
+              "_id": "5ca289591dcc7029b49a11fd"
+          },
+          {
+              "name": "garlic",
+              "amount": "1 tablespoon",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca289591dcc7029b49a11fc"
+          },
+          {
+              "name": "onion",
+              "amount": "(75 g), ½ cup",
+              "state": "diced",
+              "required": true,
+              "_id": "5ca289591dcc7029b49a11fb"
+          },
+          {
+              "name": "pepper",
+              "amount": "(50 g), ½ cup",
+              "state": "diced",
+              "required": true,
+              "_id": "5ca289591dcc7029b49a11fa"
+          },
+          {
+              "name": "broccoli",
+              "amount": "(75 g), ½ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca289591dcc7029b49a11f9"
+          },
+          {
+              "name": "pea",
+              "amount": "(75 g), ½ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca289591dcc7029b49a11f8"
+          },
+          {
+              "name": "corns",
+              "amount": "60 , ⅓ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca289591dcc7029b49a11f7"
+          },
+          {
+              "name": "egg",
+              "amount": "3",
+              "state": "beaten",
+              "required": true,
+              "_id": "5ca289591dcc7029b49a11f6"
+          },
+          {
+              "name": "white rice",
+              "amount": "(690 g), 3 cups",
+              "state": "cooked",
+              "required": true,
+              "_id": "5ca289591dcc7029b49a11f5"
+          },
+          {
+              "name": "soy sauce",
+              "amount": "2 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca289591dcc7029b49a11f4"
+          },
+          {
+              "name": "sesame oil",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca289591dcc7029b49a11f3"
+          },
+          {
+              "name": "pepper",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca289591dcc7029b49a11f2"
+          }
+      ],
+      "preparationSteps": [
+          "In a wok or deep skillet, heat up the oil over high heat and cook carrots, onions, and garlic until onions are translucent.",
+          "Add bell peppers and broccoli and cook an additional 3-4 minutes. Push all of the cooked vegetables to the side of the pan.",
+          "Beat the eggs and pour into the cleared half of the pan. Scramble the eggs and mix with the rest of the vegetables.",
+          "Add peas, corn, rice, soy sauce, sesame oil, and pepper. Mix well and let the rice cook until slightly crispy."
+      ],
+      "allergenics": [
+          "sesame",
+          "soy",
+          "egg"
+      ]
+  },
+  {
+      "_id": "5ca2899f1dcc7029b49a11ff",
+      "source": "https://tasty.co/recipe/garlic-broccoli-shrimp-stir-fry",
+      "title": "Garlic Broccoli Shrimp Stir Fry Recipe by Tasty",
+      "approval": 97,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/11675/mp4_720x1280/1475879092",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/6dba1399f40e49bc8031db66514501ae/BFV13225_ShrimpStir-Fry4Ways-FB1080SQ.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "shrimp",
+              "amount": "(455 g)",
+              "state": "peeled and deveined",
+              "required": true,
+              "_id": "5ca2899f1dcc7029b49a1206"
+          },
+          {
+              "name": "garlic",
+              "amount": "3 cloves",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca2899f1dcc7029b49a1205"
+          },
+          {
+              "name": "broccoli",
+              "amount": "(500 g), 2 cups",
+              "state": "",
+              "required": true,
+              "_id": "5ca2899f1dcc7029b49a1204"
+          },
+          {
+              "name": "onion",
+              "amount": "½",
+              "state": "diced",
+              "required": true,
+              "_id": "5ca2899f1dcc7029b49a1203"
+          },
+          {
+              "name": "soy sauce",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca2899f1dcc7029b49a1202"
+          },
+          {
+              "name": "sesame oil",
+              "amount": "2 tablespoons",
+              "state": "divided",
+              "required": true,
+              "_id": "5ca2899f1dcc7029b49a1201"
+          },
+          {
+              "name": "salt",
+              "amount": "½ teaspoon",
+              "state": "divided",
+              "required": true,
+              "_id": "5ca2899f1dcc7029b49a1200"
+          }
+      ],
+      "preparationSteps": [
+          "Heat 1 tablespoon of sesame oil in a large, nonstick skillet over medium heat.",
+          "Pour in the shrimp and season with ¼ teaspoon of the salt.",
+          "Fry the shrimp for 1 minute on each side.",
+          "Remove the shrimp from the pan and pour in the remaining 1 tablespoon of oil.",
+          "Toss in the onion and remaining ¼ teaspoon of salt and sauté for a few minutes until they begin to soften.",
+          "Add in the broccoli, garlic and soy sauce and sauté until the garlic is fragrant, about 30 seconds.",
+          "Toss the shrimp back into the pan and mix until everything is well incorporated and the shrimp is fully cooked, about 1 minute.",
+          "Divide the mixture evenly between 4 bowls."
+      ],
+      "allergenics": [
+          "sesame",
+          "soy"
+      ]
+  },
+  {
+      "_id": "5ca28a7f1dcc7029b49a1207",
+      "source": "https://tasty.co/recipe/chicken-noodle-soup",
+      "title": "Chicken Noodle Soup Recipe by Tasty",
+      "approval": 98,
+      "amountOfPeople": 8,
+      "videoURL": "https://vid.tasty.co/output/14681/mp4_720x1280/1479146220",
+      "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/cae70bb5ca7f424abc8e3ccff6b7bb59/BFV14656_ChickenNoodleSoup_ThumbB.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "butter",
+              "amount": "2 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca28a7f1dcc7029b49a1212"
+          },
+          {
+              "name": "onion",
+              "amount": "(150 g), 1 cup",
+              "state": "diced",
+              "required": true,
+              "_id": "5ca28a7f1dcc7029b49a1211"
+          },
+          {
+              "name": "garlic",
+              "amount": "2 cloves",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca28a7f1dcc7029b49a1210"
+          },
+          {
+              "name": "celery",
+              "amount": "(225 g), 1 cup",
+              "state": "diced",
+              "required": true,
+              "_id": "5ca28a7f1dcc7029b49a120f"
+          },
+          {
+              "name": "carrot",
+              "amount": "(120 g), 1 cup",
+              "state": "diced",
+              "required": true,
+              "_id": "5ca28a7f1dcc7029b49a120e"
+          },
+          {
+              "name": "cooked chicken",
+              "amount": "(225 g)",
+              "state": "shredded",
+              "required": true,
+              "_id": "5ca28a7f1dcc7029b49a120d"
+          },
+          {
+              "name": "chicken broth",
+              "amount": "1000 ml",
+              "state": "",
+              "required": true,
+              "_id": "5ca28a7f1dcc7029b49a120c"
+          },
+          {
+              "name": "egg",
+              "amount": "(300 g), 2 cups",
+              "state": "",
+              "required": true,
+              "_id": "5ca28a7f1dcc7029b49a120b"
+          },
+          {
+              "name": "salt",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca28a7f1dcc7029b49a120a"
+          },
+          {
+              "name": "pepper",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca28a7f1dcc7029b49a1209"
+          },
+          {
+              "name": "bay leaf",
+              "amount": "2 leaves",
+              "state": "dried",
+              "required": true,
+              "_id": "5ca28a7f1dcc7029b49a1208"
+          }
+      ],
+      "preparationSteps": [
+          "In a large pot, melt butter and add onions and garlic. Cook until onions have begun to soften.",
+          "Add celery, carrots, and cooked shredded chicken.",
+          "Add the chicken broth, egg noodles, salt, pepper and bay leaves.",
+          "Bring to a boil and then reduce heat, cover and simmer for 20 minutes.",
+          "Remove bay leaves from the soup."
+      ],
+      "allergenics": [
+          "egg"
+      ]
+  },
+  {
+      "_id": "5ca28adc1dcc7029b49a1213",
+      "source": "https://tasty.co/recipe/easy-homemade-chicken-curry",
+      "title": "Easy Homemade Chicken Curry Recipe by Tasty",
+      "approval": 96,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/43727/mp4_720x1280/1500071112",
+      "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/906d96d9f4c04ff0994e85c7c0dcfb06/Easy_Homemade_Chicken_Curry_Low_Fodmap_FB_Thumbnail_copy.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "chicken breast",
+              "amount": "4 ",
+              "state": "skinless chicken breasts",
+              "required": true,
+              "_id": "5ca28adc1dcc7029b49a1222"
+          },
+          {
+              "name": "turmeric",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca28adc1dcc7029b49a1221"
+          },
+          {
+              "name": "chili powder",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca28adc1dcc7029b49a1220"
+          },
+          {
+              "name": "ground cumin",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca28adc1dcc7029b49a121f"
+          },
+          {
+              "name": "garam masala",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca28adc1dcc7029b49a121e"
+          },
+          {
+              "name": "ginger",
+              "amount": "½ tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca28adc1dcc7029b49a121d"
+          },
+          {
+              "name": "white wine vinegar",
+              "amount": "2 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca28adc1dcc7029b49a121c"
+          },
+          {
+              "name": "oil",
+              "amount": "",
+              "state": "for frying",
+              "required": true,
+              "_id": "5ca28adc1dcc7029b49a121b"
+          },
+          {
+              "name": "red chili",
+              "amount": "1 red",
+              "state": "chopped",
+              "required": true,
+              "_id": "5ca28adc1dcc7029b49a121a"
+          },
+          {
+              "name": "tomato",
+              "amount": "(400 g), 2 cups",
+              "state": "chopped (400 g)",
+              "required": true,
+              "_id": "5ca28adc1dcc7029b49a1219"
+          },
+          {
+              "name": "water",
+              "amount": "(100 mL), ½ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca28adc1dcc7029b49a1218"
+          },
+          {
+              "name": "salt",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca28adc1dcc7029b49a1217"
+          },
+          {
+              "name": "pepper",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca28adc1dcc7029b49a1216"
+          },
+          {
+              "name": "rice",
+              "amount": "",
+              "state": "to serve",
+              "required": true,
+              "_id": "5ca28adc1dcc7029b49a1215"
+          },
+          {
+              "name": "fresh coriander",
+              "amount": "",
+              "state": "to serve, chopped",
+              "required": true,
+              "_id": "5ca28adc1dcc7029b49a1214"
+          }
+      ],
+      "preparationSteps": [
+          "Cut the chicken into bite-size pieces.",
+          "Season the chicken with turmeric, chili powder, cumin, garam masala, ginger, and white wine vinegar, and mix well.",
+          "Heat oil in a pot over a medium heat. Add the chicken and cook until brown.",
+          "Add the chili, chopped tomatoes, water, salt, and pepper.",
+          "Mix well and bring to a boil.",
+          "Simmer for 1 hour, until the sauce has thickened.",
+          "Serve with rice and chopped coriander."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca28bb91dcc7029b49a1223",
+      "source": "https://tasty.co/recipe/20-minute-beef-and-broccoli-noodle-stir-fry",
+      "title": "20-Minute Beef And Broccoli Noodle Stir-Fry",
+      "approval": 94,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/105912/landscape_720/1534790361",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/174425.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "instant ramen",
+              "amount": "(85 g), 3 packages",
+              "state": "",
+              "required": true,
+              "_id": "5ca28bb91dcc7029b49a1231"
+          },
+          {
+              "name": "water",
+              "amount": "(1.9 L), 8 cups",
+              "state": "boiling hot",
+              "required": true,
+              "_id": "5ca28bb91dcc7029b49a1230"
+          },
+          {
+              "name": "garlic",
+              "amount": "1 clove",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca28bb91dcc7029b49a122f"
+          },
+          {
+              "name": "cornstarch",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca28bb91dcc7029b49a122e"
+          },
+          {
+              "name": "sesame oil",
+              "amount": "2 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca28bb91dcc7029b49a122d"
+          },
+          {
+              "name": "lime",
+              "amount": "1 ",
+              "state": "juiced",
+              "required": true,
+              "_id": "5ca28bb91dcc7029b49a122c"
+          },
+          {
+              "name": "soy sauce",
+              "amount": "(60 mL), ¼ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca28bb91dcc7029b49a122b"
+          },
+          {
+              "name": "broccoli",
+              "amount": "(300 g), 2 cups",
+              "state": "",
+              "required": true,
+              "_id": "5ca28bb91dcc7029b49a122a"
+          },
+          {
+              "name": "olive oil",
+              "amount": "1 tablespoon",
+              "state": "divided",
+              "required": true,
+              "_id": "5ca28bb91dcc7029b49a1229"
+          },
+          {
+              "name": "flank steak",
+              "amount": "(340 g)",
+              "state": "thinly sliced",
+              "required": true,
+              "_id": "5ca28bb91dcc7029b49a1228"
+          },
+          {
+              "name": "yellow onion",
+              "amount": "½ medium",
+              "state": "thinly sliced",
+              "required": true,
+              "_id": "5ca28bb91dcc7029b49a1227"
+          },
+          {
+              "name": "onion",
+              "amount": "2 tablespoons",
+              "state": "sliced",
+              "required": true,
+              "_id": "5ca28bb91dcc7029b49a1226"
+          },
+          {
+              "name": "fresh cilantro",
+              "amount": "2 tablespoons",
+              "state": "chopped",
+              "required": true,
+              "_id": "5ca28bb91dcc7029b49a1225"
+          },
+          {
+              "name": "sesame seed",
+              "amount": "½ teaspoons",
+              "state": "toasted",
+              "required": true,
+              "_id": "5ca28bb91dcc7029b49a1224"
+          }
+      ],
+      "preparationSteps": [
+          "Place the ramen noodles in a large bowl (discard the seasoning packets or save for another use) and pour the boiling water over them. Let sit for 6 minutes, stirring every now and then to break up the noodle blocks. Drain and rinse under cold water. Set aside.",
+          "In a small bowl, combine the garlic, cornstarch, sesame oil, lime juice, and soy sauce. Stir well, then set aside.",
+          "Place the broccoli in a large, microwave-safe bowl and microwave for 1½ minutes, until soft. Set aside.",
+          "Heat 1 teaspoon of olive oil in a large, nonstick pan over high heat. Add the steak to the pan and toss with 2 tablespoons of the reserved sauce. Cook until browned, about 2 minutes. Remove from the pan and set aside.",
+          "Heat another teaspoon of olive oil in the pan, then add the onion. Cook, stirring often, until browned, about 4 minutes.",
+          "Add the broccoli and cook until lightly browned, about 2 minutes. Remove from the pan and set aside.",
+          "Add the remaining teaspoon of olive oil to the pan, then add the noodles and the remaining sauce. Cook, stirring constantly, until the noodles soak up the sauce. Return the cooked vegetables and steak to the pan and stir to distribute.",
+          "Transfer the noodles to a serving dish and garnish with green onions, cilantro, and sesame seeds, if using."
+      ],
+      "allergenics": [
+          "sesame",
+          "soy"
+      ]
+  },
+  {
+      "_id": "5ca4d0dc31f4c620cfb40a6f",
+      "source": "https://tasty.co/recipe/vegan-ramen",
+      "title": "Vegan Ramen",
+      "approval": 100,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/117263/landscape_720/1543486207",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/4e1c1bd803f4457d84dd12aca9aabf82/Vegan_Recipes_FB.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "0",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "oil",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a86"
+          },
+          {
+              "name": "sesame oil",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a85"
+          },
+          {
+              "name": "ginger",
+              "amount": "1 tablespoon",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a84"
+          },
+          {
+              "name": "garlic",
+              "amount": "6 cloves",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a83"
+          },
+          {
+              "name": "onion",
+              "amount": "1 ",
+              "state": "diced",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a82"
+          },
+          {
+              "name": "vegetable stock",
+              "amount": "(1.4 L), 6 cups",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a81"
+          },
+          {
+              "name": "water",
+              "amount": "(240 mL), 1 cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a80"
+          },
+          {
+              "name": "mushroom",
+              "amount": "(75 g), 1 cup",
+              "state": "stems removed and sliced",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a7f"
+          },
+          {
+              "name": "soy sauce",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a7e"
+          },
+          {
+              "name": "miso paste",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a7d"
+          },
+          {
+              "name": "ramen noodle",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a7c"
+          },
+          {
+              "name": "bok choy",
+              "amount": "",
+              "state": "sautéed",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a7b"
+          },
+          {
+              "name": "pepper",
+              "amount": "",
+              "state": "sliced and sautéed",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a7a"
+          },
+          {
+              "name": "fresh parlsey",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a79"
+          },
+          {
+              "name": "nori",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a78"
+          },
+          {
+              "name": "carrot",
+              "amount": "",
+              "state": "diced and sautéed",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a77"
+          },
+          {
+              "name": "radish",
+              "amount": "",
+              "state": "sliced",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a76"
+          },
+          {
+              "name": "onion",
+              "amount": "",
+              "state": "sliced and sautéed",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a75"
+          },
+          {
+              "name": "spinach",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a74"
+          },
+          {
+              "name": "bean sprout",
+              "amount": "",
+              "state": "sautéed",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a73"
+          },
+          {
+              "name": "corn",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a72"
+          },
+          {
+              "name": "jalapeño",
+              "amount": "",
+              "state": "sliced and sautéed",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a71"
+          },
+          {
+              "name": "onion",
+              "amount": "",
+              "state": "sliced",
+              "required": true,
+              "_id": "5ca4d0dc31f4c620cfb40a70"
+          }
+      ],
+      "preparationSteps": [
+          "In a large pot or Dutch oven, heat the olive oil over medium heat. Add the garlic, ginger, and onions and sauté until onions become translucent.",
+          "Add vegetable stock, water, shiitake mushrooms, and soy sauce. Stir and simmer for at least 45 minutes, up to 3 hours. The longer you simmer, the more flavorful the broth will become.",
+          "Uncover the pot, add the miso paste, and stir.",
+          "Ladle the broth into a bowl and add noodles and toppings of your choice."
+      ],
+      "allergenics": [
+          "soy",
+          "sesame"
+      ]
+  },
+  {
+      "_id": "5ca4d69731f4c620cfb40a87",
+      "source": "https://tasty.co/recipe/tornado-zucchini",
+      "title": "Tornado Zucchini",
+      "approval": 94,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/18904/mp4_720x1280/1482284246",
+      "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/e74d91426ca04b61a2bc165d7a5e5f47/BFV15344_TornadoZucchini_ThumbA.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "1",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "zucchini",
+              "amount": "4",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d69731f4c620cfb40a93"
+          },
+          {
+              "name": "olive oil",
+              "amount": "",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d69731f4c620cfb40a92"
+          },
+          {
+              "name": "panko breadcrumbs",
+              "amount": "(50 g), 1 cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d69731f4c620cfb40a91"
+          },
+          {
+              "name": "pepper",
+              "amount": "¼ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d69731f4c620cfb40a90"
+          },
+          {
+              "name": "chili powder",
+              "amount": "¼ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d69731f4c620cfb40a8f"
+          },
+          {
+              "name": "garlic",
+              "amount": "½ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d69731f4c620cfb40a8e"
+          },
+          {
+              "name": "onion",
+              "amount": "½ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d69731f4c620cfb40a8d"
+          },
+          {
+              "name": "salt",
+              "amount": "½ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d69731f4c620cfb40a8c"
+          },
+          {
+              "name": "pepper",
+              "amount": "½ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d69731f4c620cfb40a8b"
+          },
+          {
+              "name": "parmesan cheese",
+              "amount": "(35 g), ⅓ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca4d69731f4c620cfb40a8a"
+          },
+          {
+              "name": "bamboo skewers",
+              "amount": "",
+              "state": "wooden or bamboo",
+              "required": true,
+              "_id": "5ca4d69731f4c620cfb40a89"
+          },
+          {
+              "name": "ranch dressing, optional, to taste",
+              "amount": "to taste",
+              "state": "optional, to taste",
+              "required": true,
+              "_id": "5ca4d69731f4c620cfb40a88"
+          }
+      ],
+      "preparationSteps": [
+          "Preheat oven to 425˚F (220˚C).",
+          "Cut the ends off of the zucchini and cut it in half.",
+          "Using a bamboo skewer, pierce down the middle of the zucchini and push it down to the center of the skewer.",
+          "Hold a small knife at an angle and cut the zucchini while turning it the opposite direction that you want the tornado to go in.",
+          "Spread out the tornado and drizzle with olive oil. Set aside.",
+          "In a bowl, combine panko, cayenne, chili powder, garlic powder, onion powder, salt, pepper, and parmesan cheese.",
+          "Sprinkle over zucchini tornado until well-covered, and place on a baking sheet.",
+          "Bake for 30 minutes, flipping halfway, or until golden brown",
+          "Serve with your favorite dipping sauce."
+      ],
+      "allergenics": [
+          "dairy"
+      ]
+  },
+  {
+      "_id": "5ca709ea1ad58208c74cea7b",
+      "source": "https://tasty.co/recipe/garlic-parmesan-roasted-broccoli",
+      "title": "Garlic Parmesan Roasted Broccoli",
+      "approval": 99,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/31203/mp4_720x1280/1494349079",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/c903a3d7cb684325b525aa236e017022/Tasty_-_Facebook_-_1080x1080.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "1",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "broccoli",
+              "amount": "3 heads",
+              "state": "",
+              "required": true,
+              "_id": "5ca709ea1ad58208c74cea83"
+          },
+          {
+              "name": "oil",
+              "amount": "2 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca709ea1ad58208c74cea82"
+          },
+          {
+              "name": "lemon",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca709ea1ad58208c74cea81"
+          },
+          {
+              "name": "parmesan cheese",
+              "amount": "(25 g), ¼ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca709ea1ad58208c74cea80"
+          },
+          {
+              "name": "garlic",
+              "amount": "2 teaspoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca709ea1ad58208c74cea7f"
+          },
+          {
+              "name": "pepper",
+              "amount": "½ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca709ea1ad58208c74cea7e"
+          },
+          {
+              "name": "salt",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca709ea1ad58208c74cea7d"
+          },
+          {
+              "name": "pepper",
+              "amount": "1 teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca709ea1ad58208c74cea7c"
+          }
+      ],
+      "preparationSteps": [
+          "Preheat oven to 400°F (200ºC).",
+          "Separate the crowns and snip off any leaves of the broccoli.",
+          "On a prepared baking sheet, combine broccoli and remaining ingredients. Mix evenly.",
+          "Bake for 35-40 minutes.",
+          "Allow to cool for 5 minutes."
+      ],
+      "allergenics": [
+          "dairy"
+      ]
+  },
+  {
+      "_id": "5ca70a681ad58208c74cea84",
+      "source": "https://tasty.co/recipe/one-pot-basil-pasta",
+      "title": "One-Pot Basil Pasta",
+      "approval": 95,
+      "amountOfPeople": 2,
+      "videoURL": "https://vid.tasty.co/output/31866/mp4_720x1280/1495124937",
+      "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/891cdcace9904113b06757bc8678255f/BFV5752_One-PotTomatoAndBasilPasta_Thumbnail_B.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "1",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "onion",
+              "amount": "¼ ",
+              "state": "finely chopped",
+              "required": true,
+              "_id": "5ca70a681ad58208c74cea90"
+          },
+          {
+              "name": "garlic",
+              "amount": "2 cloves",
+              "state": "crushed",
+              "required": true,
+              "_id": "5ca70a681ad58208c74cea8f"
+          },
+          {
+              "name": "tomato",
+              "amount": "(100 g), ½ cup",
+              "state": "halved or regular tomatoes chopped into small bits",
+              "required": true,
+              "_id": "5ca70a681ad58208c74cea8e"
+          },
+          {
+              "name": "basil",
+              "amount": "(15 g), ⅓ cup",
+              "state": "chopped,",
+              "required": true,
+              "_id": "5ca70a681ad58208c74cea8d"
+          },
+          {
+              "name": "fresh parsley",
+              "amount": "(15 g), ⅓ cup",
+              "state": "chopped (15 g)",
+              "required": true,
+              "_id": "5ca70a681ad58208c74cea8c"
+          },
+          {
+              "name": "spaghetti",
+              "amount": "(150 g)",
+              "state": "",
+              "required": true,
+              "_id": "5ca70a681ad58208c74cea8b"
+          },
+          {
+              "name": "salt",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca70a681ad58208c74cea8a"
+          },
+          {
+              "name": "pepper",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca70a681ad58208c74cea89"
+          },
+          {
+              "name": "chillies",
+              "amount": "1 pinch",
+              "state": "crushed",
+              "required": true,
+              "_id": "5ca70a681ad58208c74cea88"
+          },
+          {
+              "name": "olive oil",
+              "amount": "2 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca70a681ad58208c74cea87"
+          },
+          {
+              "name": "water",
+              "amount": "(600 mL), ½ cups",
+              "state": "",
+              "required": true,
+              "_id": "5ca70a681ad58208c74cea86"
+          },
+          {
+              "name": "parmesan cheese",
+              "amount": "",
+              "state": "to garnish",
+              "required": true,
+              "_id": "5ca70a681ad58208c74cea85"
+          }
+      ],
+      "preparationSteps": [
+          "Place all of the ingredients except for the parmesan into a large pot. Cook on a high heat for 2 minutes, submerging the spaghetti into the water once it’s softened enough.",
+          "Lower the temperature to a medium/low heat and toss and stir continuously until the liquid reduces down into a thick sauce. serve with more fresh basil and top with parmesan."
+      ],
+      "allergenics": [
+          "dairy"
+      ]
+  },
+  {
+      "_id": "5ca70bde1ad58208c74cea91",
+      "source": "https://tasty.co/recipe/one-pot-garlic-parmesan-pasta",
+      "title": "One Pot Garlic Parmesan Pasta",
+      "approval": 96,
+      "amountOfPeople": 4,
+      "videoURL": "https://vid.tasty.co/output/58958/mp4_720x1280/1509380974",
+      "imageURL": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/f69a7f4192b94d8395757b365ac6d866/GarlicParmPasta.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "salt",
+              "amount": "2 tablespoons",
+              "state": "",
+              "required": true,
+              "_id": "5ca70bde1ad58208c74cea9a"
+          },
+          {
+              "name": "garlic",
+              "amount": "4 cloves",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca70bde1ad58208c74cea99"
+          },
+          {
+              "name": "chicken broth",
+              "amount": "(470 mL), 2 cups",
+              "state": "",
+              "required": true,
+              "_id": "5ca70bde1ad58208c74cea98"
+          },
+          {
+              "name": "milk",
+              "amount": "(235 mL), 1 cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca70bde1ad58208c74cea97"
+          },
+          {
+              "name": "fettuccine",
+              "amount": "(225 g)",
+              "state": "",
+              "required": true,
+              "_id": "5ca70bde1ad58208c74cea96"
+          },
+          {
+              "name": "salt",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca70bde1ad58208c74cea95"
+          },
+          {
+              "name": "pepper",
+              "amount": "to taste",
+              "state": "to taste",
+              "required": true,
+              "_id": "5ca70bde1ad58208c74cea94"
+          },
+          {
+              "name": "parmesan cheese",
+              "amount": "(25 g), ¼ cup",
+              "state": "",
+              "required": true,
+              "_id": "5ca70bde1ad58208c74cea93"
+          },
+          {
+              "name": "fresh parsley",
+              "amount": "2 tablespoons",
+              "state": "chopped",
+              "required": true,
+              "_id": "5ca70bde1ad58208c74cea92"
+          }
+      ],
+      "preparationSteps": [
+          "Heat unsalted butter in a large skillet over medium high heat. Add garlic and cook, stirring frequently, until fragrant, about 1-2 minutes.",
+          "Add in the chicken broth, milk, and fettuccine. Season with salt and pepper.",
+          "Bring the pot to a boil, then reduce heat and simmer, stirring occasionally, until pasta is cooked through, about 18-20 minutes.",
+          "Stir in Parmesan. If the mixture is too thick, add more milk as needed until desired consistency is reached.",
+          "Serve immediately, and top with parsley."
+      ],
+      "allergenics": [
+          "dairy"
+      ]
+  },
+  {
+      "_id": "5ca70c841ad58208c74cea9b",
+      "source": "https://tasty.co/recipe/one-pot-cilantro-lime-chicken-rice",
+      "title": "One-Pot Cilantro Lime Chicken rice",
+      "approval": 94,
+      "amountOfPeople": 6,
+      "videoURL": "https://vid.tasty.co/output/30369/mp4_720x1280/1493400520",
+      "imageURL": "https://img.buzzfeed.com/video-api-prod/assets/70defc85fe5c40ddb249ea76d93a0f75/Thumb_1_copy.jpg",
+      "preparationTimeInMinuts": 0,
+      "nutritionCategory": "2",
+      "youtubeId": null,
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "chicken breast",
+              "amount": "(455 g)",
+              "state": "skinless chicken breast, cubed",
+              "required": true,
+              "_id": "5ca70c841ad58208c74ceaa8"
+          },
+          {
+              "name": "olive oil",
+              "amount": "1 tablespoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca70c841ad58208c74ceaa7"
+          },
+          {
+              "name": "yellow onion",
+              "amount": "1 yellow",
+              "state": "diced",
+              "required": true,
+              "_id": "5ca70c841ad58208c74ceaa6"
+          },
+          {
+              "name": "pepper",
+              "amount": "2 ",
+              "state": "chopped",
+              "required": true,
+              "_id": "5ca70c841ad58208c74ceaa5"
+          },
+          {
+              "name": "garlic",
+              "amount": "2 cloves",
+              "state": "minced",
+              "required": true,
+              "_id": "5ca70c841ad58208c74ceaa4"
+          },
+          {
+              "name": "chicken broth",
+              "amount": "(600 mL), ½ cups",
+              "state": "",
+              "required": true,
+              "_id": "5ca70c841ad58208c74ceaa3"
+          },
+          {
+              "name": "lime",
+              "amount": "1 ",
+              "state": "juiced",
+              "required": true,
+              "_id": "5ca70c841ad58208c74ceaa2"
+          },
+          {
+              "name": "black beans",
+              "amount": "(410 g)",
+              "state": "rinsed and drained",
+              "required": true,
+              "_id": "5ca70c841ad58208c74ceaa1"
+          },
+          {
+              "name": "tomato",
+              "amount": "2 ",
+              "state": "",
+              "required": true,
+              "_id": "5ca70c841ad58208c74ceaa0"
+          },
+          {
+              "name": "rice",
+              "amount": "(300 g), ½ cups",
+              "state": "uncooked, rinsed",
+              "required": true,
+              "_id": "5ca70c841ad58208c74cea9f"
+          },
+          {
+              "name": "salt",
+              "amount": "½ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca70c841ad58208c74cea9e"
+          },
+          {
+              "name": "pepper",
+              "amount": "¼ teaspoon",
+              "state": "",
+              "required": true,
+              "_id": "5ca70c841ad58208c74cea9d"
+          },
+          {
+              "name": "cilantro",
+              "amount": "3 tablespoons",
+              "state": "chopped",
+              "required": true,
+              "_id": "5ca70c841ad58208c74cea9c"
+          }
+      ],
+      "preparationSteps": [
+          "In a skillet, heat a small amount of oil on medium–high heat. Add chicken and season with salt and pepper.",
+          "Cook the chicken thoroughly, about 6-8 minutes. Remove the chicken from the skillet and set aside.",
+          "Add remaining olive oil to the skillet. Add onion and peppers and sauté for 5-7 minutes.",
+          "Add garlic and cook for an additional minute.",
+          "Add the chicken broth, lime juice, black beans, tomatoes, rice, salt, and pepper and stir to combine.",
+          "Reduce heat, cover, and simmer for 15-20 minutes or until rice is cooked through.",
+          "Add chicken back to the pot. Add cilantro and combine.",
+          "Serve immediately."
+      ],
+      "allergenics": []
+  },
+  {
+      "_id": "5ca710601ad58208c74ceaa9",
+      "title": "Avocado Quinoa Power Salad",
+      "amountOfPeople": 6,
+      "nutritionCategory": "vegan",
+      "preparationTimeInMinuts": 30,
+      "videoURL": "https://youtu.be/Ny1hGQ5uvYc",
+      "youtubeId": "Ny1hGQ5uvYc",
+      "imageURL": "https://img.youtube.com/vi/Ny1hGQ5uvYc/mqdefault.jpg",
+      "__v": 0,
+      "ingredients": [
+          {
+              "name": "Water",
+              "amount": "2 cups, 480ml",
+              "_id": "5c6b37a71ac0ef13c871ceaa"
+          },
+          {
+              "name": "Salt",
+              "amount": "to taste",
+              "_id": "5c6b37a71ac0ef13c871cea9"
+          },
+          {
+              "name": "Pepper",
+              "amount": "to taste",
+              "_id": "5c6b37a71ac0ef13c871cea8"
+          },
+          {
+              "name": "Quinoa",
+              "amount": "1 cup, 170g",
+              "state": "rinsed",
+              "_id": "5c6b37a71ac0ef13c871cea7"
+          },
+          {
+              "name": "Fresh Spinach",
+              "amount": "2 cups, 80g",
+              "state": "raughly chopped",
+              "_id": "5c6b37a71ac0ef13c871cea6"
+          },
+          {
+              "name": "Cucumber",
+              "amount": "1 large",
+              "state": "diced",
+              "_id": "5c6b37a71ac0ef13c871cea5"
+          },
+          {
+              "name": "Roma tomatoes",
+              "amount": "4",
+              "state": "diced",
+              "_id": "5c6b37a71ac0ef13c871cea4"
+          },
+          {
+              "name": "Avocados",
+              "amount": "2 ripe",
+              "state": "pits removed and diced",
+              "_id": "5c6b37a71ac0ef13c871cea3"
+          },
+          {
+              "name": "Lemon",
+              "amount": "1",
+              "state": "juiced",
+              "_id": "5c6b37a71ac0ef13c871cea2"
+          },
+          {
+              "name": "Olive oil (extra virgin)",
+              "amount": "4 tbsp",
+              "state": "",
+              "_id": "5c6b37a71ac0ef13c871cea1"
+          }
+      ],
+      "preparationSteps": [
+          "In a small saucepan, bring the water and a pinch of salt to a boil. Add the quinoa, cover, and simmer for 15 minutes, or until the water is absorbed. Transfer to a medium bowl to cool to room temperature, then fluff the quinoa.",
+          "Refrigerate the quinoa for 20 minutes",
+          "Add the spinach, cucumber, tomatoes, and avocado to the bowl of quinoa and mix to combine.",
+          "Add the lemon juice, olive oil, salt, and pepper, and mix well."
+      ],
+      "allergenics": []
+  }
+]

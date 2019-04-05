@@ -6,27 +6,27 @@ import {Helper} from './helper';
 
 export class Main {
   public static async start() {
-
-    // const ans = await Helper.askQuestion("Press enter to continue, press [no] to exit: ");
-    // if(ans === ''){
-    //   console.log('continue');
-    // }
-    // return 0;
     const sourceUrls = await LoadAgent.loadSourceUrls();
-    const rawRecipe = await FetchAgent.getRawRecipe(sourceUrls[0]);
+    for(let sourceUrl of sourceUrls){
+      //Prep work
+      const rawRecipe = await FetchAgent.getRawRecipe(sourceUrl);
+      const getJsonRecipe = await FetchAgent.getRecipeObject(rawRecipe);
+      const htmlIngredients = await FetchAgent.getIngredientsFromHtml(rawRecipe);
+  
+      //Transform
+      const targetRecipe = await TransformAgent.transformRecipe(getJsonRecipe, htmlIngredients, sourceUrl); 
+  
+      //Save for manual check
+      SaveAgent.saveTargetToFile(targetRecipe);
 
-    const getJsonRecipe = await FetchAgent.getRecipeObject(rawRecipe);
-    const htmlIngredients = await FetchAgent.getIngredientsFromHtml(rawRecipe);
-
-    const targetRecipe = await TransformAgent.transformRecipe(getJsonRecipe, htmlIngredients, sourceUrls[0]); 
-
-    console.log(targetRecipe.allergenics);
-
-    SaveAgent.saveTargetToFile(targetRecipe);
-
-    // const ans = await Helper.askQuestion("Press enter to continue, press [no] to exit: ");
-    // if(ans === '')
-    await SaveAgent.saveToDbFromFile();
+      //Validation step
+      const ans = await Helper.askQuestion("Press enter to save the recipe at url: " + sourceUrl + ", press [no] to exit: ");
+      if(ans === ''){
+        await SaveAgent.saveTargetAndSync();
+      } else {
+        return 0;
+      }
+    }
   }
 }
 

@@ -52,5 +52,14 @@
   },
   {
     "name": "head"
+  },
+  {
+    "name": "slice"
+  },
+  {
+    "name": "leave"
+  },
+  {
+    "name": "package"
   }
 ]

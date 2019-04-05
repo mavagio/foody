@@ -1,13 +1,12 @@
 import readLine from 'readline';
 import { LoadAgent } from './fetch-layer/load-agent';
 export class Helper {
-  static extractIngredientNamesToMap(): Map<string, any> {
-    let ingredientNames: Map<string, any> = new Map<string, any>();
-    const recipes: any = LoadAgent.loadRecipes();
+  static extractIngredientNamesToMap(recipes: any): string[] {
+    let ingredientNames: string[] = [];
     for(let recipe of recipes) {
       for(let ingredient of recipe.ingredients) {
         const nameLowercase = ingredient.name.toLowerCase()
-        ingredientNames.set(nameLowercase, true);
+        ingredientNames.push(nameLowercase);
       }
     }
     return ingredientNames;
