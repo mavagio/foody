@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import { Cookie } from 'ng2-cookies';
 import { IUserSettings } from '../../../../shared/models/userSettingsModel';
 import { NutritionCategory } from '../../../../shared/models/recipeModel';
 import { USER_SETTINGS_COOKIE_NAME } from '../../../../shared/consts/consts';
+import { Cookie } from 'ng2-cookies';
 
 @Injectable({
   providedIn: 'root'

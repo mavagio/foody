@@ -15,13 +15,17 @@ export class WeeklyRecipesCookieService {
     this.cookieExpirationDays = 7;
   }
 
-  public setWeeklyRecipesCookie(weeklyRecipes: IRecipe[]): void {
-    Cookie.set(this.cookieName, JSON.stringify(weeklyRecipes), this.cookieExpirationDays);
+  public setWeeklyRecipesCookie(weeklyRecipes: any[]): void {
+    const weeklyRecipeIds = weeklyRecipes.map(recipe => recipe._id);
+    Cookie.set(this.cookieName, JSON.stringify(weeklyRecipeIds), this.cookieExpirationDays);
+  }
+
+  public deleteCookie():void {
+    Cookie.delete(this.cookieName);
   }
 
   public getWeeklyRecipesObjectFromCookies(): IRecipe[] {
     const stringifedCookie = Cookie.get(this.cookieName);
-    console.log(stringifedCookie);
     if (stringifedCookie) {
       const weeklyRecipes: IRecipe[] = JSON.parse(stringifedCookie);
       return weeklyRecipes;

@@ -26,18 +26,8 @@ export class WeeksComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.getAllRecipes();
+    this.getRecipesFromApi();
     this.checkedIngredients = this.ingridientsCookieService.getCheckedIngredientsArray();
-  }
-
-  public getAllRecipes(): void {
-    const weeklyRecipesObjectFromCookies = this.weeklyRecipesCookieService.getWeeklyRecipesObjectFromCookies();
-    console.log(weeklyRecipesObjectFromCookies);
-    if(weeklyRecipesObjectFromCookies == null) {
-      this.getRecipesFromApi();
-    } else {
-      this.recipes = weeklyRecipesObjectFromCookies;
-    }
   }
 
   private getRecipesFromApi(): void {
@@ -47,14 +37,13 @@ export class WeeksComponent implements OnInit {
         return;
       }
       this.recipes = response;
-      console.log(response);
       this.aggregateAllIngredients();
       this.assignCheckedIngredients();
-      this.saveRecipesInCookies();
+      this.saveRecipesInCookie();
     });
   }
 
-  private saveRecipesInCookies() {
+  private saveRecipesInCookie() {
     this.weeklyRecipesCookieService.setWeeklyRecipesCookie(this.recipes);
   }
 

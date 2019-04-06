@@ -14,17 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/martinavagyan/mean-ts.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/martinavagyan/mean-ts/issues"
+    "url": ""
   },
   "engines": {
     "node": "9.5.0"
   },
-  "homepage": "https://github.com/martinavagyan/mean-ts#readme",
+  "homepage": "",
   "dependencies": {
     "@types/morgan": "^1.7.35"
   }

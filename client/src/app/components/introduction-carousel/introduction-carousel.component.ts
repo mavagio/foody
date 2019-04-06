@@ -6,6 +6,8 @@ import { NutritionCategory } from '../../../../../shared/models/recipeModel';
 import { IUserSettings } from '../../../../../shared/models/userSettingsModel';
 
 import { UserSettingsCookieService } from '../../services/user-settings-cookie.service';
+import { WeeklyRecipesCookieService } from '../../services/weekly-recipes-cookie.service';
+
 
 export interface Allergenic {
   value: string;
@@ -39,7 +41,8 @@ export class IntroductionCarouselComponent implements OnInit {
   public selectedAlergies: Array<string> = ['no-allergies'];
   constructor(private activatedRoute: ActivatedRoute, 
               private router: Router,
-              private userSettingsCookieService: UserSettingsCookieService) {
+              private userSettingsCookieService: UserSettingsCookieService,
+              private weeklyRecipesCookieService: WeeklyRecipesCookieService) {
     this.activePage = 0;
     this.typeOfAllergenics = [{ value: 'shellfish', viewValue: 'Shellfish', selected: false },
                             { value: 'dairy', viewValue:  'Dairy', selected: false},
@@ -105,6 +108,7 @@ export class IntroductionCarouselComponent implements OnInit {
       if(allergenic.selected) 
         return allergenic.value; 
       });
-    this.userSettingsCookieService.setUserSettingsCookie(this.numberOfPeople, this.budgetPerDay, selectedAllergenicsValues, this.nutritionCategory)
+    this.userSettingsCookieService.setUserSettingsCookie(this.numberOfPeople, this.budgetPerDay, selectedAllergenicsValues, this.nutritionCategory);
+    this.weeklyRecipesCookieService.deleteCookie();
   }
 }

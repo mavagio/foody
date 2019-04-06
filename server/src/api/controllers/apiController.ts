@@ -45,11 +45,7 @@ module.exports = (passport: any) => {
     };
 
     publicModule.weeks_get = (req: any, res: any) => {
-        if(req.cookies == null || req.cookies[USER_SETTINGS_COOKIE_NAME] == null) {
-            res.send(null)
-            return;
-        }
-        recipeCtrl.getRecipesForWeek(req, res, JSON.parse(req.cookies[USER_SETTINGS_COOKIE_NAME]));
+        recipeCtrl.getRecipesForWeek(req, res);
     };
 
     /**
