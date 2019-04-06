@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Cookie } from 'ng2-cookies';
 import { IIngredient } from '../../../../shared/models/recipeModel';
+import { CHECKED_INGREDIENTS_COOKIE_NAME } from '../../../../shared/consts/consts';
 
 @Injectable({
   providedIn: 'root'
@@ -10,9 +11,9 @@ export class IngridientsCookieService {
   public currentCheckedIngreedients: string[];
   private cookieExpirationDays: number;
   constructor() {
-    this.cookieName = "checked-ingredients-cookie";
+    this.cookieName = CHECKED_INGREDIENTS_COOKIE_NAME;
     this.updateCurrentCheckedIngredientsCookie();
-    this.cookieExpirationDays = 21;
+    this.cookieExpirationDays = 7;
   }
 
   public setIngredientsArrayCookie(ingredients: string[]) {

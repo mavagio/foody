@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {ApiRequestsService} from '../../services/api-requests.service';
 import {IIngredient, IRecipe} from '../../../../../shared/models/recipeModel';
 import {IngridientsCookieService} from '../../services/ingredients-cookie.service';
+import {WeeklyRecipesCookieService} from '../../services/weekly-recipes-cookie.service';
+
 import {Router} from '@angular/router';
 
 @Component({
@@ -19,6 +21,7 @@ export class WeeksComponent implements OnInit {
 
   constructor(private apiRequestsService: ApiRequestsService,
               private ingridientsCookieService: IngridientsCookieService, 
+              private weeklyRecipesCookieService: WeeklyRecipesCookieService,
               private router: Router,) {
   }
 
@@ -28,6 +31,16 @@ export class WeeksComponent implements OnInit {
   }
 
   public getAllRecipes(): void {
+    const weeklyRecipesObjectFromCookies = this.weeklyRecipesCookieService.getWeeklyRecipesObjectFromCookies();
+    console.log(weeklyRecipesObjectFromCookies);
+    if(weeklyRecipesObjectFromCookies == null) {
+      this.getRecipesFromApi();
+    } else {
+      this.recipes = weeklyRecipesObjectFromCookies;
+    }
+  }
+
+  private getRecipesFromApi(): void {
     this.apiRequestsService.getWeeks().subscribe(response => {
       if(response == null) {
         this.router.navigate(['/']);
@@ -37,7 +50,12 @@ export class WeeksComponent implements OnInit {
       console.log(response);
       this.aggregateAllIngredients();
       this.assignCheckedIngredients();
+      this.saveRecipesInCookies();
     });
+  }
+
+  private saveRecipesInCookies() {
+    this.weeklyRecipesCookieService.setWeeklyRecipesCookie(this.recipes);
   }
 
   public onIngredientsSelected(e, selectionArray: any): void {

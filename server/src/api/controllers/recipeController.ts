@@ -25,20 +25,17 @@ export default class RecipeClass<T extends any> extends Base<T> {
     }
 
     public getRecipesForWeek(red: any, res: any, userSettings: any) {
-        console.log(userSettings.numberOfPeople);
-        const allergenicsWithoutNull = userSettings.allergenics.filter(Boolean);
-        console.log(allergenicsWithoutNull)
         this.model.find({amountOfPeople: {$gte: userSettings.numberOfPeople}, 
                          nutritionCategory: {$lte: userSettings.nutritionCategory},
-                         allergenics: {$nin: allergenicsWithoutNull}
-        },  
+                         allergenics: {$nin: userSettings.allergenics}
+        },
             (err: any, obj: any) => {
                 if (err) {
                     return console.error(err);
                 }
                 res.json(obj);
             }
-        );
+        ).sort({approval: -1}).limit(7);;
     }
 
     public get(req: any, res: any) {

@@ -14,7 +14,7 @@ export class UserSettingsCookieService {
 
   constructor() {
     this.cookieName = USER_SETTINGS_COOKIE_NAME;
-    this.cookieExpirationDays = 21;
+    this.cookieExpirationDays = 300;
     this.updateCurrentUserSettingsCookieValue();
     if(this.currentUserSettingsCookieValue == null) {
       this.setUserSettingsCookie(null,null,null,null);
@@ -50,18 +50,17 @@ export class UserSettingsCookieService {
   }
 
   public setUserSettingsCookie(numberOfPeople: number, budgetPerDay: number, allergenics: string[], nutritionCategory: NutritionCategory) {
+    const clearAllergenicsList = allergenics.filter(Boolean);
     const userSettings: IUserSettings =
     {
       numberOfPeople: numberOfPeople,
       budgetPerDay: budgetPerDay,
-      allergenics: allergenics,
+      allergenics: clearAllergenicsList,
       nutritionCategory: nutritionCategory,
     };
     Cookie.set(this.cookieName, JSON.stringify(userSettings), this.cookieExpirationDays);
     this.updateCurrentUserSettingsCookieValue();
   }
-
-
 
   public getUserSettingsObject(): IUserSettings {
     const stringifedCookie = Cookie.get(this.cookieName);
