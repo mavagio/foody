@@ -50,7 +50,7 @@ export class UserSettingsCookieService {
   }
 
   public setUserSettingsCookie(numberOfPeople: number, budgetPerDay: number, allergenics: string[], nutritionCategory: NutritionCategory) {
-    const clearAllergenicsList = allergenics.filter(Boolean);
+    const clearAllergenicsList = allergenics && allergenics.filter(Boolean);
     const userSettings: IUserSettings =
     {
       numberOfPeople: numberOfPeople,
