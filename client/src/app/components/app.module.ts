@@ -18,7 +18,7 @@ import {routing} from "./app.routing";
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import {AuthGuard} from "../auth/auth.guard";
 import {AuthInterceptor} from "../auth/auth-interceptor.service";
-
+import { NgxUiLoaderModule } from 'ngx-ui-loader';
 import {ReactiveFormsModule} from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {
@@ -117,7 +117,8 @@ import { CookieLawModule } from 'angular2-cookie-law';
     HttpClientModule,
     routing,
     SwiperModule,
-    CookieLawModule
+    CookieLawModule,
+    NgxUiLoaderModule
   ],
   providers: [
     {provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true},

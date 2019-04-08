@@ -3,7 +3,6 @@ import {ApiRequestsService} from '../../services/api-requests.service';
 import {IIngredient, IRecipe} from '../../../../../shared/models/recipeModel';
 import {IngridientsCookieService} from '../../services/ingredients-cookie.service';
 import {WeeklyRecipesCookieService} from '../../services/weekly-recipes-cookie.service';
-
 import {Router} from '@angular/router';
 
 @Component({

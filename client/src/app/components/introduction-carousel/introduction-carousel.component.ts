@@ -8,6 +8,7 @@ import { IUserSettings } from '../../../../../shared/models/userSettingsModel';
 import { UserSettingsCookieService } from '../../services/user-settings-cookie.service';
 import { WeeklyRecipesCookieService } from '../../services/weekly-recipes-cookie.service';
 
+import { NgxUiLoaderService, SPINNER } from 'ngx-ui-loader';
 
 export interface Allergenic {
   value: string;
@@ -34,6 +35,7 @@ export class IntroductionCarouselComponent implements OnInit {
   public budgetPerDay: number;
   public typeOfAllergenics: Allergenic[];
   public nutritionCategory: NutritionCategory;
+  public SPINNEREnum = SPINNER;
 
   public userSettingsObject: IUserSettings;
   public isCounterChanged=false;
@@ -42,7 +44,8 @@ export class IntroductionCarouselComponent implements OnInit {
   constructor(private activatedRoute: ActivatedRoute, 
               private router: Router,
               private userSettingsCookieService: UserSettingsCookieService,
-              private weeklyRecipesCookieService: WeeklyRecipesCookieService) {
+              private weeklyRecipesCookieService: WeeklyRecipesCookieService,
+              private ngxLoader: NgxUiLoaderService) {
     this.activePage = 0;
     this.typeOfAllergenics = [{ value: 'shellfish', viewValue: 'Shellfish', selected: false },
                             { value: 'dairy', viewValue:  'Dairy', selected: false},
@@ -101,6 +104,16 @@ export class IntroductionCarouselComponent implements OnInit {
 
   public generateRecepies(): void {
     this.setUserSettingsCookie();
+    this.navigateToRecipesPageWithAnimation();
+  }
+
+  private navigateToRecipesPageWithAnimation() {
+    const animationTime = 1000;
+    this.ngxLoader.start();
+    setTimeout(() => {
+      this.ngxLoader.stop();
+      this.router.navigate(['weeks']);
+    }, animationTime);
   }
 
   private setUserSettingsCookie() {

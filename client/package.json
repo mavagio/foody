@@ -30,6 +30,7 @@
     "core-js": "^2.5.7",
     "jasmine": "^3.1.0",
     "ng2-cookies": "^1.0.12",
+    "ngx-ui-loader": "^1.2.5",
     "owl.carousel": "^2.3.4",
     "rxjs": "^6.2.0",
     "rxjs-compat": "^6.0.0-rc.0",
@@ -37,7 +38,7 @@
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.7.0-beta.1",
+    "@angular-devkit/build-angular": "^0.13.8",
     "@angular/cli": "^6.0.7",
     "@angular/compiler-cli": "^7.2.7",
     "@angular/language-service": "^6.0.3",
@@ -47,7 +48,7 @@
     "codelyzer": "~4.3.0",
     "jasmine-core": "~3.1.0",
     "jasmine-spec-reporter": "~4.2.1",
-    "karma": "^4.0.0",
+    "karma": "^4.0.1",
     "karma-chrome-launcher": "~2.2.0",
     "karma-cli": "~1.0.1",
     "karma-coverage-istanbul-reporter": "^2.0.1",

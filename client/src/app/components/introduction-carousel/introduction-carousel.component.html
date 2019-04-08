@@ -1,4 +1,4 @@
-<div class="parent-container">
+<div class="parent-container" ngxUiLoaderBlurred>
   <div class="steps-background-image" [ngClass]="{'blur-background': activePage!=0}">
     <div class="layer">
     </div>
@@ -96,7 +96,7 @@
           <h4 class="h4 first-page-content">Do you prefer to eat vegetarian or everything?</h4>
         </div>
         <div class="footer">
-          <button mat-flat-button color="primary" primary (click)="generateRecepies(); onNutritionCategorySelection();" [routerLink]="['/weeks']">Done!</button>
+          <button mat-flat-button color="primary" primary (click)="generateRecepies(); onNutritionCategorySelection();">Done!</button>
         </div>
       </ng-container>
 
@@ -123,3 +123,4 @@
     </div>
   </div>
 </div>
+<ngx-ui-loader [hasProgressBar]="false" [fgsType]="SPINNEREnum.threeStrings" [fgsSize]="80"></ngx-ui-loader>
