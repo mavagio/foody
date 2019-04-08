@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/connect-mongo": "0.0.41",
     "nodemon": "^1.17.5",
     "tslint": "^5.9.1"
   },
@@ -29,10 +30,12 @@
     "@types/mongoose": "^4.7.23",
     "@types/morgan": "^1.7.35",
     "@types/passport": "^0.4.5",
+    "@types/passport-jwt": "^3.0.1",
     "@types/passport-local": "^1.0.33",
     "bcrypt-nodejs": "0.0.3",
     "chai": "^4.1.2",
     "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.3",
     "cookie-parser": "^1.4.3",
     "dotenv": "^5.0.1",
     "express": "^4.16.1",
@@ -43,11 +46,10 @@
     "morgan": "^1.9.0",
     "nodemailer": "^4.1.2",
     "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
     "request": "^2.85.0",
-    "typescript": "^2.8.1",
-    "@types/passport-jwt": "^3.0.1",
-    "passport-jwt": "^4.0.0"
+    "typescript": "^2.8.1"
   },
   "engines": {
     "node": "9.5.0"
