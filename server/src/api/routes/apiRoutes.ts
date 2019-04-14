@@ -14,6 +14,8 @@ module.exports = (app: any, passport: any) => {
     app.route('/api/recipe/:recipeId').get(apiController.recipe_get);
     app.route('/api/weeks').get(apiController.weeks_get);
 
+    app.route('/**').get(apiController.home_get);
+
     // Currently commented to avoid vulnerabilities
     // app.route('/api/recipe').post(apiController.recipe_post);
     // app.route('/api/recipes').post(apiController.recipes_post);
@@ -35,5 +37,4 @@ module.exports = (app: any, passport: any) => {
     // app.route('/api/test_no_auth/').get( apiController.test_get);
     // app.route('/api/test/').post(apiController.test_post);
     // app.route('/api/test/:id').delete(apiController.test_delete);
-    // app.route('/**').get(apiController.home_get);
 };
