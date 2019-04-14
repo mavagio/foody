@@ -108,7 +108,7 @@ export class IntroductionCarouselComponent implements OnInit {
   }
 
   private navigateToRecipesPageWithAnimation() {
-    const animationTime = 1000;
+    const animationTime = 1500;
     this.ngxLoader.start();
     setTimeout(() => {
       this.ngxLoader.stop();
