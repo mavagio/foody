@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
   apiPrefix:  'api/',
-  apiHost:    'http://foodytoday.herokuapp.com/',
+  apiHost:    'https://foodytoday.herokuapp.com/',
 };
