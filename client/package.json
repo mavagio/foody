@@ -34,7 +34,7 @@
     "owl.carousel": "^2.3.4",
     "rxjs": "^6.2.0",
     "rxjs-compat": "^6.0.0-rc.0",
-    "swiper": "^3.4.2",
+    "swiper": "^6.5.1",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
